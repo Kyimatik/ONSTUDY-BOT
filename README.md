@@ -53,8 +53,8 @@ Onstudy-Bot/
 ├── dbmedia/                # Core bot logic
 │   ├── callbacks.py     # Respond to all callbacks 
 │   ├── config.py      # Admins id's 
-├── ├── database.py    # Database ORM 
-├── ├── media.py       # All media, text's etc
+│   ├── database.py    # Database ORM 
+│   ├── media.py       # All media, text's etc
 │   ├── start.py       # Handling start 
 │   └── states.py      # FSM finite Machine , Class 
 │   └── bot_instance.py # Bot and Dispatcher Initialization
