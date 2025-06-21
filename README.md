@@ -56,9 +56,11 @@ Onstudy-Bot/
 ├── ├── database.py    # Database ORM 
 ├── ├── media.py       # All media, text's etc
 │   ├── start.py       # Handling start 
-│   └── states.py        # FSM finite Machine , Class 
-├──buttons.py
-├── .env.example        # Environment variable template
+│   └── states.py      # FSM finite Machine , Class 
+│   └── bot_instance.py # Bot and Dispatcher Initialization
+│   └── payments.py # File that responsible for payment operations
+├── buttons.py
+├── example.env     # Environment variable template
 ├── main.py             # Entry point
 └── requirements.txt    # Dependencies
 🔒 Security & Reliability
