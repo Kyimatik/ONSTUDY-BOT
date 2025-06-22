@@ -6,6 +6,7 @@ from .database import init_db, get_all_users, add_user, get_all_challenge_users
 from .media import start_text,allstickersid
 from buttons import useridkb,mainkb
 from .config import Admins
+from .session import get_db
 
 
 router = Router()  # Создаем отдельный роутер
@@ -18,7 +19,8 @@ async def getstarted(message: Message):
     await message.answer_sticker(allstickersid["startstick"],reply_markup=useridkb)
     await message.answer(f"""Привет <b>{user_name}</b>!
 {start_text["getstarted"]}""",parse_mode="HTML",reply_markup=mainkb)
-    await add_user(user_id)
+    async with get_db() as session:
+        added = await add_user(session, message.from_user.id)
 
 
 
@@ -31,8 +33,10 @@ async def getcountofpeople(message: Message):
     if userid not in Admins :
         await message.answer("Доступ запрещен.")
     else:
-        await message.answer(f"{len(await get_all_users())} - Количество пользователей.")
-        await message.answer(f"{len(await get_all_challenge_users())} - Количество пользователей. Челлендж")
+        async with get_db() as session:
+            user_ids = await get_all_users(session)
+            await message.answer(f"{len(user_ids)} - Количество пользователей.")
+        
 
 
 
