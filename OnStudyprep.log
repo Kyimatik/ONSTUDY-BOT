@@ -1,0 +1,415 @@
+2025-06-21 14:19:32,748 - INFO - Webhook установлен: True
+2025-06-21 14:19:32,780 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-21 14:19:32,781 - INFO - Added job "senddbfile" to job store "default"
+2025-06-21 14:19:32,781 - INFO - Scheduler started
+2025-06-21 14:19:32,781 - INFO - Сервер запущен 🚀
+2025-06-21 14:19:48,870 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7dd6247138c0>
+2025-06-21 14:20:03,899 - INFO - Webhook установлен: True
+2025-06-21 14:20:03,920 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-21 14:20:03,921 - INFO - Added job "senddbfile" to job store "default"
+2025-06-21 14:20:03,921 - INFO - Scheduler started
+2025-06-21 14:20:03,921 - INFO - Сервер запущен 🚀
+2025-06-21 14:20:08,440 - INFO - Update id=811312379 is handled. Duration 219 ms by bot id=7689522161
+2025-06-21 14:20:08,571 - INFO - Ответ от AmoCRM: 
+2025-06-21 14:20:12,052 - INFO - Update id=811312380 is handled. Duration 174 ms by bot id=7689522161
+2025-06-21 14:20:12,135 - INFO - Ответ от AmoCRM: 
+2025-06-21 14:21:31,601 - INFO - Webhook установлен: True
+2025-06-21 14:21:31,619 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-21 14:21:31,620 - INFO - Added job "senddbfile" to job store "default"
+2025-06-21 14:21:31,620 - INFO - Scheduler started
+2025-06-21 14:21:31,620 - INFO - Сервер запущен 🚀
+2025-06-21 14:21:37,820 - INFO - Update id=811312381 is handled. Duration 324 ms by bot id=7689522161
+2025-06-21 14:21:37,928 - INFO - Ответ от AmoCRM: 
+2025-06-21 14:21:40,066 - INFO - Update id=811312382 is handled. Duration 182 ms by bot id=7689522161
+2025-06-21 14:21:40,155 - INFO - Ответ от AmoCRM: 
+2025-06-21 14:21:43,049 - INFO - Update id=811312383 is handled. Duration 173 ms by bot id=7689522161
+2025-06-21 14:21:43,131 - INFO - Ответ от AmoCRM: 
+2025-06-21 14:21:49,896 - INFO - Update id=811312384 is handled. Duration 393 ms by bot id=7689522161
+2025-06-21 14:21:49,980 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:24:01,080 - INFO - Webhook установлен: True
+2025-06-22 10:24:01,096 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 10:24:01,096 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 10:24:01,097 - INFO - Scheduler started
+2025-06-22 10:24:01,097 - INFO - Сервер запущен 🚀
+2025-06-22 10:24:13,565 - INFO - Update id=811312385 is handled. Duration 319 ms by bot id=7689522161
+2025-06-22 10:24:13,704 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:24:18,108 - INFO - Update id=811312386 is handled. Duration 87 ms by bot id=7689522161
+2025-06-22 10:24:18,190 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:24:29,647 - INFO - Update id=811312387 is handled. Duration 95 ms by bot id=7689522161
+2025-06-22 10:24:29,763 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:25:32,893 - INFO - Update id=811312388 is handled. Duration 212 ms by bot id=7689522161
+2025-06-22 10:25:33,029 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:25:52,259 - INFO - Update id=811312389 is handled. Duration 347 ms by bot id=7689522161
+2025-06-22 10:25:52,343 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:26:21,224 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:26:21,225 - INFO - Update id=811312390 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-22 10:26:21,291 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:26:21,292 - INFO - Update id=811312390 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-22 10:26:23,354 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:26:23,354 - INFO - Update id=811312390 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-22 10:26:27,417 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:26:27,417 - INFO - Update id=811312390 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 10:26:35,480 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:26:35,481 - INFO - Update id=811312390 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 10:32:21,977 - INFO - Webhook установлен: True
+2025-06-22 10:32:21,994 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 10:32:21,994 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 10:32:21,994 - INFO - Scheduler started
+2025-06-22 10:32:21,994 - INFO - Сервер запущен 🚀
+2025-06-22 10:32:31,385 - INFO - Update id=811312391 is handled. Duration 128 ms by bot id=7689522161
+2025-06-22 10:32:32,249 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:32:34,067 - INFO - Update id=811312392 is handled. Duration 90 ms by bot id=7689522161
+2025-06-22 10:32:34,147 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:32:35,104 - INFO - Update id=811312393 is handled. Duration 168 ms by bot id=7689522161
+2025-06-22 10:32:35,188 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:32:36,663 - INFO - Update id=811312394 is handled. Duration 376 ms by bot id=7689522161
+2025-06-22 10:32:36,746 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:32:39,469 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:32:39,469 - INFO - Update id=811312395 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-22 10:32:39,531 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:32:39,531 - INFO - Update id=811312395 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 10:32:41,589 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:32:41,590 - INFO - Update id=811312395 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-22 10:35:37,644 - INFO - Webhook установлен: True
+2025-06-22 10:35:37,660 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 10:35:37,660 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 10:35:37,661 - INFO - Scheduler started
+2025-06-22 10:35:37,661 - INFO - Сервер запущен 🚀
+2025-06-22 10:35:41,873 - INFO - Update id=811312396 is handled. Duration 105 ms by bot id=7689522161
+2025-06-22 10:35:42,092 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:35:45,248 - INFO - Update id=811312397 is handled. Duration 78 ms by bot id=7689522161
+2025-06-22 10:35:45,332 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:35:48,591 - INFO - Update id=811312398 is handled. Duration 101 ms by bot id=7689522161
+2025-06-22 10:35:48,676 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:35:50,599 - INFO - Update id=811312399 is handled. Duration 373 ms by bot id=7689522161
+2025-06-22 10:35:50,682 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:35:52,049 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:35:52,050 - INFO - Update id=811312400 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 10:35:52,110 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:35:52,111 - INFO - Update id=811312400 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-22 10:35:54,169 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:35:54,170 - INFO - Update id=811312400 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-22 10:35:58,228 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:35:58,229 - INFO - Update id=811312400 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-22 10:52:02,112 - INFO - Webhook установлен: True
+2025-06-22 10:52:02,131 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 10:52:02,132 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 10:52:02,132 - INFO - Scheduler started
+2025-06-22 10:52:02,132 - INFO - Сервер запущен 🚀
+2025-06-22 10:52:08,670 - INFO - Update id=811312401 is handled. Duration 96 ms by bot id=7689522161
+2025-06-22 10:52:08,833 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:52:10,381 - INFO - Update id=811312402 is handled. Duration 77 ms by bot id=7689522161
+2025-06-22 10:52:10,462 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:52:16,352 - INFO - Update id=811312403 is handled. Duration 105 ms by bot id=7689522161
+2025-06-22 10:52:16,439 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:52:18,196 - INFO - Update id=811312404 is handled. Duration 351 ms by bot id=7689522161
+2025-06-22 10:52:18,275 - INFO - Ответ от AmoCRM: 
+2025-06-22 10:52:22,912 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:52:23,073 - INFO - confirm_send вызван пользователем emirlan17
+2025-06-22 10:52:26,672 - WARNING - Пользователь 1219328028 заблокировал бота.
+2025-06-22 10:52:27,243 - WARNING - Пользователь 1322143772 заблокировал бота.
+2025-06-22 10:52:27,815 - WARNING - Пользователь 5243736095 заблокировал бота.
+2025-06-22 10:52:28,411 - WARNING - Пользователь 1074552864 заблокировал бота.
+2025-06-22 10:52:28,986 - WARNING - Пользователь 2030245923 заблокировал бота.
+2025-06-22 10:52:29,560 - WARNING - Пользователь 6103779363 заблокировал бота.
+2025-06-22 10:52:30,132 - WARNING - Пользователь 1147463718 заблокировал бота.
+2025-06-22 10:52:32,456 - WARNING - Пользователь 462970927 заблокировал бота.
+2025-06-22 10:52:36,056 - WARNING - Пользователь 1338992715 заблокировал бота.
+2025-06-22 10:52:39,728 - WARNING - Пользователь 1443580003 заблокировал бота.
+2025-06-22 10:52:41,690 - WARNING - Пользователь 5443706998 заблокировал бота.
+2025-06-22 10:52:43,451 - WARNING - Пользователь 1543356542 заблокировал бота.
+2025-06-22 10:52:45,212 - WARNING - Пользователь 6120560774 заблокировал бота.
+2025-06-22 10:52:45,782 - WARNING - Пользователь 889868423 заблокировал бота.
+2025-06-22 10:52:51,830 - WARNING - Пользователь 6228560052 заблокировал бота.
+2025-06-22 10:52:56,496 - WARNING - Пользователь 5516640457 заблокировал бота.
+2025-06-22 10:53:02,239 - WARNING - Пользователь 451090662 заблокировал бота.
+2025-06-22 10:53:03,418 - WARNING - Пользователь 1580796141 заблокировал бота.
+2025-06-22 10:53:04,590 - WARNING - Пользователь 5822034164 заблокировал бота.
+2025-06-22 10:53:05,164 - WARNING - Пользователь 1669255413 заблокировал бота.
+2025-06-22 10:53:08,183 - WARNING - Пользователь 837951742 заблокировал бота.
+2025-06-22 10:53:09,942 - WARNING - Пользователь 870033666 заблокировал бота.
+2025-06-22 10:53:12,792 - WARNING - Пользователь 2059839761 заблокировал бота.
+2025-06-22 10:53:13,412 - WARNING - Пользователь 1378814228 заблокировал бота.
+2025-06-22 10:53:14,722 - WARNING - Пользователь 6015744279 заблокировал бота.
+2025-06-22 10:53:16,633 - WARNING - Пользователь 5333723426 заблокировал бота.
+2025-06-22 10:53:17,293 - WARNING - Пользователь 5341028642 заблокировал бота.
+2025-06-22 10:53:20,587 - WARNING - Пользователь 1536147763 заблокировал бота.
+2025-06-22 10:53:21,924 - WARNING - Пользователь 7312087357 заблокировал бота.
+2025-06-22 10:53:22,742 - WARNING - Пользователь 5013031230 заблокировал бота.
+2025-06-22 10:53:23,059 - INFO - Confirm_send вызван пользователем emirlan17
+2025-06-22 10:53:23,142 - INFO - confirm_send вызван пользователем emirlan17
+2025-06-22 10:53:26,155 - WARNING - Пользователь 1219328028 заблокировал бота.
+2025-06-22 10:53:26,721 - WARNING - Пользователь 1322143772 заблокировал бота.
+2025-06-22 10:53:27,289 - WARNING - Пользователь 5243736095 заблокировал бота.
+2025-06-22 10:53:27,854 - WARNING - Пользователь 1074552864 заблокировал бота.
+2025-06-22 10:53:28,087 - WARNING - Пользователь 5379658078 заблокировал бота.
+2025-06-22 10:53:28,431 - WARNING - Пользователь 2030245923 заблокировал бота.
+2025-06-22 10:53:29,000 - WARNING - Пользователь 6103779363 заблокировал бота.
+2025-06-22 10:53:29,563 - WARNING - Пользователь 1147463718 заблокировал бота.
+2025-06-22 10:53:32,059 - WARNING - Пользователь 462970927 заблокировал бота.
+2025-06-22 10:53:34,020 - WARNING - Пользователь 990746990 заблокировал бота.
+2025-06-22 10:53:35,271 - WARNING - Пользователь 6173360496 заблокировал бота.
+2025-06-22 10:53:35,873 - WARNING - Пользователь 1338992715 заблокировал бота.
+2025-06-22 10:53:38,056 - WARNING - Пользователь 1400332691 заблокировал бота.
+2025-06-22 10:53:39,557 - WARNING - Пользователь 1443580003 заблокировал бота.
+2025-06-22 10:53:39,862 - WARNING - Пользователь 538126746 заблокировал бота.
+2025-06-22 10:53:41,283 - WARNING - Пользователь 5443706998 заблокировал бота.
+2025-06-22 10:53:42,550 - WARNING - Пользователь 5692543390 заблокировал бота.
+2025-06-22 10:53:43,203 - WARNING - Пользователь 1543356542 заблокировал бота.
+2025-06-22 10:53:45,027 - WARNING - Пользователь 6120560774 заблокировал бота.
+2025-06-22 10:53:45,305 - WARNING - Пользователь 975026610 заблокировал бота.
+2025-06-22 10:53:45,590 - WARNING - Пользователь 889868423 заблокировал бота.
+2025-06-22 10:53:47,160 - WARNING - Пользователь 1093245364 заблокировал бота.
+2025-06-22 10:53:49,232 - WARNING - Пользователь 6243989951 заблокировал бота.
+2025-06-22 10:53:49,802 - WARNING - Пользователь 6673201601 заблокировал бота.
+2025-06-22 10:53:51,571 - WARNING - Пользователь 6228560052 заблокировал бота.
+2025-06-22 10:53:55,795 - WARNING - Пользователь 5516640457 заблокировал бота.
+2025-06-22 10:53:55,975 - WARNING - Пользователь 7062241757 заблокировал бота.
+2025-06-22 10:53:58,313 - WARNING - Пользователь 1863461351 заблокировал бота.
+2025-06-22 10:53:58,903 - WARNING - Пользователь 6686210540 заблокировал бота.
+2025-06-22 10:53:59,476 - WARNING - Пользователь 1402456559 заблокировал бота.
+2025-06-22 10:53:59,936 - INFO - Update id=811312405 is not handled. Duration 97026 ms by bot id=7689522161
+2025-06-22 10:53:59,947 - INFO - Update id=811312405 is not handled. Duration 36888 ms by bot id=7689522161
+2025-06-22 16:33:55,858 - INFO - Webhook установлен: True
+2025-06-22 16:33:56,117 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7c0c8a237560>
+2025-06-22 16:33:56,118 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7c0c89c19c70>, 1577981.458356663)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7c0c89c62b40>
+2025-06-22 16:34:27,230 - INFO - Webhook установлен: True
+2025-06-22 16:34:27,245 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:34:27,246 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:34:27,246 - INFO - Scheduler started
+2025-06-22 16:34:27,246 - INFO - Сервер запущен 🚀
+2025-06-22 16:34:35,404 - INFO - Update id=811312406 is not handled. Duration 233 ms by bot id=7689522161
+2025-06-22 16:34:35,668 - INFO - Update id=811312406 is not handled. Duration 199 ms by bot id=7689522161
+2025-06-22 16:34:38,117 - INFO - Update id=811312406 is not handled. Duration 391 ms by bot id=7689522161
+2025-06-22 16:34:42,348 - INFO - Update id=811312406 is not handled. Duration 172 ms by bot id=7689522161
+2025-06-22 16:36:30,818 - INFO - Webhook установлен: True
+2025-06-22 16:36:30,837 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:36:30,838 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:36:30,838 - INFO - Scheduler started
+2025-06-22 16:36:30,838 - INFO - Сервер запущен 🚀
+2025-06-22 16:36:38,669 - INFO - Update id=811312407 is not handled. Duration 216 ms by bot id=7689522161
+2025-06-22 16:36:38,942 - INFO - Update id=811312407 is not handled. Duration 209 ms by bot id=7689522161
+2025-06-22 16:36:41,189 - INFO - Update id=811312407 is not handled. Duration 189 ms by bot id=7689522161
+2025-06-22 16:42:38,547 - INFO - Webhook установлен: True
+2025-06-22 16:42:38,562 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:42:38,563 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:42:38,563 - INFO - Scheduler started
+2025-06-22 16:42:38,563 - INFO - Сервер запущен 🚀
+2025-06-22 16:42:44,058 - INFO - Update id=811312408 is not handled. Duration 293 ms by bot id=7689522161
+2025-06-22 16:42:44,319 - INFO - Update id=811312408 is not handled. Duration 194 ms by bot id=7689522161
+2025-06-22 16:42:46,722 - INFO - Update id=811312408 is not handled. Duration 344 ms by bot id=7689522161
+2025-06-22 16:42:50,970 - INFO - Update id=811312408 is not handled. Duration 187 ms by bot id=7689522161
+2025-06-22 16:43:36,655 - INFO - Webhook установлен: True
+2025-06-22 16:43:36,673 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:43:36,674 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:43:36,674 - INFO - Scheduler started
+2025-06-22 16:43:36,674 - INFO - Сервер запущен 🚀
+2025-06-22 16:43:50,241 - INFO - Update id=811312409 is handled. Duration 1877 ms by bot id=7689522161
+2025-06-22 16:43:50,378 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:43:53,715 - INFO - Update id=811312410 is handled. Duration 275 ms by bot id=7689522161
+2025-06-22 16:43:53,799 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:43:56,153 - INFO - Update id=811312411 is not handled. Duration 96 ms by bot id=7689522161
+2025-06-22 16:43:56,313 - INFO - Update id=811312411 is not handled. Duration 97 ms by bot id=7689522161
+2025-06-22 16:43:58,468 - INFO - Update id=811312411 is not handled. Duration 97 ms by bot id=7689522161
+2025-06-22 16:44:02,625 - INFO - Update id=811312411 is not handled. Duration 101 ms by bot id=7689522161
+2025-06-22 16:45:03,088 - INFO - Webhook установлен: True
+2025-06-22 16:45:03,102 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:45:03,103 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:45:03,103 - INFO - Scheduler started
+2025-06-22 16:45:03,103 - INFO - Сервер запущен 🚀
+2025-06-22 16:45:13,121 - INFO - Update id=811312412 is handled. Duration 1513 ms by bot id=7689522161
+2025-06-22 16:45:13,227 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:15,422 - INFO - Update id=811312413 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-22 16:45:15,514 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:21,820 - INFO - Update id=811312414 is handled. Duration 109 ms by bot id=7689522161
+2025-06-22 16:45:21,898 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:24,770 - INFO - Update id=811312415 is handled. Duration 256 ms by bot id=7689522161
+2025-06-22 16:45:24,854 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:26,490 - INFO - Update id=811312416 is handled. Duration 168 ms by bot id=7689522161
+2025-06-22 16:45:26,572 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:28,095 - INFO - Update id=811312417 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 16:45:28,178 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:30,497 - INFO - Update id=811312418 is handled. Duration 81 ms by bot id=7689522161
+2025-06-22 16:45:30,577 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:45:59,217 - INFO - Webhook установлен: True
+2025-06-22 16:45:59,230 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:45:59,230 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:45:59,230 - INFO - Scheduler started
+2025-06-22 16:45:59,230 - INFO - Сервер запущен 🚀
+2025-06-22 16:46:03,623 - INFO - Update id=811312419 is handled. Duration 1358 ms by bot id=7689522161
+2025-06-22 16:46:03,736 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:04,500 - INFO - Update id=811312420 is handled. Duration 151 ms by bot id=7689522161
+2025-06-22 16:46:04,583 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:07,588 - INFO - Update id=811312421 is handled. Duration 425 ms by bot id=7689522161
+2025-06-22 16:46:07,670 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:09,232 - INFO - Update id=811312422 is handled. Duration 94 ms by bot id=7689522161
+2025-06-22 16:46:09,313 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:11,753 - INFO - Update id=811312423 is handled. Duration 186 ms by bot id=7689522161
+2025-06-22 16:46:11,834 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:15,651 - INFO - Update id=811312424 is handled. Duration 84 ms by bot id=7689522161
+2025-06-22 16:46:15,758 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:18,209 - INFO - Update id=811312425 is handled. Duration 259 ms by bot id=7689522161
+2025-06-22 16:46:18,292 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:21,463 - INFO - Update id=811312426 is handled. Duration 94 ms by bot id=7689522161
+2025-06-22 16:46:21,547 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:22,498 - INFO - Update id=811312427 is handled. Duration 116 ms by bot id=7689522161
+2025-06-22 16:46:22,581 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:28,395 - INFO - Update id=811312428 is handled. Duration 127 ms by bot id=7689522161
+2025-06-22 16:46:28,477 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:31,488 - INFO - Update id=811312429 is handled. Duration 100 ms by bot id=7689522161
+2025-06-22 16:46:31,572 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:43,714 - INFO - Update id=811312430 is handled. Duration 137 ms by bot id=7689522161
+2025-06-22 16:46:43,799 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:45,485 - INFO - Update id=811312431 is handled. Duration 90 ms by bot id=7689522161
+2025-06-22 16:46:45,567 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:48,275 - INFO - Update id=811312432 is handled. Duration 147 ms by bot id=7689522161
+2025-06-22 16:46:48,357 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:46:57,809 - INFO - Update id=811312433 is handled. Duration 364 ms by bot id=7689522161
+2025-06-22 16:46:57,895 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:06,692 - INFO - Update id=811312434 is handled. Duration 418 ms by bot id=7689522161
+2025-06-22 16:47:06,907 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:39,704 - INFO - Update id=811312435 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-22 16:47:39,808 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:41,980 - INFO - Update id=811312436 is handled. Duration 466 ms by bot id=7689522161
+2025-06-22 16:47:42,067 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:47,571 - INFO - Update id=811312437 is handled. Duration 385 ms by bot id=7689522161
+2025-06-22 16:47:47,654 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:49,049 - INFO - Update id=811312438 is handled. Duration 317 ms by bot id=7689522161
+2025-06-22 16:47:49,134 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:47:59,593 - INFO - Update id=811312439 is handled. Duration 340 ms by bot id=7689522161
+2025-06-22 16:47:59,680 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:48:00,001 - INFO - Running job "senddbfile (trigger: cron[day_of_week='0-6', hour='22', minute='48'], next run at: 2025-06-23 22:48:00 +06)" (scheduled at 2025-06-22 22:48:00+06:00)
+2025-06-22 16:48:00,007 - ERROR - Job "senddbfile (trigger: cron[day_of_week='0-6', hour='22', minute='48'], next run at: 2025-06-23 22:48:00 +06)" raised an exception
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 658, in write_bytes
+    await self.body.write(writer)
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/multipart.py", line 1008, in write
+    await part.write(writer)
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/payload.py", line 494, in write
+    chunk = await self._iter.__anext__()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/types/input_file.py", line 103, in read
+    async with aiofiles.open(self.path, "rb") as f:
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiofiles/base.py", line 63, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiofiles/base.py", line 59, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiofiles/threadpool/__init__.py", line 92, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../ON STUDY WEBHOOK/users.db'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiohttp/streams.py", line 672, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7689522161:AAFC35_MQrM8TeSF5Rxfi4W3I3VN3amiqm8/sendDocument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/main.py", line 402, in senddbfile
+    await bot.send_document(bdgroupid,document,message_thread_id=1)
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 2618, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 498, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7689522161:AAFC35_MQrM8TeSF5Rxfi4W3I3VN3amiqm8/sendDocument
+2025-06-22 16:48:18,355 - INFO - Webhook установлен: True
+2025-06-22 16:48:18,375 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:48:18,376 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:48:18,376 - INFO - Scheduler started
+2025-06-22 16:48:18,376 - INFO - Сервер запущен 🚀
+2025-06-22 16:48:22,789 - INFO - Update id=811312440 is handled. Duration 1298 ms by bot id=7689522161
+2025-06-22 16:48:22,877 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:48:24,529 - INFO - Update id=811312441 is handled. Duration 394 ms by bot id=7689522161
+2025-06-22 16:48:24,618 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:49:34,613 - INFO - Webhook установлен: True
+2025-06-22 16:49:34,626 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:49:34,626 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:49:34,626 - INFO - Scheduler started
+2025-06-22 16:49:34,626 - INFO - Сервер запущен 🚀
+2025-06-22 16:49:38,978 - INFO - Update id=811312442 is handled. Duration 1263 ms by bot id=7689522161
+2025-06-22 16:49:39,115 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:49:41,320 - INFO - Update id=811312443 is handled. Duration 435 ms by bot id=7689522161
+2025-06-22 16:49:41,412 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:54:15,069 - INFO - Webhook установлен: True
+2025-06-22 16:54:15,095 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:54:15,096 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:54:15,096 - INFO - Scheduler started
+2025-06-22 16:54:15,096 - INFO - Сервер запущен 🚀
+2025-06-22 16:54:19,751 - INFO - Update id=811312444 is handled. Duration 1214 ms by bot id=7689522161
+2025-06-22 16:54:19,884 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:54:20,452 - INFO - Update id=811312445 is handled. Duration 381 ms by bot id=7689522161
+2025-06-22 16:54:20,534 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:56:33,791 - INFO - Webhook установлен: True
+2025-06-22 16:56:33,804 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:56:33,805 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:56:33,805 - INFO - Scheduler started
+2025-06-22 16:56:33,805 - INFO - Сервер запущен 🚀
+2025-06-22 16:56:39,884 - INFO - Update id=811312446 is handled. Duration 1421 ms by bot id=7689522161
+2025-06-22 16:56:40,014 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:56:40,447 - INFO - Update id=811312447 is handled. Duration 377 ms by bot id=7689522161
+2025-06-22 16:56:40,534 - INFO - Ответ от AmoCRM: 
+2025-06-22 16:58:26,642 - INFO - Webhook установлен: True
+2025-06-22 16:58:26,655 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:58:26,655 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:58:26,655 - INFO - Scheduler started
+2025-06-22 16:58:26,655 - INFO - Сервер запущен 🚀
+2025-06-22 16:58:31,367 - INFO - Update id=811312448 is not handled. Duration 1307 ms by bot id=7689522161
+2025-06-22 16:58:32,025 - INFO - Update id=811312448 is not handled. Duration 589 ms by bot id=7689522161
+2025-06-22 16:58:34,494 - INFO - Update id=811312448 is not handled. Duration 406 ms by bot id=7689522161
+2025-06-22 16:58:39,146 - INFO - Update id=811312448 is not handled. Duration 587 ms by bot id=7689522161
+2025-06-22 16:58:47,803 - INFO - Update id=811312448 is not handled. Duration 594 ms by bot id=7689522161
+2025-06-22 16:59:33,365 - INFO - Webhook установлен: True
+2025-06-22 16:59:33,384 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 16:59:33,384 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 16:59:33,384 - INFO - Scheduler started
+2025-06-22 16:59:33,385 - INFO - Сервер запущен 🚀
+2025-06-22 16:59:41,395 - INFO - Update id=811312449 is handled. Duration 1186 ms by bot id=7689522161
+2025-06-22 16:59:41,511 - INFO - Ответ от AmoCRM: 
+2025-06-22 17:01:31,935 - INFO - Webhook установлен: True
+2025-06-22 17:01:31,950 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 17:01:31,950 - INFO - Added job "senddbfile" to job store "default"
+2025-06-22 17:01:31,950 - INFO - Scheduler started
+2025-06-22 17:01:31,950 - INFO - Сервер запущен 🚀
+2025-06-22 17:01:33,416 - INFO - Update id=811312450 is handled. Duration 1324 ms by bot id=7689522161
+2025-06-22 17:01:34,273 - INFO - Ответ от AmoCRM: 
+2025-06-22 17:01:38,739 - INFO - Update id=811312451 is handled. Duration 449 ms by bot id=7689522161
+2025-06-22 17:01:38,823 - INFO - Ответ от AmoCRM: 
+2025-06-22 17:01:46,946 - INFO - Update id=811312452 is handled. Duration 309 ms by bot id=7689522161
+2025-06-22 17:01:47,035 - INFO - Ответ от AmoCRM: 
+2025-06-22 17:01:49,286 - INFO - Update id=811312453 is handled. Duration 471 ms by bot id=7689522161
+2025-06-22 17:01:49,375 - INFO - Ответ от AmoCRM: 
+2025-06-22 17:01:53,113 - INFO - Update id=811312454 is handled. Duration 649 ms by bot id=7689522161
+2025-06-22 17:01:53,198 - INFO - Ответ от AmoCRM: 

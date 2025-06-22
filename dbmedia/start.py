@@ -2,11 +2,11 @@ from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message,CallbackQuery ,FSInputFile
 from aiogram.fsm.context import FSMContext
-from .database import init_db, get_all_users, add_user, get_all_challenge_users
-from .media import start_text,allstickersid
+from dbmedia.database import  get_all_users, add_user
+from dbmedia.media import start_text,allstickersid
 from buttons import useridkb,mainkb
-from .config import Admins
-from .session import get_db
+from dbmedia.config import Admins
+from dbmedia.session import get_db
 
 
 router = Router()  # Создаем отдельный роутер
@@ -21,6 +21,7 @@ async def getstarted(message: Message):
 {start_text["getstarted"]}""",parse_mode="HTML",reply_markup=mainkb)
     async with get_db() as session:
         added = await add_user(session, message.from_user.id)
+        
 
 
 

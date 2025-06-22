@@ -2,11 +2,11 @@ from datetime import datetime, UTC
 from typing import Optional
 from uuid import UUID, uuid4
 
-from sqlalchemy import String, DateTime, Integer, Boolean, BigInteger, Column, ForeignKey
+from sqlalchemy import String, DateTime, Integer, Boolean, BigInteger, Column, ForeignKey, TIMESTAMP
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.sql import func
 
-from session import Base
+from dbmedia.session import Base
 
 
 
@@ -95,3 +95,18 @@ class Appointment(Base):
 
     def __repr__(self):
         return f"<Appointment(id={self.id}, date={self.date}, time={self.time}, title='{self.title}', count_of_slots={self.count_of_slots})>"
+
+
+
+class TgUsers(Base):
+    __tablename__ = 'telegram_users'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    userId = Column(BigInteger, unique=True, nullable=False)
+    joinDate = Column(TIMESTAMP, nullable=False, server_default=func.now())
+
+    def __repr__(self):
+        return f"<TgUser tg_user_id={self.userId} joined_at={self.joinDate}>"
+
+
+    

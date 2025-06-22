@@ -2,11 +2,11 @@ from aiogram import Router,types, F
 from aiogram.types import CallbackQuery, Message
 from aiogram.fsm.context import FSMContext
 
-from .database import init_db, get_all_users, add_user, get_all_challenge_users, add_challenge_user
+from dbmedia.database import  get_all_users, add_user
 from buttons import useridkb,mainkb,back
-from .media import start_text,allstickersid,feedbackphotoids,resultsofstudents,feedbackofstudents,ourstudents,ieltsinfo,satinfo,challengeinfo
+from dbmedia.media import start_text,allstickersid,feedbackphotoids,resultsofstudents,feedbackofstudents,ourstudents,ieltsinfo,satinfo,challengeinfo
 from aiogram.types import InputMediaPhoto
-from .states import RegistrationForm
+from dbmedia.states import RegistrationForm
 
 
 import buttons
@@ -49,7 +49,7 @@ async def backtomainmenu(callback: CallbackQuery, state: FSMContext):
     user_id = callback.from_user.id
     await callback.message.answer(f"""Привет <b>{user_name}</b>!
 {start_text["getstarted"]}""",parse_mode="HTML",reply_markup=mainkb)
-    await add_user(user_id)
+    
 
 
 

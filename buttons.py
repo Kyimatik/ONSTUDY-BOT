@@ -22,9 +22,6 @@ mainkb = InlineKeyboardMarkup(
             InlineKeyboardButton(text="О нас 🚀",callback_data="aboutus")
         ],
         [
-            InlineKeyboardButton(text="Челлендж 🎯",callback_data="challenge")
-        ],
-        [
             InlineKeyboardButton(text="Записаться на консультацию ☎️",callback_data="consult")
         ],
         [

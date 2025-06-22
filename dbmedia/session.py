@@ -6,6 +6,8 @@ from sqlalchemy.ext.asyncio import (
 )
 from sqlalchemy.orm import DeclarativeBase
 
+from contextlib import asynccontextmanager
+
 from dotenv import load_dotenv
 
 import os 
@@ -34,7 +36,7 @@ async_session_maker = async_sessionmaker(
     autoflush=False,
 )
 
-
+@asynccontextmanager
 async def get_db() -> AsyncGenerator[AsyncSession, None]:
     async with async_session_maker() as session:
         try:
@@ -44,4 +46,4 @@ async def get_db() -> AsyncGenerator[AsyncSession, None]:
             await session.rollback()
             raise
         finally:
-            await session.close() 
+            await session.close()

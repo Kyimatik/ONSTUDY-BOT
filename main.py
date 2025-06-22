@@ -23,7 +23,7 @@ import os
 
 from dotenv import load_dotenv
 # импорт всех функций для работы с БД
-from dbmedia.database import init_db, get_all_users, add_user, get_all_challenge_users, add_challenge_user,is_user_registered
+from dbmedia.database import  get_all_users, add_user
 from buttons import Sendall,photoyesorno,buttonsyesorno,confirmationyesorno
 from dbmedia.config import Admins
 from aiogram import Bot, Dispatcher, Router, types , F 
@@ -446,7 +446,7 @@ async def get_info(message: Message, state: FSMContext):
 
 
 async def setup():
-    await init_db()
+    
     
     # Регистрация роутеров
     dp.include_router(callbackrouter)
