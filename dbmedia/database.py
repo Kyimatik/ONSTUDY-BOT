@@ -89,3 +89,4 @@ async def is_user_registered(user_id: int) -> bool:
     async with aiosqlite.connect('users.db') as db:
         async with db.execute("SELECT 1 FROM challenges WHERE user_id = ?", (user_id,)) as cursor:
             return await cursor.fetchone() is not None
+    

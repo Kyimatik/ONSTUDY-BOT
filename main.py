@@ -256,57 +256,54 @@ def create_keyboard(data):
 async def getconfirmation(message: Message, state: FSMContext):
     logging.info(f"Confirm_send вызван пользователем {message.from_user.username}")
     print(f"Confirm_send вызван пользователем {message.from_user.username}")
-    if data["CONFIRM"] == True:
-        return 
+    text = message.text.lower()
+    if text in ["да", "yes", "ок", "го", "let's go"]:
+        await state.update_data(CONFIRM=True)
+        await message.answer("Начинаю рассылку!")
+        logging.info(f"confirm_send вызван пользователем {message.from_user.username}")
+        print(f"confirm_send вызван пользователем {message.from_user.username}")
+        data = await state.get_data()
+        added_keyboards = create_keyboard(data)
+        sent_users = set()
+        user_ids = list(set(await get_all_users()))  # уникальность заранее
+        j = 0
+        for i in user_ids:
+            try:
+                if i in sent_users:
+                    continue
+                elif 'GET_PHOTO' in data and data['GET_PHOTO']:
+                    await bot.send_photo(
+                        chat_id=i,
+                        photo=data['GET_PHOTO'],
+                        caption=data['GET_TEXT'],
+                        reply_markup=added_keyboards
+                    )
+                    sent_users.add(i)
+                else:
+                    await bot.send_message(
+                        chat_id=i,
+                        text=data['GET_TEXT'],
+                        reply_markup=added_keyboards
+                    )
+                    sent_users.add(i)
+                j += 1
+            except TelegramForbiddenError:
+                logging.warning(f"Пользователь {i} заблокировал бота.")
+            except Exception as e:
+                logging.warning(f"Произошла ошибка при отправке сообщения пользователю {i}: {e}")
+            finally:
+                await asyncio.sleep(0.50)  # Добавляем задержку между сообщениями
+        await message.answer(f"Количество успешно отправленных рассылок: {j}")
+        await message.answer(f"Пользователи в SET {sent_users}")
+        with open("data.txt", "w") as file:
+            for user in sent_users:
+                file.write(f"{user}\n")  # записывает построчно
+        await state.clear()
     else:
-        text = message.text.lower()
-        if text in ["да", "yes", "ок", "го", "let's go"]:
-            await state.update_data(CONFIRM=True)
-            await message.answer("Начинаю рассылку!")
-            logging.info(f"confirm_send вызван пользователем {message.from_user.username}")
-            print(f"confirm_send вызван пользователем {message.from_user.username}")
-            data = await state.get_data()
-            added_keyboards = create_keyboard(data)
-            sent_users = set()
-
-            user_ids = list(set(await get_all_users()))  # уникальность заранее
-
-            j = 0
-            for i in user_ids:
-                try:
-                    if i in sent_users:
-                        continue
-                    elif 'GET_PHOTO' in data and data['GET_PHOTO']:
-                        await bot.send_photo(
-                            chat_id=i,
-                            photo=data['GET_PHOTO'],
-                            caption=data['GET_TEXT'],
-                            reply_markup=added_keyboards
-                        )
-                        sent_users.add(i)
-                    else:
-                        await bot.send_message(
-                            chat_id=i,
-                            text=data['GET_TEXT'],
-                            reply_markup=added_keyboards
-                        )
-                        sent_users.add(i)
-                    j += 1
-                except TelegramForbiddenError:
-                    logging.warning(f"Пользователь {i} заблокировал бота.")
-                except Exception as e:
-                    logging.warning(f"Произошла ошибка при отправке сообщения пользователю {i}: {e}")
-                finally:
-                    await asyncio.sleep(0.50)  # Добавляем задержку между сообщениями
-
-            await message.answer(f"Количество успешно отправленных рассылок: {j}")
-            await message.answer(f"Пользователи в SET {sent_users}")
-            await state.clear()
-        else:
-            logging.info(f"notconfirming вызван пользователем {message.from_user.username}")
-            await message.answer("Вы отменили рассылку!")
-            await state.clear()
-            return
+        logging.info(f"notconfirming вызван пользователем {message.from_user.username}")
+        await message.answer("Вы отменили рассылку!")
+        await state.clear()
+        return
 
 ################################################    
 
