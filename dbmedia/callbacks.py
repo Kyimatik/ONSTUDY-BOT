@@ -6,7 +6,7 @@ from dbmedia.database import  get_all_users, add_user
 from buttons import useridkb,mainkb,back
 from dbmedia.media import start_text,allstickersid,feedbackphotoids,resultsofstudents,feedbackofstudents,ourstudents,ieltsinfo,satinfo,challengeinfo
 from aiogram.types import InputMediaPhoto
-from dbmedia.states import RegistrationForm
+
 
 
 import buttons

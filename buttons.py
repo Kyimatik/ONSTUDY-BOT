@@ -231,3 +231,17 @@ tggroup = InlineKeyboardMarkup(
     ]
 
 )
+
+
+
+
+
+
+
+Cancel = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="X нажми ❌")]
+    ],
+    resize_keyboard=True
+)
+

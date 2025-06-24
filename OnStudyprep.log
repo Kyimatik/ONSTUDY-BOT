@@ -413,3 +413,1177 @@ aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errn
 2025-06-22 17:01:49,375 - INFO - Ответ от AmoCRM: 
 2025-06-22 17:01:53,113 - INFO - Update id=811312454 is handled. Duration 649 ms by bot id=7689522161
 2025-06-22 17:01:53,198 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:28:23,839 - INFO - Webhook установлен: True
+2025-06-23 12:28:23,855 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:28:23,856 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:28:23,856 - INFO - Scheduler started
+2025-06-23 12:28:23,856 - INFO - Сервер запущен 🚀
+2025-06-23 12:28:31,126 - INFO - Update id=811312455 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 12:28:31,985 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:28:49,992 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 12:28:49,992 - INFO - Update id=811312456 is handled. Duration 1752 ms by bot id=7689522161
+2025-06-23 12:28:50,075 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:28:51,451 - INFO - Update id=811312457 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 12:28:51,533 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:32:19,002 - INFO - Webhook установлен: True
+2025-06-23 12:32:19,042 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:32:19,043 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:32:19,043 - INFO - Scheduler started
+2025-06-23 12:32:19,043 - INFO - Сервер запущен 🚀
+2025-06-23 12:32:22,022 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 12:32:22,023 - INFO - Update id=811312458 is handled. Duration 1405 ms by bot id=7689522161
+2025-06-23 12:32:22,128 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:32:24,857 - INFO - Update id=811312459 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-23 12:32:24,940 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:32:43,299 - INFO - Update id=811312460 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 12:32:43,385 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:33:04,398 - INFO - Update id=811312461 is handled. Duration 260 ms by bot id=7689522161
+2025-06-23 12:33:05,352 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:33:09,928 - INFO - Update id=811312462 is handled. Duration 280 ms by bot id=7689522161
+2025-06-23 12:33:10,234 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:34:17,224 - INFO - Webhook установлен: True
+2025-06-23 12:34:17,249 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:34:17,250 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:34:17,250 - INFO - Scheduler started
+2025-06-23 12:34:17,250 - INFO - Сервер запущен 🚀
+2025-06-23 12:34:27,137 - INFO - Webhook установлен: True
+2025-06-23 12:34:27,159 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:34:27,160 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:34:27,160 - INFO - Scheduler started
+2025-06-23 12:34:27,160 - INFO - Сервер запущен 🚀
+2025-06-23 12:34:33,171 - INFO - Webhook установлен: True
+2025-06-23 12:34:33,193 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:34:33,194 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:34:33,194 - INFO - Scheduler started
+2025-06-23 12:34:33,194 - INFO - Сервер запущен 🚀
+2025-06-23 12:34:36,179 - INFO - Update id=811312463 is handled. Duration 1212 ms by bot id=7689522161
+2025-06-23 12:34:36,313 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:34:42,779 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 12:34:42,779 - INFO - Update id=811312464 is handled. Duration 465 ms by bot id=7689522161
+2025-06-23 12:34:42,860 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:34:44,590 - INFO - Update id=811312465 is handled. Duration 201 ms by bot id=7689522161
+2025-06-23 12:34:44,678 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:35:34,781 - INFO - Webhook установлен: True
+2025-06-23 12:35:34,801 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:35:34,802 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:35:34,802 - INFO - Scheduler started
+2025-06-23 12:35:34,802 - INFO - Сервер запущен 🚀
+2025-06-23 12:35:42,199 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 12:35:42,199 - INFO - Update id=811312467 is handled. Duration 1350 ms by bot id=7689522161
+2025-06-23 12:35:42,304 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:35:45,771 - INFO - Update id=811312468 is handled. Duration 275 ms by bot id=7689522161
+2025-06-23 12:35:45,856 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:36:13,667 - INFO - Webhook установлен: True
+2025-06-23 12:36:13,701 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:36:13,702 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:36:13,702 - INFO - Scheduler started
+2025-06-23 12:36:13,702 - INFO - Сервер запущен 🚀
+2025-06-23 12:36:18,147 - INFO - Webhook установлен: True
+2025-06-23 12:36:18,160 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:36:18,161 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:36:18,161 - INFO - Scheduler started
+2025-06-23 12:36:18,161 - INFO - Сервер запущен 🚀
+2025-06-23 12:36:25,075 - INFO - Webhook установлен: True
+2025-06-23 12:36:25,100 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:36:25,100 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:36:25,100 - INFO - Scheduler started
+2025-06-23 12:36:25,100 - INFO - Сервер запущен 🚀
+2025-06-23 12:36:29,843 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 12:36:29,844 - INFO - Update id=811312470 is handled. Duration 1101 ms by bot id=7689522161
+2025-06-23 12:36:29,931 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:36:31,539 - INFO - Update id=811312471 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 12:36:31,624 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:37:37,666 - INFO - Webhook установлен: True
+2025-06-23 12:37:37,689 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:37:37,689 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:37:37,689 - INFO - Scheduler started
+2025-06-23 12:37:37,690 - INFO - Сервер запущен 🚀
+2025-06-23 12:38:00,941 - INFO - Webhook установлен: True
+2025-06-23 12:38:00,971 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:38:00,971 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:38:00,972 - INFO - Scheduler started
+2025-06-23 12:38:00,972 - INFO - Сервер запущен 🚀
+2025-06-23 12:38:02,379 - INFO - Update id=811312472 is handled. Duration 1224 ms by bot id=7689522161
+2025-06-23 12:38:03,276 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:38:05,329 - INFO - Update id=811312473 is handled. Duration 394 ms by bot id=7689522161
+2025-06-23 12:38:05,483 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:39:15,081 - INFO - Update id=811312474 is handled. Duration 391 ms by bot id=7689522161
+2025-06-23 12:39:15,185 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:40:06,307 - INFO - Webhook установлен: True
+2025-06-23 12:40:06,327 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:40:06,328 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:40:06,328 - INFO - Scheduler started
+2025-06-23 12:40:06,328 - INFO - Сервер запущен 🚀
+2025-06-23 12:40:14,623 - INFO - Update id=811312475 is not handled. Duration 1486 ms by bot id=7689522161
+2025-06-23 12:40:15,052 - INFO - Update id=811312475 is not handled. Duration 362 ms by bot id=7689522161
+2025-06-23 12:40:17,400 - INFO - Update id=811312475 is not handled. Duration 290 ms by bot id=7689522161
+2025-06-23 12:40:21,745 - INFO - Update id=811312475 is not handled. Duration 285 ms by bot id=7689522161
+2025-06-23 12:40:54,972 - INFO - Webhook установлен: True
+2025-06-23 12:40:54,986 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:40:54,986 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:40:54,987 - INFO - Scheduler started
+2025-06-23 12:40:54,987 - INFO - Сервер запущен 🚀
+2025-06-23 12:40:59,265 - INFO - Update id=811312476 is not handled. Duration 1019 ms by bot id=7689522161
+2025-06-23 12:40:59,679 - INFO - Update id=811312476 is not handled. Duration 350 ms by bot id=7689522161
+2025-06-23 12:41:02,052 - INFO - Update id=811312476 is not handled. Duration 313 ms by bot id=7689522161
+2025-06-23 12:41:56,467 - INFO - Webhook установлен: True
+2025-06-23 12:41:56,491 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:41:56,491 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:41:56,491 - INFO - Scheduler started
+2025-06-23 12:41:56,491 - INFO - Сервер запущен 🚀
+2025-06-23 12:42:02,824 - INFO - Update id=811312478 is handled. Duration 1326 ms by bot id=7689522161
+2025-06-23 12:42:02,948 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:43:11,038 - INFO - Webhook установлен: True
+2025-06-23 12:43:11,059 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:43:11,060 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:43:11,060 - INFO - Scheduler started
+2025-06-23 12:43:11,060 - INFO - Сервер запущен 🚀
+2025-06-23 12:43:11,063 - INFO - Update id=811312479 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 12:43:11,268 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:43:14,086 - INFO - Update id=811312480 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 12:43:14,174 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:43:20,962 - INFO - Update id=811312481 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-23 12:43:21,049 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:43:36,794 - INFO - Update id=811312482 is handled. Duration 1288 ms by bot id=7689522161
+2025-06-23 12:43:36,878 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:43:47,051 - INFO - Webhook установлен: True
+2025-06-23 12:43:47,073 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:43:47,073 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:43:47,073 - INFO - Scheduler started
+2025-06-23 12:43:47,073 - INFO - Сервер запущен 🚀
+2025-06-23 12:44:06,324 - INFO - Webhook установлен: True
+2025-06-23 12:44:06,345 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:44:06,346 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:44:06,346 - INFO - Scheduler started
+2025-06-23 12:44:06,346 - INFO - Сервер запущен 🚀
+2025-06-23 12:44:07,040 - INFO - Update id=811312483 is handled. Duration 107 ms by bot id=7689522161
+2025-06-23 12:44:07,124 - INFO - Ответ от AmoCRM: 
+2025-06-23 12:44:16,755 - INFO - Webhook установлен: True
+2025-06-23 12:44:16,781 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 12:44:16,782 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 12:44:16,782 - INFO - Scheduler started
+2025-06-23 12:44:16,782 - INFO - Сервер запущен 🚀
+2025-06-23 13:01:36,968 - INFO - Webhook установлен: True
+2025-06-23 13:01:36,982 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:01:36,982 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:01:36,982 - INFO - Scheduler started
+2025-06-23 13:01:36,982 - INFO - Сервер запущен 🚀
+2025-06-23 13:01:50,085 - INFO - Webhook установлен: True
+2025-06-23 13:01:50,105 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:01:50,105 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:01:50,105 - INFO - Scheduler started
+2025-06-23 13:01:50,106 - INFO - Сервер запущен 🚀
+2025-06-23 13:01:53,884 - INFO - Update id=811312484 is not handled. Duration 1226 ms by bot id=7689522161
+2025-06-23 13:01:54,209 - INFO - Update id=811312484 is not handled. Duration 252 ms by bot id=7689522161
+2025-06-23 13:01:56,478 - INFO - Update id=811312484 is not handled. Duration 208 ms by bot id=7689522161
+2025-06-23 13:03:15,593 - INFO - Webhook установлен: True
+2025-06-23 13:03:15,613 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:03:15,614 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:03:15,614 - INFO - Scheduler started
+2025-06-23 13:03:15,614 - INFO - Сервер запущен 🚀
+2025-06-23 13:03:17,167 - INFO - Update id=811312485 is not handled. Duration 1091 ms by bot id=7689522161
+2025-06-23 13:03:17,528 - INFO - Update id=811312485 is not handled. Duration 294 ms by bot id=7689522161
+2025-06-23 13:03:19,860 - INFO - Update id=811312485 is not handled. Duration 269 ms by bot id=7689522161
+2025-06-23 13:04:11,513 - INFO - Webhook установлен: True
+2025-06-23 13:04:11,535 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:04:11,536 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:04:11,536 - INFO - Scheduler started
+2025-06-23 13:04:11,536 - INFO - Сервер запущен 🚀
+2025-06-23 13:04:13,666 - INFO - Update id=811312486 is not handled. Duration 896 ms by bot id=7689522161
+2025-06-23 13:04:13,966 - INFO - Update id=811312486 is not handled. Duration 230 ms by bot id=7689522161
+2025-06-23 13:04:16,228 - INFO - Update id=811312486 is not handled. Duration 200 ms by bot id=7689522161
+2025-06-23 13:04:20,490 - INFO - Update id=811312486 is not handled. Duration 196 ms by bot id=7689522161
+2025-06-23 13:04:28,753 - INFO - Update id=811312486 is not handled. Duration 198 ms by bot id=7689522161
+2025-06-23 13:04:40,623 - INFO - Webhook установлен: True
+2025-06-23 13:04:40,647 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:04:40,647 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:04:40,647 - INFO - Scheduler started
+2025-06-23 13:04:40,648 - INFO - Сервер запущен 🚀
+2025-06-23 13:04:46,405 - INFO - Update id=811312487 is handled. Duration 1114 ms by bot id=7689522161
+2025-06-23 13:04:46,541 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:07:36,983 - INFO - Webhook установлен: True
+2025-06-23 13:07:37,004 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:07:37,004 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:07:37,004 - INFO - Scheduler started
+2025-06-23 13:07:37,004 - INFO - Сервер запущен 🚀
+2025-06-23 13:07:39,968 - INFO - Update id=811312488 is handled. Duration 1435 ms by bot id=7689522161
+2025-06-23 13:07:40,073 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:09:03,724 - INFO - Update id=811312489 is handled. Duration 435 ms by bot id=7689522161
+2025-06-23 13:09:03,830 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:09:54,318 - INFO - Webhook установлен: True
+2025-06-23 13:09:54,340 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:09:54,341 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:09:54,341 - INFO - Scheduler started
+2025-06-23 13:09:54,341 - INFO - Сервер запущен 🚀
+2025-06-23 13:09:55,790 - INFO - Update id=811312490 is handled. Duration 1448 ms by bot id=7689522161
+2025-06-23 13:09:55,913 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:10:58,361 - INFO - Webhook установлен: True
+2025-06-23 13:10:58,386 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:10:58,386 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:10:58,386 - INFO - Scheduler started
+2025-06-23 13:10:58,386 - INFO - Сервер запущен 🚀
+2025-06-23 13:11:01,868 - INFO - Update id=811312491 is handled. Duration 1226 ms by bot id=7689522161
+2025-06-23 13:11:01,993 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:16:03,038 - INFO - Webhook установлен: True
+2025-06-23 13:16:03,058 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:16:03,059 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:16:03,059 - INFO - Scheduler started
+2025-06-23 13:16:03,059 - INFO - Сервер запущен 🚀
+2025-06-23 13:16:05,599 - INFO - Update id=811312492 is handled. Duration 1447 ms by bot id=7689522161
+2025-06-23 13:16:05,743 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:21:13,147 - INFO - Webhook установлен: True
+2025-06-23 13:21:13,180 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:21:13,181 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:21:13,181 - INFO - Scheduler started
+2025-06-23 13:21:13,181 - INFO - Сервер запущен 🚀
+2025-06-23 13:21:25,299 - INFO - Webhook установлен: True
+2025-06-23 13:21:25,319 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:21:25,320 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:21:25,320 - INFO - Scheduler started
+2025-06-23 13:21:25,320 - INFO - Сервер запущен 🚀
+2025-06-23 13:21:43,107 - INFO - Update id=811312493 is handled. Duration 1824 ms by bot id=7689522161
+2025-06-23 13:21:43,241 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:22:12,946 - INFO - Webhook установлен: True
+2025-06-23 13:22:12,969 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:22:12,970 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:22:12,970 - INFO - Scheduler started
+2025-06-23 13:22:12,970 - INFO - Сервер запущен 🚀
+2025-06-23 13:22:16,639 - INFO - Webhook установлен: True
+2025-06-23 13:22:16,663 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:22:16,664 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:22:16,664 - INFO - Scheduler started
+2025-06-23 13:22:16,664 - INFO - Сервер запущен 🚀
+2025-06-23 13:22:17,849 - INFO - Update id=811312494 is handled. Duration 1183 ms by bot id=7689522161
+2025-06-23 13:22:17,935 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:22:30,843 - INFO - Webhook установлен: True
+2025-06-23 13:22:30,863 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:22:30,864 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:22:30,864 - INFO - Scheduler started
+2025-06-23 13:22:30,864 - INFO - Сервер запущен 🚀
+2025-06-23 13:22:32,018 - INFO - Update id=811312495 is handled. Duration 1022 ms by bot id=7689522161
+2025-06-23 13:22:32,207 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:35:35,480 - INFO - Webhook установлен: True
+2025-06-23 13:35:35,505 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:35:35,506 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:35:35,506 - INFO - Scheduler started
+2025-06-23 13:35:35,506 - INFO - Сервер запущен 🚀
+2025-06-23 13:37:13,032 - INFO - Webhook установлен: True
+2025-06-23 13:37:13,057 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:37:13,058 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:37:13,058 - INFO - Scheduler started
+2025-06-23 13:37:13,058 - INFO - Сервер запущен 🚀
+2025-06-23 13:37:18,594 - INFO - Update id=811312496 is handled. Duration 1503 ms by bot id=7689522161
+2025-06-23 13:37:18,736 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:38:20,985 - INFO - Webhook установлен: True
+2025-06-23 13:38:21,006 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:38:21,007 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:38:21,007 - INFO - Scheduler started
+2025-06-23 13:38:21,007 - INFO - Сервер запущен 🚀
+2025-06-23 13:38:24,283 - INFO - Update id=811312497 is handled. Duration 1202 ms by bot id=7689522161
+2025-06-23 13:38:24,392 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:38:27,583 - INFO - Update id=811312498 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 13:38:27,652 - INFO - Update id=811312498 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 13:38:29,712 - INFO - Update id=811312498 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 13:38:33,773 - INFO - Update id=811312498 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 13:39:14,081 - INFO - Webhook установлен: True
+2025-06-23 13:39:14,102 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:39:14,103 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:39:14,103 - INFO - Scheduler started
+2025-06-23 13:39:14,103 - INFO - Сервер запущен 🚀
+2025-06-23 13:39:19,440 - INFO - Update id=811312499 is handled. Duration 1102 ms by bot id=7689522161
+2025-06-23 13:39:19,658 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:39:23,451 - INFO - Update id=811312500 is handled. Duration 125 ms by bot id=7689522161
+2025-06-23 13:39:23,534 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:39:48,199 - INFO - Webhook установлен: True
+2025-06-23 13:39:48,219 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:39:48,220 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:39:48,220 - INFO - Scheduler started
+2025-06-23 13:39:48,220 - INFO - Сервер запущен 🚀
+2025-06-23 13:39:48,400 - INFO - Update id=811312501 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 13:39:48,509 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:39:52,490 - INFO - Update id=811312502 is handled. Duration 1378 ms by bot id=7689522161
+2025-06-23 13:39:52,575 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:39:59,167 - INFO - Update id=811312503 is handled. Duration 102 ms by bot id=7689522161
+2025-06-23 13:39:59,252 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:47:01,843 - INFO - Update id=811312504 is handled. Duration 1178 ms by bot id=7689522161
+2025-06-23 13:47:01,979 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:49:54,220 - INFO - Webhook установлен: True
+2025-06-23 13:49:54,244 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:49:54,245 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:49:54,245 - INFO - Scheduler started
+2025-06-23 13:49:54,245 - INFO - Сервер запущен 🚀
+2025-06-23 13:49:55,501 - INFO - Update id=811312505 is handled. Duration 1254 ms by bot id=7689522161
+2025-06-23 13:49:56,361 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:49:58,486 - INFO - Update id=811312506 is handled. Duration 82 ms by bot id=7689522161
+2025-06-23 13:49:58,596 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:51:02,973 - INFO - Webhook установлен: True
+2025-06-23 13:51:02,997 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:51:02,997 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:51:02,997 - INFO - Scheduler started
+2025-06-23 13:51:02,997 - INFO - Сервер запущен 🚀
+2025-06-23 13:51:04,365 - INFO - Update id=811312507 is handled. Duration 1295 ms by bot id=7689522161
+2025-06-23 13:51:04,574 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:51:06,829 - INFO - Update id=811312508 is handled. Duration 210 ms by bot id=7689522161
+2025-06-23 13:51:06,922 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:51:11,382 - INFO - Update id=811312509 is handled. Duration 485 ms by bot id=7689522161
+2025-06-23 13:51:11,464 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:51:12,297 - INFO - Update id=811312510 is handled. Duration 92 ms by bot id=7689522161
+2025-06-23 13:51:12,382 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:51:22,083 - INFO - Webhook установлен: True
+2025-06-23 13:51:22,103 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:51:22,104 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:51:22,104 - INFO - Scheduler started
+2025-06-23 13:51:22,104 - INFO - Сервер запущен 🚀
+2025-06-23 13:54:29,588 - INFO - Update id=811312511 is handled. Duration 1506 ms by bot id=7689522161
+2025-06-23 13:54:29,739 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:54:40,092 - INFO - Update id=811312512 is handled. Duration 88 ms by bot id=7689522161
+2025-06-23 13:54:40,177 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:58:50,198 - INFO - Webhook установлен: True
+2025-06-23 13:58:50,222 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:58:50,223 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:58:50,223 - INFO - Scheduler started
+2025-06-23 13:58:50,223 - INFO - Сервер запущен 🚀
+2025-06-23 13:58:50,227 - INFO - Update id=811312513 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 13:58:50,344 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:58:52,761 - INFO - Update id=811312514 is handled. Duration 1226 ms by bot id=7689522161
+2025-06-23 13:58:52,845 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:59:07,486 - INFO - Update id=811312515 is handled. Duration 88 ms by bot id=7689522161
+2025-06-23 13:59:07,570 - INFO - Ответ от AmoCRM: 
+2025-06-23 13:59:25,085 - INFO - Update id=811312516 is not handled. Duration 166 ms by bot id=7689522161
+2025-06-23 13:59:25,208 - INFO - Update id=811312516 is not handled. Duration 56 ms by bot id=7689522161
+2025-06-23 13:59:27,328 - INFO - Update id=811312516 is not handled. Duration 58 ms by bot id=7689522161
+2025-06-23 13:59:31,448 - INFO - Update id=811312516 is not handled. Duration 59 ms by bot id=7689522161
+2025-06-23 13:59:39,564 - INFO - Update id=811312516 is not handled. Duration 55 ms by bot id=7689522161
+2025-06-23 13:59:55,309 - INFO - Webhook установлен: True
+2025-06-23 13:59:55,329 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 13:59:55,329 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 13:59:55,329 - INFO - Scheduler started
+2025-06-23 13:59:55,329 - INFO - Сервер запущен 🚀
+2025-06-23 13:59:58,865 - INFO - Update id=811312517 is handled. Duration 1358 ms by bot id=7689522161
+2025-06-23 13:59:58,995 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:00:00,951 - INFO - Update id=811312518 is handled. Duration 92 ms by bot id=7689522161
+2025-06-23 14:00:01,033 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:00:02,176 - INFO - Update id=811312519 is not handled. Duration 57 ms by bot id=7689522161
+2025-06-23 14:00:02,297 - INFO - Update id=811312519 is not handled. Duration 57 ms by bot id=7689522161
+2025-06-23 14:00:04,413 - INFO - Update id=811312519 is not handled. Duration 57 ms by bot id=7689522161
+2025-06-23 14:00:08,532 - INFO - Update id=811312519 is not handled. Duration 58 ms by bot id=7689522161
+2025-06-23 14:00:16,648 - INFO - Update id=811312519 is not handled. Duration 57 ms by bot id=7689522161
+2025-06-23 14:00:29,100 - INFO - Webhook установлен: True
+2025-06-23 14:00:29,120 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 14:00:29,121 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 14:00:29,121 - INFO - Scheduler started
+2025-06-23 14:00:29,121 - INFO - Сервер запущен 🚀
+2025-06-23 14:00:31,709 - INFO - Update id=811312520 is handled. Duration 1111 ms by bot id=7689522161
+2025-06-23 14:00:31,796 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:00:33,408 - INFO - Update id=811312521 is handled. Duration 110 ms by bot id=7689522161
+2025-06-23 14:00:33,492 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:00:34,959 - INFO - Update id=811312522 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 14:00:35,029 - INFO - Update id=811312522 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 14:00:37,093 - INFO - Update id=811312522 is not handled. Duration 4 ms by bot id=7689522161
+2025-06-23 14:00:41,156 - INFO - Update id=811312522 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 14:01:16,285 - INFO - Webhook установлен: True
+2025-06-23 14:01:16,304 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 14:01:16,305 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 14:01:16,305 - INFO - Scheduler started
+2025-06-23 14:01:16,305 - INFO - Сервер запущен 🚀
+2025-06-23 14:01:19,666 - INFO - Update id=811312523 is handled. Duration 1307 ms by bot id=7689522161
+2025-06-23 14:01:19,866 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:01:21,668 - INFO - Update id=811312524 is handled. Duration 181 ms by bot id=7689522161
+2025-06-23 14:01:21,750 - INFO - Ответ от AmoCRM: 
+2025-06-23 14:01:23,435 - INFO - Update id=811312525 is handled. Duration 187 ms by bot id=7689522161
+2025-06-23 14:01:23,522 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:37:45,946 - INFO - Webhook установлен: True
+2025-06-23 19:37:45,969 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 19:37:45,970 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 19:37:45,970 - INFO - Scheduler started
+2025-06-23 19:37:45,970 - INFO - Сервер запущен 🚀
+2025-06-23 19:37:52,850 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 19:37:52,851 - INFO - Update id=811312528 is handled. Duration 1414 ms by bot id=7689522161
+2025-06-23 19:37:53,090 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:37:55,671 - INFO - Update id=811312529 is handled. Duration 447 ms by bot id=7689522161
+2025-06-23 19:37:55,757 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:37:59,203 - INFO - Update id=811312530 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 19:37:59,290 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:38:00,906 - INFO - Update id=811312531 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 19:38:00,997 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:38:05,049 - INFO - Update id=811312532 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 19:38:05,133 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:38:07,635 - INFO - Update id=811312533 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 19:38:07,720 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:38:07,973 - INFO - Update id=811312534 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 19:38:08,056 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:50:33,722 - INFO - Webhook установлен: True
+2025-06-23 19:50:33,746 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 19:50:33,746 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 19:50:33,746 - INFO - Scheduler started
+2025-06-23 19:50:33,747 - INFO - Сервер запущен 🚀
+2025-06-23 19:50:37,491 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 19:50:37,492 - INFO - Update id=811312535 is handled. Duration 1494 ms by bot id=7689522161
+2025-06-23 19:50:37,636 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:50:44,583 - INFO - Update id=811312536 is handled. Duration 434 ms by bot id=7689522161
+2025-06-23 19:50:44,668 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:50:48,250 - INFO - Update id=811312537 is handled. Duration 80 ms by bot id=7689522161
+2025-06-23 19:50:48,333 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:50:52,763 - INFO - Update id=811312538 is not handled. Duration 316 ms by bot id=7689522161
+2025-06-23 19:50:53,167 - INFO - Update id=811312538 is not handled. Duration 324 ms by bot id=7689522161
+2025-06-23 19:50:55,554 - INFO - Update id=811312538 is not handled. Duration 324 ms by bot id=7689522161
+2025-06-23 19:50:59,934 - INFO - Update id=811312538 is not handled. Duration 318 ms by bot id=7689522161
+2025-06-23 19:51:33,063 - INFO - Webhook установлен: True
+2025-06-23 19:51:33,085 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 19:51:33,085 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 19:51:33,086 - INFO - Scheduler started
+2025-06-23 19:51:33,086 - INFO - Сервер запущен 🚀
+2025-06-23 19:51:35,867 - INFO - Update id=811312540 is handled. Duration 1521 ms by bot id=7689522161
+2025-06-23 19:51:35,952 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:53:03,828 - INFO - Update id=811312541 is handled. Duration 283 ms by bot id=7689522161
+2025-06-23 19:53:03,937 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:53:05,291 - INFO - Update id=811312542 is handled. Duration 398 ms by bot id=7689522161
+2025-06-23 19:53:05,374 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:53:14,474 - INFO - Update id=811312543 is handled. Duration 359 ms by bot id=7689522161
+2025-06-23 19:53:14,557 - INFO - Ответ от AmoCRM: 
+2025-06-23 19:53:43,393 - INFO - Webhook установлен: True
+2025-06-23 19:53:43,413 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 19:53:43,414 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 19:53:43,414 - INFO - Scheduler started
+2025-06-23 19:53:43,414 - INFO - Сервер запущен 🚀
+2025-06-23 19:54:02,114 - INFO - Webhook установлен: True
+2025-06-23 19:54:02,135 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 19:54:02,136 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 19:54:02,136 - INFO - Scheduler started
+2025-06-23 19:54:02,136 - INFO - Сервер запущен 🚀
+2025-06-23 20:00:21,890 - INFO - Webhook установлен: True
+2025-06-23 20:00:21,922 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:00:21,923 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:00:21,923 - INFO - Scheduler started
+2025-06-23 20:00:21,923 - INFO - Сервер запущен 🚀
+2025-06-23 20:00:39,540 - INFO - Webhook установлен: True
+2025-06-23 20:00:39,560 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:00:39,561 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:00:39,561 - INFO - Scheduler started
+2025-06-23 20:00:39,561 - INFO - Сервер запущен 🚀
+2025-06-23 20:00:42,477 - INFO - Update id=811312544 is handled. Duration 1331 ms by bot id=7689522161
+2025-06-23 20:00:42,622 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:00:45,261 - INFO - Update id=811312545 is handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:00:45,346 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:00:50,171 - INFO - Update id=811312546 is not handled. Duration 78 ms by bot id=7689522161
+2025-06-23 20:00:50,323 - INFO - Update id=811312546 is not handled. Duration 85 ms by bot id=7689522161
+2025-06-23 20:00:52,463 - INFO - Update id=811312546 is not handled. Duration 78 ms by bot id=7689522161
+2025-06-23 20:00:56,600 - INFO - Update id=811312546 is not handled. Duration 75 ms by bot id=7689522161
+2025-06-23 20:01:45,103 - INFO - Webhook установлен: True
+2025-06-23 20:01:45,124 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:01:45,125 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:01:45,125 - INFO - Scheduler started
+2025-06-23 20:01:45,125 - INFO - Сервер запущен 🚀
+2025-06-23 20:01:47,626 - INFO - Update id=811312547 is handled. Duration 1159 ms by bot id=7689522161
+2025-06-23 20:01:48,617 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:01:50,631 - INFO - Update id=811312548 is handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:01:50,724 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:01:52,344 - INFO - Update id=811312549 is handled. Duration 412 ms by bot id=7689522161
+2025-06-23 20:01:52,428 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:01:58,337 - INFO - Update id=811312550 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 20:01:58,420 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:14:25,443 - INFO - Webhook установлен: True
+2025-06-23 20:14:25,478 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:14:25,478 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:14:25,479 - INFO - Scheduler started
+2025-06-23 20:14:25,479 - INFO - Сервер запущен 🚀
+2025-06-23 20:14:43,053 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 20:14:43,055 - INFO - Update id=811312551 is handled. Duration 1756 ms by bot id=7689522161
+2025-06-23 20:14:43,191 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:14:47,657 - INFO - Update id=811312552 is handled. Duration 445 ms by bot id=7689522161
+2025-06-23 20:14:47,744 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:14:49,777 - INFO - Update id=811312553 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 20:14:49,862 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:14:52,668 - INFO - Update id=811312554 is handled. Duration 398 ms by bot id=7689522161
+2025-06-23 20:14:52,753 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:35,595 - INFO - Update id=811312555 is handled. Duration 419 ms by bot id=7689522161
+2025-06-23 20:15:35,684 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:37,305 - INFO - Update id=811312556 is handled. Duration 85 ms by bot id=7689522161
+2025-06-23 20:15:37,393 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:39,596 - INFO - Update id=811312557 is handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:15:39,679 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:45,332 - INFO - Update id=811312558 is handled. Duration 366 ms by bot id=7689522161
+2025-06-23 20:15:45,437 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:46,428 - INFO - Update id=811312559 is handled. Duration 164 ms by bot id=7689522161
+2025-06-23 20:15:46,512 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:47,737 - INFO - Update id=811312560 is handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:15:47,821 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:15:53,324 - INFO - Update id=811312561 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:15:53,398 - INFO - Update id=811312561 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:15:55,460 - INFO - Update id=811312561 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:15:59,523 - INFO - Update id=811312561 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:16:48,664 - INFO - Webhook установлен: True
+2025-06-23 20:16:48,689 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:16:48,690 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:16:48,690 - INFO - Scheduler started
+2025-06-23 20:16:48,690 - INFO - Сервер запущен 🚀
+2025-06-23 20:16:49,944 - INFO - Update id=811312562 is handled. Duration 1174 ms by bot id=7689522161
+2025-06-23 20:16:50,052 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:16:51,235 - INFO - Update id=811312563 is handled. Duration 85 ms by bot id=7689522161
+2025-06-23 20:16:51,320 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:16:52,842 - INFO - Update id=811312564 is handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:16:52,928 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:16:56,576 - INFO - Update id=811312565 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:16:56,642 - INFO - Update id=811312565 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:16:58,706 - INFO - Update id=811312565 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 20:17:02,770 - INFO - Update id=811312565 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:17:10,834 - INFO - Update id=811312565 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:17:21,544 - INFO - Webhook установлен: True
+2025-06-23 20:17:21,564 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:17:21,564 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:17:21,564 - INFO - Scheduler started
+2025-06-23 20:17:21,565 - INFO - Сервер запущен 🚀
+2025-06-23 20:17:27,016 - INFO - Webhook установлен: True
+2025-06-23 20:17:27,040 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:17:27,041 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:17:27,041 - INFO - Scheduler started
+2025-06-23 20:17:27,041 - INFO - Сервер запущен 🚀
+2025-06-23 20:17:30,727 - INFO - Webhook установлен: True
+2025-06-23 20:17:30,751 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:17:30,752 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:17:30,752 - INFO - Scheduler started
+2025-06-23 20:17:30,752 - INFO - Сервер запущен 🚀
+2025-06-23 20:17:33,104 - INFO - Update id=811312566 is handled. Duration 996 ms by bot id=7689522161
+2025-06-23 20:17:33,194 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:17:34,499 - INFO - Update id=811312567 is handled. Duration 87 ms by bot id=7689522161
+2025-06-23 20:17:34,586 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:17:35,946 - INFO - Update id=811312568 is handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:17:36,030 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:17:38,772 - INFO - Update id=811312569 is not handled. Duration 94 ms by bot id=7689522161
+2025-06-23 20:17:38,920 - INFO - Update id=811312569 is not handled. Duration 85 ms by bot id=7689522161
+2025-06-23 20:17:41,060 - INFO - Update id=811312569 is not handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:17:45,258 - INFO - Update id=811312569 is not handled. Duration 138 ms by bot id=7689522161
+2025-06-23 20:30:14,089 - INFO - Webhook установлен: True
+2025-06-23 20:30:14,114 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:30:14,114 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:30:14,115 - INFO - Scheduler started
+2025-06-23 20:30:14,115 - INFO - Сервер запущен 🚀
+2025-06-23 20:30:20,976 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 20:30:20,977 - INFO - Update id=811312571 is handled. Duration 1418 ms by bot id=7689522161
+2025-06-23 20:30:21,872 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:30:55,133 - INFO - Update id=811312572 is handled. Duration 447 ms by bot id=7689522161
+2025-06-23 20:30:55,218 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:30:56,791 - INFO - Update id=811312573 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 20:30:56,876 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:30:58,015 - INFO - Update id=811312574 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:30:58,079 - INFO - Update id=811312574 is not handled. Duration 0 ms by bot id=7689522161
+2025-06-23 20:31:00,138 - INFO - Update id=811312574 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:31:04,198 - INFO - Update id=811312574 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 20:31:44,422 - INFO - Webhook установлен: True
+2025-06-23 20:31:44,443 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:31:44,444 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:31:44,444 - INFO - Scheduler started
+2025-06-23 20:31:44,444 - INFO - Сервер запущен 🚀
+2025-06-23 20:31:50,308 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 20:31:50,309 - INFO - Update id=811312576 is handled. Duration 1418 ms by bot id=7689522161
+2025-06-23 20:31:50,507 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:31:52,692 - INFO - Update id=811312577 is handled. Duration 371 ms by bot id=7689522161
+2025-06-23 20:31:52,778 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:31:54,899 - INFO - Update id=811312578 is handled. Duration 180 ms by bot id=7689522161
+2025-06-23 20:31:54,986 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:31:56,417 - INFO - Update id=811312579 is handled. Duration 331 ms by bot id=7689522161
+2025-06-23 20:31:56,504 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:31:58,022 - INFO - Update id=811312580 is handled. Duration 82 ms by bot id=7689522161
+2025-06-23 20:31:58,109 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:31:59,353 - INFO - Update id=811312581 is handled. Duration 329 ms by bot id=7689522161
+2025-06-23 20:31:59,438 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:32:04,828 - INFO - Update id=811312582 is handled. Duration 371 ms by bot id=7689522161
+2025-06-23 20:32:04,916 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:32:09,012 - INFO - Update id=811312583 is handled. Duration 287 ms by bot id=7689522161
+2025-06-23 20:32:09,099 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:32:10,174 - INFO - Update id=811312584 is handled. Duration 85 ms by bot id=7689522161
+2025-06-23 20:32:10,268 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:32:12,120 - INFO - Update id=811312585 is handled. Duration 3 ms by bot id=7689522161
+2025-06-23 20:32:12,208 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:32:18,954 - INFO - Update id=811312586 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:32:19,019 - INFO - Update id=811312586 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 20:32:21,081 - INFO - Update id=811312586 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 20:34:44,201 - INFO - Webhook установлен: True
+2025-06-23 20:34:44,223 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:34:44,224 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:34:44,224 - INFO - Scheduler started
+2025-06-23 20:34:44,224 - INFO - Сервер запущен 🚀
+2025-06-23 20:34:47,902 - INFO - Update id=811312587 is handled. Duration 1162 ms by bot id=7689522161
+2025-06-23 20:34:48,020 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:34:50,037 - INFO - Update id=811312588 is handled. Duration 97 ms by bot id=7689522161
+2025-06-23 20:34:50,122 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:35:35,093 - INFO - Update id=811312589 is handled. Duration 2 ms by bot id=7689522161
+2025-06-23 20:35:35,207 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:35:48,650 - INFO - Update id=811312590 is handled. Duration 445 ms by bot id=7689522161
+2025-06-23 20:35:48,764 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:35:50,143 - INFO - Update id=811312591 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 20:35:50,231 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:35:52,478 - INFO - Update id=811312592 is handled. Duration 1 ms by bot id=7689522161
+2025-06-23 20:35:52,561 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:35:54,295 - INFO - Update id=811312593 is not handled. Duration 94 ms by bot id=7689522161
+2025-06-23 20:35:54,481 - INFO - Update id=811312593 is not handled. Duration 122 ms by bot id=7689522161
+2025-06-23 20:35:56,619 - INFO - Update id=811312593 is not handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:36:00,756 - INFO - Update id=811312593 is not handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:42:36,818 - INFO - Webhook установлен: True
+2025-06-23 20:42:36,834 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:42:36,834 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:42:36,834 - INFO - Scheduler started
+2025-06-23 20:42:36,834 - INFO - Сервер запущен 🚀
+2025-06-23 20:42:44,718 - INFO - Webhook установлен: True
+2025-06-23 20:42:44,739 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:42:44,740 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:42:44,740 - INFO - Scheduler started
+2025-06-23 20:42:44,740 - INFO - Сервер запущен 🚀
+2025-06-23 20:42:47,022 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 20:42:47,023 - INFO - Update id=811312594 is handled. Duration 1419 ms by bot id=7689522161
+2025-06-23 20:42:47,164 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:42:48,787 - INFO - Update id=811312595 is handled. Duration 345 ms by bot id=7689522161
+2025-06-23 20:42:48,870 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:42:51,033 - INFO - Update id=811312596 is handled. Duration 80 ms by bot id=7689522161
+2025-06-23 20:42:51,118 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:42:53,382 - INFO - Update id=811312597 is handled. Duration 70 ms by bot id=7689522161
+2025-06-23 20:42:53,467 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:43:05,303 - INFO - Update id=811312598 is handled. Duration 468 ms by bot id=7689522161
+2025-06-23 20:43:05,468 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:46:24,396 - INFO - Webhook установлен: True
+2025-06-23 20:46:24,417 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:46:24,418 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:46:24,418 - INFO - Scheduler started
+2025-06-23 20:46:24,418 - INFO - Сервер запущен 🚀
+2025-06-23 20:49:08,287 - INFO - Webhook установлен: True
+2025-06-23 20:49:08,316 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:49:08,317 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:49:08,317 - INFO - Scheduler started
+2025-06-23 20:49:08,317 - INFO - Сервер запущен 🚀
+2025-06-23 20:49:22,911 - INFO - Update id=811312599 is handled. Duration 1252 ms by bot id=7689522161
+2025-06-23 20:49:23,042 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:49:24,704 - INFO - Update id=811312600 is handled. Duration 78 ms by bot id=7689522161
+2025-06-23 20:49:24,791 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:49:35,488 - INFO - Update id=811312601 is handled. Duration 220 ms by bot id=7689522161
+2025-06-23 20:49:35,577 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:49:45,714 - INFO - Update id=811312602 is handled. Duration 554 ms by bot id=7689522161
+2025-06-23 20:49:45,804 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:50:22,204 - INFO - Webhook установлен: True
+2025-06-23 20:50:22,229 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:50:22,230 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:50:22,230 - INFO - Scheduler started
+2025-06-23 20:50:22,230 - INFO - Сервер запущен 🚀
+2025-06-23 20:50:25,846 - INFO - Webhook установлен: True
+2025-06-23 20:50:25,869 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:50:25,870 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:50:25,871 - INFO - Scheduler started
+2025-06-23 20:50:25,871 - INFO - Сервер запущен 🚀
+2025-06-23 20:51:36,700 - INFO - Webhook установлен: True
+2025-06-23 20:51:36,723 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:51:36,724 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:51:36,724 - INFO - Scheduler started
+2025-06-23 20:51:36,724 - INFO - Сервер запущен 🚀
+2025-06-23 20:51:44,735 - INFO - Update id=811312603 is handled. Duration 1097 ms by bot id=7689522161
+2025-06-23 20:51:44,839 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:51:46,524 - INFO - Update id=811312604 is handled. Duration 77 ms by bot id=7689522161
+2025-06-23 20:51:46,610 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:51:52,095 - INFO - Update id=811312605 is handled. Duration 114 ms by bot id=7689522161
+2025-06-23 20:51:52,179 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:52:40,885 - INFO - Webhook установлен: True
+2025-06-23 20:52:40,905 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:52:40,905 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:52:40,905 - INFO - Scheduler started
+2025-06-23 20:52:40,905 - INFO - Сервер запущен 🚀
+2025-06-23 20:52:46,235 - INFO - Update id=811312606 is handled. Duration 1089 ms by bot id=7689522161
+2025-06-23 20:52:46,338 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:52:47,544 - INFO - Update id=811312607 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 20:52:47,633 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:52:48,856 - INFO - Update id=811312608 is handled. Duration 159 ms by bot id=7689522161
+2025-06-23 20:52:48,941 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:53:11,550 - INFO - Update id=811312609 is handled. Duration 854 ms by bot id=7689522161
+2025-06-23 20:53:11,738 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:53:17,152 - INFO - Update id=811312610 is handled. Duration 267 ms by bot id=7689522161
+2025-06-23 20:53:17,238 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:53:19,650 - INFO - Update id=811312611 is handled. Duration 75 ms by bot id=7689522161
+2025-06-23 20:53:19,734 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:53:23,636 - INFO - Update id=811312612 is handled. Duration 277 ms by bot id=7689522161
+2025-06-23 20:53:23,720 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:53:56,085 - INFO - Webhook установлен: True
+2025-06-23 20:53:56,107 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:53:56,108 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:53:56,108 - INFO - Scheduler started
+2025-06-23 20:53:56,108 - INFO - Сервер запущен 🚀
+2025-06-23 20:53:59,690 - INFO - Webhook установлен: True
+2025-06-23 20:53:59,723 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 20:53:59,723 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 20:53:59,723 - INFO - Scheduler started
+2025-06-23 20:53:59,724 - INFO - Сервер запущен 🚀
+2025-06-23 20:54:12,149 - INFO - Update id=811312613 is handled. Duration 1170 ms by bot id=7689522161
+2025-06-23 20:54:12,254 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:54:13,131 - INFO - Update id=811312614 is handled. Duration 91 ms by bot id=7689522161
+2025-06-23 20:54:13,217 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:54:16,620 - INFO - Update id=811312615 is handled. Duration 330 ms by bot id=7689522161
+2025-06-23 20:54:16,702 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:54:24,028 - INFO - Update id=811312616 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 20:54:24,113 - INFO - Ответ от AmoCRM: 
+2025-06-23 20:54:29,739 - INFO - Update id=811312617 is handled. Duration 415 ms by bot id=7689522161
+2025-06-23 20:54:29,824 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:30:25,957 - INFO - Webhook установлен: True
+2025-06-23 21:30:25,971 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:30:25,971 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:30:25,971 - INFO - Scheduler started
+2025-06-23 21:30:25,971 - INFO - Сервер запущен 🚀
+2025-06-23 21:30:36,069 - INFO - Webhook установлен: True
+2025-06-23 21:30:36,091 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:30:36,091 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:30:36,091 - INFO - Scheduler started
+2025-06-23 21:30:36,092 - INFO - Сервер запущен 🚀
+2025-06-23 21:30:41,297 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-23 21:30:41,298 - INFO - Update id=811312618 is handled. Duration 1496 ms by bot id=7689522161
+2025-06-23 21:30:42,939 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:30:43,348 - INFO - Update id=811312619 is handled. Duration 352 ms by bot id=7689522161
+2025-06-23 21:30:43,432 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:30:46,032 - INFO - Update id=811312620 is handled. Duration 82 ms by bot id=7689522161
+2025-06-23 21:30:46,115 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:30:48,227 - INFO - Update id=811312621 is handled. Duration 77 ms by bot id=7689522161
+2025-06-23 21:30:48,312 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:31:32,100 - INFO - Webhook установлен: True
+2025-06-23 21:31:32,128 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:31:32,129 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:31:32,129 - INFO - Scheduler started
+2025-06-23 21:31:32,129 - INFO - Сервер запущен 🚀
+2025-06-23 21:31:34,648 - INFO - Update id=811312622 is handled. Duration 1039 ms by bot id=7689522161
+2025-06-23 21:31:34,735 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:31:37,167 - INFO - Update id=811312623 is handled. Duration 78 ms by bot id=7689522161
+2025-06-23 21:31:37,251 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:31:38,447 - INFO - Update id=811312624 is handled. Duration 81 ms by bot id=7689522161
+2025-06-23 21:31:38,530 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:31:39,687 - INFO - Update id=811312625 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 21:31:39,772 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:33:52,297 - INFO - Webhook установлен: True
+2025-06-23 21:33:52,311 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:33:52,311 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:33:52,311 - INFO - Scheduler started
+2025-06-23 21:33:52,311 - INFO - Сервер запущен 🚀
+2025-06-23 21:33:59,103 - INFO - Webhook установлен: True
+2025-06-23 21:33:59,123 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:33:59,124 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:33:59,124 - INFO - Scheduler started
+2025-06-23 21:33:59,124 - INFO - Сервер запущен 🚀
+2025-06-23 21:34:03,124 - INFO - Update id=811312626 is handled. Duration 1226 ms by bot id=7689522161
+2025-06-23 21:34:03,233 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:34:07,975 - INFO - Update id=811312627 is handled. Duration 82 ms by bot id=7689522161
+2025-06-23 21:34:08,060 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:34:09,546 - INFO - Update id=811312628 is handled. Duration 185 ms by bot id=7689522161
+2025-06-23 21:34:09,629 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:36:12,307 - INFO - Webhook установлен: True
+2025-06-23 21:36:12,330 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:36:12,331 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:36:12,331 - INFO - Scheduler started
+2025-06-23 21:36:12,331 - INFO - Сервер запущен 🚀
+2025-06-23 21:36:17,121 - INFO - Update id=811312629 is handled. Duration 1378 ms by bot id=7689522161
+2025-06-23 21:36:17,338 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:36:19,349 - INFO - Update id=811312630 is handled. Duration 97 ms by bot id=7689522161
+2025-06-23 21:36:19,436 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:36:21,004 - INFO - Update id=811312631 is handled. Duration 84 ms by bot id=7689522161
+2025-06-23 21:36:21,088 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:36:26,546 - INFO - Update id=811312632 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-23 21:36:26,630 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:36:33,626 - INFO - Update id=811312633 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-23 21:36:33,712 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:39:47,361 - INFO - Webhook установлен: True
+2025-06-23 21:39:47,383 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:39:47,384 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:39:47,384 - INFO - Scheduler started
+2025-06-23 21:39:47,384 - INFO - Сервер запущен 🚀
+2025-06-23 21:39:51,908 - INFO - Update id=811312634 is handled. Duration 1338 ms by bot id=7689522161
+2025-06-23 21:39:52,015 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:39:54,214 - INFO - Update id=811312635 is handled. Duration 76 ms by bot id=7689522161
+2025-06-23 21:39:54,295 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:39:55,457 - INFO - Update id=811312636 is handled. Duration 91 ms by bot id=7689522161
+2025-06-23 21:39:55,541 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:39:56,470 - INFO - Update id=811312637 is handled. Duration 74 ms by bot id=7689522161
+2025-06-23 21:39:56,553 - INFO - Ответ от AmoCRM: 
+2025-06-23 21:59:30,341 - INFO - Webhook установлен: True
+2025-06-23 21:59:30,364 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-23 21:59:30,364 - INFO - Added job "senddbfile" to job store "default"
+2025-06-23 21:59:30,364 - INFO - Scheduler started
+2025-06-23 21:59:30,364 - INFO - Сервер запущен 🚀
+2025-06-24 05:05:59,657 - INFO - Webhook установлен: True
+2025-06-24 05:05:59,681 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:05:59,681 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:05:59,681 - INFO - Scheduler started
+2025-06-24 05:05:59,681 - INFO - Сервер запущен 🚀
+2025-06-24 05:06:05,211 - INFO - Update id=811312638 is handled. Duration 1386 ms by bot id=7689522161
+2025-06-24 05:06:05,372 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:06,559 - INFO - Update id=811312639 is handled. Duration 145 ms by bot id=7689522161
+2025-06-24 05:06:06,641 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:10,245 - INFO - Update id=811312640 is handled. Duration 345 ms by bot id=7689522161
+2025-06-24 05:06:10,330 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:14,823 - INFO - Update id=811312641 is handled. Duration 279 ms by bot id=7689522161
+2025-06-24 05:06:14,910 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:15,684 - INFO - Update id=811312642 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:06:15,771 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:18,395 - INFO - Update id=811312643 is handled. Duration 305 ms by bot id=7689522161
+2025-06-24 05:06:18,481 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:20,418 - INFO - Update id=811312644 is handled. Duration 103 ms by bot id=7689522161
+2025-06-24 05:06:20,504 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:06:23,984 - INFO - Update id=811312645 is handled. Duration 476 ms by bot id=7689522161
+2025-06-24 05:06:24,069 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:07:21,294 - INFO - Webhook установлен: True
+2025-06-24 05:07:21,317 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:07:21,318 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:07:21,318 - INFO - Scheduler started
+2025-06-24 05:07:21,318 - INFO - Сервер запущен 🚀
+2025-06-24 05:07:39,151 - INFO - Webhook установлен: True
+2025-06-24 05:07:39,171 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:07:39,171 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:07:39,171 - INFO - Scheduler started
+2025-06-24 05:07:39,171 - INFO - Сервер запущен 🚀
+2025-06-24 05:08:29,431 - INFO - Webhook установлен: True
+2025-06-24 05:08:29,452 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:08:29,453 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:08:29,453 - INFO - Scheduler started
+2025-06-24 05:08:29,453 - INFO - Сервер запущен 🚀
+2025-06-24 05:08:33,108 - INFO - Update id=811312646 is handled. Duration 1182 ms by bot id=7689522161
+2025-06-24 05:08:33,229 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:20:52,486 - INFO - Webhook установлен: True
+2025-06-24 05:20:52,510 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:20:52,511 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:20:52,511 - INFO - Scheduler started
+2025-06-24 05:20:52,511 - INFO - Сервер запущен 🚀
+2025-06-24 05:23:46,021 - INFO - Webhook установлен: True
+2025-06-24 05:23:46,042 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:23:46,043 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:23:46,043 - INFO - Scheduler started
+2025-06-24 05:23:46,043 - INFO - Сервер запущен 🚀
+2025-06-24 05:23:50,036 - INFO - Update id=811312647 is handled. Duration 1333 ms by bot id=7689522161
+2025-06-24 05:23:50,918 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:23:52,467 - INFO - Update id=811312648 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:23:52,551 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:24:05,491 - INFO - Update id=811312649 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:24:05,579 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:24:15,289 - INFO - Update id=811312650 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:24:15,380 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:24:18,734 - INFO - Update id=811312651 is handled. Duration 75 ms by bot id=7689522161
+2025-06-24 05:24:18,817 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:24:20,711 - INFO - Update id=811312652 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-24 05:24:20,778 - INFO - Update id=811312652 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-24 05:24:22,838 - INFO - Update id=811312652 is not handled. Duration 3 ms by bot id=7689522161
+2025-06-24 05:25:10,968 - INFO - Webhook установлен: True
+2025-06-24 05:25:10,989 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:25:10,990 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:25:10,990 - INFO - Scheduler started
+2025-06-24 05:25:10,990 - INFO - Сервер запущен 🚀
+2025-06-24 05:25:20,475 - INFO - Update id=811312654 is handled. Duration 1126 ms by bot id=7689522161
+2025-06-24 05:25:21,441 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:25:25,652 - INFO - Update id=811312655 is handled. Duration 84 ms by bot id=7689522161
+2025-06-24 05:25:25,738 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:25:36,792 - INFO - Update id=811312656 is handled. Duration 79 ms by bot id=7689522161
+2025-06-24 05:25:36,875 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:25:40,853 - INFO - Update id=811312657 is handled. Duration 82 ms by bot id=7689522161
+2025-06-24 05:25:40,938 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:25:46,361 - INFO - Update id=811312658 is handled. Duration 94 ms by bot id=7689522161
+2025-06-24 05:25:46,442 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:25:48,824 - INFO - Update id=811312659 is not handled. Duration 250 ms by bot id=7689522161
+2025-06-24 05:25:49,088 - INFO - Update id=811312659 is not handled. Duration 189 ms by bot id=7689522161
+2025-06-24 05:25:51,340 - INFO - Update id=811312659 is not handled. Duration 187 ms by bot id=7689522161
+2025-06-24 05:25:55,591 - INFO - Update id=811312659 is not handled. Duration 185 ms by bot id=7689522161
+2025-06-24 05:26:31,503 - INFO - Webhook установлен: True
+2025-06-24 05:26:31,526 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:26:31,527 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:26:31,527 - INFO - Scheduler started
+2025-06-24 05:26:31,528 - INFO - Сервер запущен 🚀
+2025-06-24 05:26:37,779 - INFO - Update id=811312661 is handled. Duration 1095 ms by bot id=7689522161
+2025-06-24 05:26:37,881 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:39,942 - INFO - Update id=811312662 is handled. Duration 105 ms by bot id=7689522161
+2025-06-24 05:26:40,027 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:42,108 - INFO - Update id=811312663 is handled. Duration 121 ms by bot id=7689522161
+2025-06-24 05:26:42,195 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:42,516 - INFO - Update id=811312664 is handled. Duration 141 ms by bot id=7689522161
+2025-06-24 05:26:42,602 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:45,277 - INFO - Update id=811312665 is handled. Duration 80 ms by bot id=7689522161
+2025-06-24 05:26:45,364 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:55,922 - INFO - Update id=811312666 is handled. Duration 326 ms by bot id=7689522161
+2025-06-24 05:26:56,006 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:26:57,917 - INFO - Update id=811312667 is handled. Duration 87 ms by bot id=7689522161
+2025-06-24 05:26:58,002 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:27:04,747 - INFO - Update id=811312668 is handled. Duration 111 ms by bot id=7689522161
+2025-06-24 05:27:04,833 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:27:09,733 - INFO - Update id=811312669 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:27:09,815 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:27:12,397 - INFO - Update id=811312670 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:27:12,478 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:27:14,644 - INFO - Update id=811312671 is not handled. Duration 234 ms by bot id=7689522161
+2025-06-24 05:27:14,909 - INFO - Update id=811312671 is not handled. Duration 196 ms by bot id=7689522161
+2025-06-24 05:27:17,170 - INFO - Update id=811312671 is not handled. Duration 199 ms by bot id=7689522161
+2025-06-24 05:27:21,433 - INFO - Update id=811312671 is not handled. Duration 199 ms by bot id=7689522161
+2025-06-24 05:27:29,692 - INFO - Update id=811312671 is not handled. Duration 196 ms by bot id=7689522161
+2025-06-24 05:27:45,960 - INFO - Update id=811312671 is not handled. Duration 206 ms by bot id=7689522161
+2025-06-24 05:27:50,242 - INFO - Webhook установлен: True
+2025-06-24 05:27:50,257 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:27:50,258 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:27:50,258 - INFO - Scheduler started
+2025-06-24 05:27:50,258 - INFO - Сервер запущен 🚀
+2025-06-24 05:27:55,894 - INFO - Webhook установлен: True
+2025-06-24 05:27:55,916 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:27:55,917 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:27:55,917 - INFO - Scheduler started
+2025-06-24 05:27:55,917 - INFO - Сервер запущен 🚀
+2025-06-24 05:27:57,178 - INFO - Update id=811312672 is handled. Duration 1180 ms by bot id=7689522161
+2025-06-24 05:27:57,286 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:27:59,109 - INFO - Update id=811312673 is handled. Duration 88 ms by bot id=7689522161
+2025-06-24 05:27:59,196 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:28:12,687 - INFO - Update id=811312674 is handled. Duration 73 ms by bot id=7689522161
+2025-06-24 05:28:12,783 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:28:20,079 - INFO - Update id=811312675 is handled. Duration 84 ms by bot id=7689522161
+2025-06-24 05:28:20,162 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:28:22,734 - INFO - Update id=811312676 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:28:22,818 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:28:26,194 - INFO - Update id=811312677 is not handled. Duration 267 ms by bot id=7689522161
+2025-06-24 05:28:26,464 - INFO - Update id=811312677 is not handled. Duration 198 ms by bot id=7689522161
+2025-06-24 05:28:28,723 - INFO - Update id=811312677 is not handled. Duration 198 ms by bot id=7689522161
+2025-06-24 05:29:29,997 - INFO - Webhook установлен: True
+2025-06-24 05:29:30,016 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:29:30,017 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:29:30,017 - INFO - Scheduler started
+2025-06-24 05:29:30,017 - INFO - Сервер запущен 🚀
+2025-06-24 05:29:34,679 - WARNING - [add_user] IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "telegram_users_tg_user_id_key"
+DETAIL:  Key ("userId")=(6355200375) already exists.
+[SQL: INSERT INTO telegram_users ("userId") VALUES ($1::BIGINT) RETURNING telegram_users.id, telegram_users."joinDate"]
+[parameters: (6355200375,)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-24 05:29:34,680 - INFO - Update id=811312678 is handled. Duration 1385 ms by bot id=7689522161
+2025-06-24 05:29:34,810 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:29:35,498 - INFO - Update id=811312679 is handled. Duration 340 ms by bot id=7689522161
+2025-06-24 05:29:35,581 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:29:36,891 - INFO - Update id=811312680 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:29:36,971 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:16,693 - INFO - Update id=811312681 is handled. Duration 395 ms by bot id=7689522161
+2025-06-24 05:30:16,776 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:18,379 - INFO - Update id=811312682 is handled. Duration 71 ms by bot id=7689522161
+2025-06-24 05:30:18,464 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:30,577 - INFO - Update id=811312683 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:30:30,800 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:40,177 - INFO - Update id=811312684 is handled. Duration 82 ms by bot id=7689522161
+2025-06-24 05:30:40,294 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:45,494 - INFO - Update id=811312685 is handled. Duration 106 ms by bot id=7689522161
+2025-06-24 05:30:45,578 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:30:47,433 - INFO - Update id=811312686 is not handled. Duration 230 ms by bot id=7689522161
+2025-06-24 05:30:47,708 - INFO - Update id=811312686 is not handled. Duration 207 ms by bot id=7689522161
+2025-06-24 05:30:49,975 - INFO - Update id=811312686 is not handled. Duration 202 ms by bot id=7689522161
+2025-06-24 05:30:54,237 - INFO - Update id=811312686 is not handled. Duration 199 ms by bot id=7689522161
+2025-06-24 05:31:02,497 - INFO - Update id=811312686 is not handled. Duration 195 ms by bot id=7689522161
+2025-06-24 05:32:03,009 - INFO - Webhook установлен: True
+2025-06-24 05:32:03,037 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:32:03,038 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:32:03,038 - INFO - Scheduler started
+2025-06-24 05:32:03,038 - INFO - Сервер запущен 🚀
+2025-06-24 05:32:08,132 - INFO - Update id=811312688 is handled. Duration 1195 ms by bot id=7689522161
+2025-06-24 05:32:08,238 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:32:10,207 - INFO - Update id=811312689 is handled. Duration 91 ms by bot id=7689522161
+2025-06-24 05:32:10,289 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:32:19,168 - INFO - Update id=811312690 is handled. Duration 74 ms by bot id=7689522161
+2025-06-24 05:32:19,251 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:32:25,977 - INFO - Update id=811312691 is handled. Duration 78 ms by bot id=7689522161
+2025-06-24 05:32:26,063 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:32:29,313 - INFO - Update id=811312692 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:32:29,396 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:32:31,268 - INFO - Update id=811312693 is not handled. Duration 281 ms by bot id=7689522161
+2025-06-24 05:32:31,545 - INFO - Update id=811312693 is not handled. Duration 207 ms by bot id=7689522161
+2025-06-24 05:32:33,813 - INFO - Update id=811312693 is not handled. Duration 207 ms by bot id=7689522161
+2025-06-24 05:32:38,080 - INFO - Update id=811312693 is not handled. Duration 208 ms by bot id=7689522161
+2025-06-24 05:32:46,352 - INFO - Update id=811312693 is not handled. Duration 209 ms by bot id=7689522161
+2025-06-24 05:33:02,627 - INFO - Update id=811312693 is not handled. Duration 214 ms by bot id=7689522161
+2025-06-24 05:33:28,304 - INFO - Webhook установлен: True
+2025-06-24 05:33:28,332 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:33:28,332 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:33:28,332 - INFO - Scheduler started
+2025-06-24 05:33:28,332 - INFO - Сервер запущен 🚀
+2025-06-24 05:33:31,970 - INFO - Update id=811312694 is handled. Duration 1203 ms by bot id=7689522161
+2025-06-24 05:33:32,839 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:33:34,254 - INFO - Update id=811312695 is handled. Duration 107 ms by bot id=7689522161
+2025-06-24 05:33:34,340 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:33:36,631 - INFO - Update id=811312696 is handled. Duration 111 ms by bot id=7689522161
+2025-06-24 05:33:36,712 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:33:37,194 - INFO - Update id=811312697 is handled. Duration 94 ms by bot id=7689522161
+2025-06-24 05:33:37,293 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:33:37,935 - INFO - Update id=811312698 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:33:38,022 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:33:40,005 - INFO - Update id=811312699 is handled. Duration 379 ms by bot id=7689522161
+2025-06-24 05:33:40,089 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:34:17,873 - INFO - Update id=811312700 is handled. Duration 217 ms by bot id=7689522161
+2025-06-24 05:34:17,959 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:34:19,707 - INFO - Update id=811312701 is handled. Duration 87 ms by bot id=7689522161
+2025-06-24 05:34:19,794 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:34:20,411 - INFO - Update id=811312702 is handled. Duration 74 ms by bot id=7689522161
+2025-06-24 05:34:20,493 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:34:20,985 - INFO - Update id=811312703 is handled. Duration 87 ms by bot id=7689522161
+2025-06-24 05:34:21,068 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:34:21,936 - INFO - Update id=811312704 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-24 05:34:21,998 - INFO - Update id=811312704 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-24 05:34:24,057 - INFO - Update id=811312704 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-24 05:34:28,118 - INFO - Update id=811312704 is not handled. Duration 1 ms by bot id=7689522161
+2025-06-24 05:34:36,178 - INFO - Update id=811312704 is not handled. Duration 2 ms by bot id=7689522161
+2025-06-24 05:36:32,540 - INFO - Webhook установлен: True
+2025-06-24 05:36:32,559 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:36:32,560 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:36:32,560 - INFO - Scheduler started
+2025-06-24 05:36:32,560 - INFO - Сервер запущен 🚀
+2025-06-24 05:36:52,963 - INFO - Webhook установлен: True
+2025-06-24 05:36:52,982 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:36:52,983 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:36:52,983 - INFO - Scheduler started
+2025-06-24 05:36:52,983 - INFO - Сервер запущен 🚀
+2025-06-24 05:36:56,511 - INFO - Webhook установлен: True
+2025-06-24 05:36:56,536 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:36:56,536 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:36:56,536 - INFO - Scheduler started
+2025-06-24 05:36:56,536 - INFO - Сервер запущен 🚀
+2025-06-24 05:36:58,655 - INFO - Update id=811312707 is handled. Duration 1317 ms by bot id=7689522161
+2025-06-24 05:36:58,833 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:37:03,488 - INFO - Update id=811312708 is handled. Duration 78 ms by bot id=7689522161
+2025-06-24 05:37:03,574 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:37:05,327 - INFO - Update id=811312709 is handled. Duration 505 ms by bot id=7689522161
+2025-06-24 05:37:05,408 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:37:09,346 - INFO - Update id=811312710 is handled. Duration 279 ms by bot id=7689522161
+2025-06-24 05:37:09,430 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:37:51,421 - INFO - Update id=811312711 is handled. Duration 438 ms by bot id=7689522161
+2025-06-24 05:37:51,504 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:38:28,116 - INFO - Webhook установлен: True
+2025-06-24 05:38:28,146 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:38:28,147 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:38:28,147 - INFO - Scheduler started
+2025-06-24 05:38:28,147 - INFO - Сервер запущен 🚀
+2025-06-24 05:38:34,957 - INFO - Update id=811312712 is handled. Duration 1059 ms by bot id=7689522161
+2025-06-24 05:38:35,061 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:38:53,389 - INFO - Update id=811312713 is handled. Duration 185 ms by bot id=7689522161
+2025-06-24 05:38:53,477 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:39:04,665 - INFO - Update id=811312714 is handled. Duration 114 ms by bot id=7689522161
+2025-06-24 05:39:04,783 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:39:09,324 - INFO - Update id=811312715 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:39:09,411 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:39:12,694 - INFO - Update id=811312716 is handled. Duration 75 ms by bot id=7689522161
+2025-06-24 05:39:12,775 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:39:14,794 - INFO - Update id=811312717 is not handled. Duration 298 ms by bot id=7689522161
+2025-06-24 05:39:15,179 - INFO - Update id=811312717 is handled. Duration 308 ms by bot id=7689522161
+2025-06-24 05:39:15,264 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:43:40,675 - INFO - Webhook установлен: True
+2025-06-24 05:43:40,695 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:43:40,696 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:43:40,696 - INFO - Scheduler started
+2025-06-24 05:43:40,696 - INFO - Сервер запущен 🚀
+2025-06-24 05:45:28,251 - INFO - Webhook установлен: True
+2025-06-24 05:45:28,281 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:45:28,282 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:45:28,282 - INFO - Scheduler started
+2025-06-24 05:45:28,282 - INFO - Сервер запущен 🚀
+2025-06-24 05:45:35,878 - INFO - Update id=811312718 is handled. Duration 1310 ms by bot id=7689522161
+2025-06-24 05:45:36,156 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:45:41,385 - INFO - Update id=811312719 is handled. Duration 77 ms by bot id=7689522161
+2025-06-24 05:45:41,476 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:45:43,557 - INFO - Update id=811312720 is handled. Duration 408 ms by bot id=7689522161
+2025-06-24 05:45:43,641 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:45:46,412 - INFO - Update id=811312721 is handled. Duration 271 ms by bot id=7689522161
+2025-06-24 05:45:46,494 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:45:49,197 - INFO - Update id=811312722 is handled. Duration 94 ms by bot id=7689522161
+2025-06-24 05:45:49,278 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:45:55,679 - INFO - Update id=811312723 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:45:55,763 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:03,740 - INFO - Update id=811312724 is handled. Duration 80 ms by bot id=7689522161
+2025-06-24 05:46:03,825 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:07,910 - INFO - Update id=811312725 is handled. Duration 79 ms by bot id=7689522161
+2025-06-24 05:46:07,994 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:12,101 - INFO - Update id=811312726 is handled. Duration 122 ms by bot id=7689522161
+2025-06-24 05:46:12,186 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:16,102 - INFO - Update id=811312727 is handled. Duration 564 ms by bot id=7689522161
+2025-06-24 05:46:16,186 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:27,602 - INFO - Update id=811312728 is handled. Duration 81 ms by bot id=7689522161
+2025-06-24 05:46:27,684 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:31,243 - INFO - Update id=811312729 is handled. Duration 334 ms by bot id=7689522161
+2025-06-24 05:46:31,329 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:33,169 - INFO - Update id=811312730 is handled. Duration 294 ms by bot id=7689522161
+2025-06-24 05:46:33,259 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:36,105 - INFO - Update id=811312731 is handled. Duration 83 ms by bot id=7689522161
+2025-06-24 05:46:36,188 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:37,572 - INFO - Update id=811312732 is handled. Duration 118 ms by bot id=7689522161
+2025-06-24 05:46:37,676 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:38,112 - INFO - Update id=811312733 is handled. Duration 91 ms by bot id=7689522161
+2025-06-24 05:46:38,200 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:38,692 - INFO - Update id=811312734 is handled. Duration 111 ms by bot id=7689522161
+2025-06-24 05:46:38,775 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:39,810 - INFO - Update id=811312735 is handled. Duration 514 ms by bot id=7689522161
+2025-06-24 05:46:39,896 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:50,521 - INFO - Update id=811312736 is handled. Duration 78 ms by bot id=7689522161
+2025-06-24 05:46:50,606 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:46:52,295 - INFO - Update id=811312737 is handled. Duration 330 ms by bot id=7689522161
+2025-06-24 05:46:52,404 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:47:00,816 - INFO - Update id=811312738 is handled. Duration 268 ms by bot id=7689522161
+2025-06-24 05:47:00,900 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:47:21,497 - INFO - Webhook установлен: True
+2025-06-24 05:47:21,525 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:47:21,526 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:47:21,526 - INFO - Scheduler started
+2025-06-24 05:47:21,526 - INFO - Сервер запущен 🚀
+2025-06-24 05:51:20,391 - INFO - Update id=811312739 is handled. Duration 1500 ms by bot id=7689522161
+2025-06-24 05:51:21,280 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:23,259 - INFO - Update id=811312740 is handled. Duration 82 ms by bot id=7689522161
+2025-06-24 05:51:23,343 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:25,428 - INFO - Update id=811312741 is handled. Duration 412 ms by bot id=7689522161
+2025-06-24 05:51:25,513 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:27,653 - INFO - Update id=811312742 is handled. Duration 273 ms by bot id=7689522161
+2025-06-24 05:51:27,742 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:33,349 - INFO - Update id=811312743 is handled. Duration 75 ms by bot id=7689522161
+2025-06-24 05:51:33,434 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:36,614 - INFO - Update id=811312744 is handled. Duration 152 ms by bot id=7689522161
+2025-06-24 05:51:36,705 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:37,457 - INFO - Update id=811312745 is handled. Duration 135 ms by bot id=7689522161
+2025-06-24 05:51:37,541 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:38,732 - INFO - Update id=811312746 is handled. Duration 79 ms by bot id=7689522161
+2025-06-24 05:51:38,820 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:39,809 - INFO - Update id=811312747 is handled. Duration 533 ms by bot id=7689522161
+2025-06-24 05:51:39,891 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:42,739 - INFO - Update id=811312748 is handled. Duration 76 ms by bot id=7689522161
+2025-06-24 05:51:42,822 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:45,547 - INFO - Update id=811312749 is handled. Duration 317 ms by bot id=7689522161
+2025-06-24 05:51:45,634 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:51:50,100 - INFO - Update id=811312750 is handled. Duration 299 ms by bot id=7689522161
+2025-06-24 05:51:50,185 - INFO - Ответ от AmoCRM: 

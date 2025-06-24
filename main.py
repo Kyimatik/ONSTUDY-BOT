@@ -49,6 +49,8 @@ import aiosqlite
 # импорты роутеров
 from dbmedia.start import router as startrouter
 from dbmedia.callbacks import router as callbackrouter
+from dbmedia.adminPanel import router as adminrouter
+
 
 from dbmedia.payments import router as pay_router
 
@@ -453,6 +455,7 @@ async def setup():
     dp.include_router(router)
     dp.include_router(startrouter)
     dp.include_router(pay_router)
+    dp.include_router(adminrouter)
 
     
     # Настройка планировщика
