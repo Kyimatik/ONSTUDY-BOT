@@ -1587,3 +1587,23 @@ DETAIL:  Key ("userId")=(6355200375) already exists.
 2025-06-24 05:51:45,634 - INFO - Ответ от AmoCRM: 
 2025-06-24 05:51:50,100 - INFO - Update id=811312750 is handled. Duration 299 ms by bot id=7689522161
 2025-06-24 05:51:50,185 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:55:29,832 - INFO - Webhook установлен: True
+2025-06-24 05:55:29,853 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:55:29,854 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:55:29,854 - INFO - Scheduler started
+2025-06-24 05:55:29,854 - INFO - Сервер запущен 🚀
+2025-06-24 05:55:31,157 - INFO - Update id=811312752 is handled. Duration 108 ms by bot id=7689522161
+2025-06-24 05:55:31,260 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:55:34,627 - INFO - Update id=811312753 is handled. Duration 104 ms by bot id=7689522161
+2025-06-24 05:55:34,716 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:58:14,256 - INFO - Webhook установлен: True
+2025-06-24 05:58:14,277 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-24 05:58:14,278 - INFO - Added job "senddbfile" to job store "default"
+2025-06-24 05:58:14,278 - INFO - Scheduler started
+2025-06-24 05:58:14,278 - INFO - Сервер запущен 🚀
+2025-06-24 05:58:22,302 - INFO - Update id=811312754 is handled. Duration 1421 ms by bot id=7689522161
+2025-06-24 05:58:22,485 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:58:25,483 - INFO - Update id=811312755 is handled. Duration 104 ms by bot id=7689522161
+2025-06-24 05:58:25,568 - INFO - Ответ от AmoCRM: 
+2025-06-24 05:58:26,730 - INFO - Update id=811312756 is handled. Duration 334 ms by bot id=7689522161
+2025-06-24 05:58:26,816 - INFO - Ответ от AmoCRM: 

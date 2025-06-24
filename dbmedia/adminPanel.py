@@ -19,7 +19,20 @@ router = Router()
 
 @router.message(F.text == "X нажми ❌")
 async def cancelOperation(message: Message, state: FSMContext):
-    await message.answer("Вы отменили действие!")
+    async with get_db() as session:
+        result = await session.execute(select(Appointment))
+        appointments = result.scalars().all()
+    keyboard = ReplyKeyboardBuilder()
+    
+    for appointment in appointments:
+        keyboard.button(
+            text=f"_{appointment.title}_{appointment.id}"
+        )
+    keyboard.adjust(3)
+    keyboard.button(
+        text="Создать"
+        )
+    await message.answer("Вы отменили действие!",reply_markup=keyboard.as_markup(resize_keyboard=True))
     await state.clear()
     return 
 
