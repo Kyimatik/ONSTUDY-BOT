@@ -186,11 +186,14 @@ async def editOptionsinMake(message: Message, state : FSMContext):
         async with get_db() as session:
             result = await session.execute(select(Appointment).where(Appointment.id == int(ID)))
             appointment = result.scalars().first()
-            await message.answer(f"""Дата - {appointment.date}
-Тема - {appointment.title}
-Время - {appointment.time}
-Количество человек максимум - {appointment.count_of_slots}
-""")
+            if appointment:
+                await message.answer(f"""Дата - {appointment.date}
+    Тема - {appointment.title}
+    Время - {appointment.time}
+    Количество человек максимум - {appointment.count_of_slots}
+    """)
+            else:
+                await message.answer("Такой записи нету в Базе Данных!")
     elif option == "Назад":
         async with get_db() as session:
             result = await session.execute(select(Appointment))
