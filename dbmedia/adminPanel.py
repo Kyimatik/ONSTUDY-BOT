@@ -191,7 +191,9 @@ async def editOptionsinMake(message: Message, state : FSMContext):
     Тема - {appointment.title}
     Время - {appointment.time}
     Количество человек максимум - {appointment.count_of_slots}
-    """)
+    """)        
+                allUsers = [i.username for i in appointment.registered_users]
+                await message.answer(f"Зарегавшиеся люди  -> {allUsers}")
             else:
                 await message.answer("Такой записи нету в Базе Данных!")
     elif option == "Назад":

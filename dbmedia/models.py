@@ -5,6 +5,8 @@ from uuid import UUID, uuid4
 from sqlalchemy import String, DateTime, Integer, Boolean, BigInteger, Column, ForeignKey, TIMESTAMP
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.sql import func
+from sqlalchemy.dialects.postgresql import ARRAY, VARCHAR
+from sqlalchemy.ext.mutable import MutableList
 
 from dbmedia.session import Base
 
@@ -92,6 +94,9 @@ class Appointment(Base):
     time = Column(String, nullable=False)
     title = Column(String, nullable=False)
     count_of_slots = Column(Integer, nullable=False)
+    registered_users = Column(MutableList.as_mutable(ARRAY(VARCHAR)), default=list)
+
+
 
     def __repr__(self):
         return f"<Appointment(id={self.id}, date={self.date}, time={self.time}, title='{self.title}', count_of_slots={self.count_of_slots})>"
@@ -106,7 +111,5 @@ class TgUsers(Base):
     joinDate = Column(TIMESTAMP, nullable=False, server_default=func.now())
 
     def __repr__(self):
-        return f"<TgUser tg_user_id={self.userId} joined_at={self.joinDate}>"
+        return f"<TgUser tg_user_id={self.tg_user_id} joined_at={self.join_date}>"
 
-
-    
