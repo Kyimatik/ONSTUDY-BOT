@@ -112,4 +112,3 @@ class TgUsers(Base):
 
     def __repr__(self):
         return f"<TgUser tg_user_id={self.tg_user_id} joined_at={self.join_date}>"
-

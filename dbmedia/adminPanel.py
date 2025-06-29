@@ -12,7 +12,7 @@ from dbmedia.config import Admins
 from dbmedia.models import Appointment
 from buttons import Cancel
 from dbmedia.states import NewAppointment,TitleApp, DateApp, TimeApp, SlotApp
-
+from dbmedia.bot_instance import bot
 from dbmedia.session import get_db
 
 router = Router()
@@ -192,8 +192,16 @@ async def editOptionsinMake(message: Message, state : FSMContext):
     Время - {appointment.time}
     Количество человек максимум - {appointment.count_of_slots}
     """)        
-                allUsers = [i.username for i in appointment.registered_users]
-                await message.answer(f"Зарегавшиеся люди  -> {allUsers}")
+                usernames = []        
+                for i in appointment.registered_users:
+                    ll = int(i)
+                    try:
+                        user = await bot.get_chat(ll)
+                        usernames.append("@" + user.username if user.username else f"id: {ll}")
+                    except Exception as e:
+                        usernames.append(f"[не найден: {i}]")
+
+                await message.answer(f"Зарегавшиеся люди  -> {usernames}")
             else:
                 await message.answer("Такой записи нету в Базе Данных!")
     elif option == "Назад":
