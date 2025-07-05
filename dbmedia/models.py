@@ -8,7 +8,7 @@ from sqlalchemy.sql import func
 from sqlalchemy.dialects.postgresql import ARRAY, VARCHAR
 from sqlalchemy.ext.mutable import MutableList
 
-from dbmedia.session import Base
+from .session import Base
 
 
 
@@ -112,3 +112,4 @@ class TgUsers(Base):
 
     def __repr__(self):
         return f"<TgUser tg_user_id={self.tg_user_id} joined_at={self.join_date}>"
+

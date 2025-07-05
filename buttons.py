@@ -232,6 +232,42 @@ tggroup = InlineKeyboardMarkup(
 
 )
 
+basic = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_basic")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_basic")
+        ]
+    ]
+
+)
+
+standart = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_standart")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_standart")
+        ]
+    ]
+
+)
+
+
+premium = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_premium")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_premium")
+        ]
+    ]
+
+)
 
 
 
