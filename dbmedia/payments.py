@@ -19,6 +19,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
 from apscheduler.executors.asyncio import AsyncIOExecutor
 
+from aiogram.types import ChatInviteLink
 
 load_dotenv("onstudy.env")
 LIVE_TOKEN = os.getenv("LIVE_TOKEN")
@@ -35,7 +36,7 @@ scheduler.start()
 
 
 
-
+# Крон на удаление пользователя 
 def schedule_user_kick(chat_id: int, user_id: int, run_date: datetime):
     scheduler.add_job(
         func=kick_user_from_group,
@@ -47,13 +48,13 @@ def schedule_user_kick(chat_id: int, user_id: int, run_date: datetime):
         misfire_grace_time=3600 * 24
     )
 
-
+# Сам кик 
 async def kick_user_from_group(chat_id: int, user_id: int):
     try:
         await bot.ban_chat_member(chat_id, user_id)
         await bot.unban_chat_member(chat_id, user_id)
         async with get_db() as db:
-            result = await db.execute(select(User).where(User.id == user_id))
+            result = await db.execute(select(User).where(User.tg_id == user_id))
             user = result.scalars().first()
             if user:
                 user.expired_date = None
@@ -61,6 +62,7 @@ async def kick_user_from_group(chat_id: int, user_id: int):
         logging.info(f"❌ Пользователь {user_id} удалён из {chat_id}")
     except Exception as e:
         logging.warning(f"Ошибка при удалении пользователя: {e}")
+
 
 
 
@@ -92,6 +94,7 @@ async def choose_range(callback: CallbackQuery):
 
 @router.callback_query(lambda c: c.data and c.data.startswith("mon"))
 async def choose_tariff_length(callback: CallbackQuery):
+    user_id = callback.from_user.id
     term = callback.data
     tariff = callback.data.split("_")[1]
 
@@ -119,7 +122,7 @@ async def choose_tariff_length(callback: CallbackQuery):
         currency="KGS",
         prices=[price],
         start_parameter=f"buy_{tariff}",
-        payload=f"{clean_tar}_{tariff}",
+        payload=f"{clean_tar}_{tariff}_{user_id}",
         need_phone_number=True,
         need_email=True,
         send_phone_number_to_provider=True,
@@ -143,7 +146,7 @@ async def process_successful_payment(message: Message):
     today = datetime.utcnow()
 
     try:
-        clean_tar, tariff = payment.invoice_payload.split("_")
+        clean_tar, tariff, nonething = payment.invoice_payload.split("_")
     except Exception:
         await message.answer("Ошибка в структуре платежа.")
         return
@@ -165,7 +168,7 @@ async def process_successful_payment(message: Message):
         return
 
     async with get_db() as db:
-        result = await db.execute(select(User).where(User.id == user_id))
+        result = await db.execute(select(User).where(User.tg_id == user_id))
         user = result.scalars().first()
 
         if user:
@@ -180,6 +183,20 @@ async def process_successful_payment(message: Message):
             await db.commit()
 
             schedule_user_kick(chat_id=GROUP_CHAT_ID, user_id=user_id, run_date=expires_at)
+        else:
+            expires_at = today + timedelta(days=days)
+            new_user = User(tg_id=user_id,sub_type=tariff,last_payment=today,expired_date=expires_at)
+            db.add(new_user)
+            db.commit()
 
     await message.answer("✅ Спасибо за покупку!")
+    await message.answer("""Уникальная ссылка для вхождения в группу.
+По ней можно зайти только один раз , и не вздумайте передавать ее другим. Услугами все равно невозможно будет пользоваться.
+""")
+    result = await bot.create_chat_invite_link(chat_id=-1002741216292,member_limit=1) 
+    await message.answer(f"{result.invite_link}")
     logging.info(f"Оплата прошла успешно от {user_id}. Тариф: {tariff}")
+
+
+
+    
