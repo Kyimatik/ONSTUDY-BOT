@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 import os
 import logging
 from sqlalchemy.future import select
+from sqlalchemy import and_
 from buttons import basic, standart, premium
 from .session import get_db
 from .models import User
@@ -85,6 +86,19 @@ async def choose_range(callback: CallbackQuery):
         "standart": standart,
         "premium": premium
     }.get(tariff)
+    async with get_db() as db:
+        stmt = select(User).where(User.tg_id == callback.from_user.id)
+        result = await db.execute(stmt)
+        user = result.scalars().first()
+    
+        if user:
+            exact_pers = user.sub_type
+            if exact_pers != tariff:
+                await callback.message.answer(
+                    "Вы можете сменить тариф только по окончании вашей подписки.\n"
+                    "Сейчас вы можете только продлить существующую."
+                )
+                return            
 
     if reply_markup:
         await callback.message.answer("На сколько хотите подписку?", reply_markup=reply_markup)

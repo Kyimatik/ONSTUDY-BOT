@@ -13,8 +13,15 @@ async def get_all_users(session: AsyncSession) -> list[int]:
 
 # Добавление пользователя
 async def add_user(session: AsyncSession, user_id: int) -> bool:
-    new_user = TgUsers(userId=user_id)
-    session.add(new_user)
+    stmt = select(TgUsers)
+    quR = await session.execute(stmt)
+    res = quR.scalars().all()
+    new_list = [i.userId for i in res]
+    if user_id not in new_list:
+        new_user = TgUsers(userId=user_id)
+        session.add(new_user)
+    else:
+        return 
     try:
         await session.flush()
         await session.commit()

@@ -44,7 +44,7 @@ from dbmedia.states import consult
 
 import aiosqlite
 
-
+from dbmedia.start import testFunc
 
 # импорты роутеров
 from dbmedia.start import router as startrouter
@@ -63,12 +63,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 
-logging.basicConfig(
-    level=logging.INFO,  # Теперь записывает DEBUG, INFO, WARNING, ERROR, CRITICAL
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="OnStudyprep.log",
-    filemode="a"
-)
+
 
 
 
@@ -118,7 +113,7 @@ async def webhook_handler(request: Request):
     async with aiohttp.ClientSession() as session:
         async with session.post(AMOCRM_WEBHOOK_URL, json=update_data) as response:
             amo_response = await response.text()
-            logging.info(f"Ответ от AmoCRM: {amo_response}")
+            
     
     return {"ok": True}
 
@@ -448,6 +443,12 @@ async def get_info(message: Message, state: FSMContext):
 
 
 async def setup():
+    logging.basicConfig(
+    level=logging.INFO,  # Теперь записывает DEBUG, INFO, WARNING, ERROR, CRITICAL
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    filename="onstudy.log",
+    filemode="a"
+)
     
     
     # Регистрация роутеров
@@ -460,8 +461,8 @@ async def setup():
     
     # Настройка планировщика
     scheduler = AsyncIOScheduler(timezone=pytz.timezone("Asia/Bishkek"))
-    trigger_1 = CronTrigger(hour=22, minute=48, day_of_week="0-6", timezone="Asia/Bishkek")
-    scheduler.add_job(senddbfile, trigger_1)
+    trigger_2 = CronTrigger(hour=20, minute=37, day_of_week="0-6", timezone="Asia/Bishkek")
+    scheduler.add_job(testFunc, trigger_2)
     # Запускаем планировщик в фоновом режиме
     scheduler.start()
 
