@@ -378,6 +378,24 @@ async def get_answer_from_participate(callback: CallbackQuery, state: FSMContext
 
 
 
+def setup_logging():
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    # Удаляем все предыдущие хендлеры (если есть)
+    if logger.hasHandlers():
+        logger.handlers.clear()
+
+    # Создаём хендлер для файла
+    file_handler = logging.FileHandler("onstudy.log", mode="a", encoding="utf-8")
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+
+    # (необязательно) дублируем в консоль
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
 
 
 
@@ -394,21 +412,10 @@ async def get_answer_from_participate(callback: CallbackQuery, state: FSMContext
 
 
 
-async def senddbfile():
-    document = FSInputFile(r"../ON STUDY WEBHOOK/users.db")
-    await bot.send_document(bdgroupid,document,message_thread_id=1)
 
 
-# Отправка базы данных если что-то нужно будет
-@router.message(F.text.lower() == "бд")
-async def getdbofbot(message: Message):
-    usid = message.from_user.id
-    if message.from_user.id not in Admins:
-        await message.answer("Доступ запрещен!")
-    else:
-        document = FSInputFile(r"../ON STUDY WEBHOOK/users.db")
-        # await bot.send_document(bdgroupid,document)
-        await bot.send_document(usid,document)
+
+
 
 # Записаться на консультацию   
 @router.callback_query(lambda callback_query: callback_query.data == "consult")
@@ -443,12 +450,7 @@ async def get_info(message: Message, state: FSMContext):
 
 
 async def setup():
-    logging.basicConfig(
-    level=logging.INFO,  # Теперь записывает DEBUG, INFO, WARNING, ERROR, CRITICAL
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="onstudy.log",
-    filemode="a"
-)
+    setup_logging()
     
     
     # Регистрация роутеров
@@ -460,11 +462,11 @@ async def setup():
 
     
     # Настройка планировщика
-    scheduler = AsyncIOScheduler(timezone=pytz.timezone("Asia/Bishkek"))
-    trigger_2 = CronTrigger(hour=20, minute=37, day_of_week="0-6", timezone="Asia/Bishkek")
-    scheduler.add_job(testFunc, trigger_2)
-    # Запускаем планировщик в фоновом режиме
-    scheduler.start()
+    # scheduler = AsyncIOScheduler(timezone=pytz.timezone("Asia/Bishkek"))
+    # trigger_2 = CronTrigger(hour=16, minute=54, day_of_week="0-6", timezone="Asia/Bishkek")
+    # scheduler.add_job(testFunc, trigger_2)
+    # # Запускаем планировщик в фоновом режиме
+    # scheduler.start()
 
 
 

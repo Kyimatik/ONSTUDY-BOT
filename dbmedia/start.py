@@ -21,6 +21,7 @@ router = Router()  # Создаем отдельный роутер
 
 load_dotenv("onstudy.env")
 
+logger = logging.getLogger(__name__)
 
 chat_id  = int(os.getenv("GROUP_ID"))
 
@@ -68,36 +69,14 @@ async def getDataAbtUser(message: Message):
             await message.answer("Вы не покупали подписку")
 
 
-
-async def testFunc():
+@router.message(Command("v"))
+async def testFunc(message: Message):
     chat_id = -1002741216292
-
     async with get_db() as db:
-        stmt = select(User)
+        stmt = select(User).where(User.expired_date.isnot(None))
         result = await db.execute(stmt)
         users = result.scalars().all()
         listOfId = [i.tg_id for i in users]
-        new_list = []
-
-        for i in listOfId:
-            try:
-                member = await bot.get_chat_member(chat_id=chat_id, user_id=i)
-                if member.status == 'member':
-                    new_list.append(i)
-            except Exception as e:
-                logging.warning(f"Не удалось получить участника {i}: {e}")
+        await message.answer(f"{listOfId}")
         
-        for i in new_list:
-            res = await db.execute(select(User).where(User.tg_id == i))
-            user = res.scalars().first()
 
-            if user and user.expired_date is not None:
-                if user.expired_date <= datetime.utcnow():
-                    try:
-                        await bot.ban_chat_member(chat_id, i)
-                        await bot.unban_chat_member(chat_id, i)
-                        user.expired_date = None
-                        await db.commit()
-                        logging.info(f"❌ Пользователь {user.tg_id} удалён из {chat_id}")
-                    except Exception as e:
-                        logging.warning(f"Ошибка при удалении пользователя {i}: {e}")
