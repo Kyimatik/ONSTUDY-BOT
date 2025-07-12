@@ -69,14 +69,26 @@ async def getDataAbtUser(message: Message):
             await message.answer("Вы не покупали подписку")
 
 
-@router.message(Command("v"))
-async def testFunc(message: Message):
-    chat_id = -1002741216292
+async def CronFuncDelete():
     async with get_db() as db:
         stmt = select(User).where(User.expired_date.isnot(None))
         result = await db.execute(stmt)
         users = result.scalars().all()
+        print(users)
         listOfId = [i.tg_id for i in users]
-        await message.answer(f"{listOfId}")
-        
-
+        if listOfId == []:
+            logging.info("Нету людей , у которых прошла подписка!")
+            return 
+        for i in listOfId:
+            res = await bot.get_chat_member(chat_id, i)
+            selForUs = select(User).where(User.tg_id == res.user.id)
+            resultUs = await db.execute(selForUs)
+            user = resultUs.scalars().first()
+            if res.status == "member":
+                await bot.ban_chat_member(chat_id=chat_id, user_id=i)
+                user.expired_date = None
+                user.sub_type = None
+                await db.commit()
+                logging.info(f"Пользователь {i}|{res.user.username}")
+            else:   
+                continue

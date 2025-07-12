@@ -17,8 +17,7 @@ from .models import User
 from datetime import datetime, timedelta
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
-from apscheduler.executors.asyncio import AsyncIOExecutor
+
 
 from aiogram.types import ChatInviteLink
 
@@ -29,40 +28,10 @@ GROUP_CHAT_ID = int(os.getenv("GROUP_ID"))
 router = Router()
 
 
-scheduler = AsyncIOScheduler(
-    jobstores={'default': SQLAlchemyJobStore(url='sqlite:///jobs.db')},
-    executors={'default': AsyncIOExecutor()}
-)
-scheduler.start()
 
 
 
-# Крон на удаление пользователя 
-def schedule_user_kick(chat_id: int, user_id: int, run_date: datetime):
-    scheduler.add_job(
-        func=kick_user_from_group,
-        trigger='date',
-        run_date=run_date,
-        args=[chat_id, user_id],
-        id=f"kick_{chat_id}_{user_id}",
-        replace_existing=True,
-        misfire_grace_time=3600 * 24
-    )
 
-# Сам кик 
-async def kick_user_from_group(chat_id: int, user_id: int):
-    try:
-        await bot.ban_chat_member(chat_id, user_id)
-        await bot.unban_chat_member(chat_id, user_id)
-        async with get_db() as db:
-            result = await db.execute(select(User).where(User.tg_id == user_id))
-            user = result.scalars().first()
-            if user:
-                user.expired_date = None
-                await db.commit()
-        logging.info(f"❌ Пользователь {user_id} удалён из {chat_id}")
-    except Exception as e:
-        logging.warning(f"Ошибка при удалении пользователя: {e}")
 
 
 
@@ -87,18 +56,18 @@ async def choose_range(callback: CallbackQuery):
         "premium": premium
     }.get(tariff)
     async with get_db() as db:
+        print(callback.from_user.id)
         stmt = select(User).where(User.tg_id == callback.from_user.id)
         result = await db.execute(stmt)
         user = result.scalars().first()
     
-        if user:
-            exact_pers = user.sub_type
-            if exact_pers != tariff:
+        if user and user.sub_type and user.expired_date and user.expired_date > datetime.utcnow():
+            if user.sub_type != tariff:
                 await callback.message.answer(
-                    "Вы можете сменить тариф только по окончании вашей подписки.\n"
-                    "Сейчас вы можете только продлить существующую."
+                    "❌ Вы не можете сменить тариф до окончания текущей подписки.\n"
+                    "Сейчас вы можете только продлить свой тариф."
                 )
-                return            
+                return
 
     if reply_markup:
         await callback.message.answer("На сколько хотите подписку?", reply_markup=reply_markup)
@@ -196,13 +165,14 @@ async def process_successful_payment(message: Message):
             user.last_payment = today
             await db.commit()
 
-            schedule_user_kick(chat_id=GROUP_CHAT_ID, user_id=user_id, run_date=expires_at)
+
         else:
             expires_at = today + timedelta(days=days)
             new_user = User(tg_id=user_id,sub_type=tariff,last_payment=today,expired_date=expires_at)
             db.add(new_user)
             db.commit()
-
+    
+    await bot.unban_chat_member(chat_id=GROUP_CHAT_ID, user_id=message.from_user.id)
     await message.answer("✅ Спасибо за покупку!")
     await message.answer("""Уникальная ссылка для вхождения в группу.
 По ней можно зайти только один раз , и не вздумайте передавать ее другим. Услугами все равно невозможно будет пользоваться.

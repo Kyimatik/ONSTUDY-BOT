@@ -1,0 +1,315 @@
+2025-07-07 10:52:56,608 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-07 10:52:56,608 - INFO - Added job "testFunc" to job store "default"
+2025-07-07 10:52:56,609 - INFO - Scheduler started
+2025-07-07 10:52:56,609 - INFO - Сервер запущен 🚀
+2025-07-07 10:53:29,972 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-07 10:53:29,973 - INFO - Added job "testFunc" to job store "default"
+2025-07-07 10:53:29,973 - INFO - Scheduler started
+2025-07-07 10:53:29,973 - INFO - Сервер запущен 🚀
+2025-07-07 10:54:00,000 - INFO - Running job "testFunc (trigger: cron[day_of_week='0-6', hour='16', minute='54'], next run at: 2025-07-08 16:54:00 +06)" (scheduled at 2025-07-07 16:54:00+06:00)
+2025-07-07 10:54:01,876 - WARNING - Не удалось получить участника 909957858: Telegram server says - Bad Request: PARTICIPANT_ID_INVALID
+2025-07-07 10:54:02,035 - INFO - Job "testFunc (trigger: cron[day_of_week='0-6', hour='16', minute='54'], next run at: 2025-07-08 16:54:00 +06)" executed successfully
+2025-07-07 11:10:47,028 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-07 11:10:47,029 - INFO - Added job "testFunc" to job store "default"
+2025-07-07 11:10:47,029 - INFO - Scheduler started
+2025-07-07 11:10:47,029 - INFO - Сервер запущен 🚀
+2025-07-07 11:10:55,810 - INFO - Update id=811313055 is not handled. Duration 3 ms by bot id=7689522161
+2025-07-07 11:10:57,568 - INFO - Update id=811313056 is not handled. Duration 1 ms by bot id=7689522161
+2025-07-07 11:10:57,633 - INFO - Update id=811313056 is not handled. Duration 1 ms by bot id=7689522161
+2025-07-07 11:10:59,689 - INFO - Update id=811313056 is not handled. Duration 2 ms by bot id=7689522161
+2025-07-07 11:11:03,746 - INFO - Update id=811313056 is not handled. Duration 1 ms by bot id=7689522161
+2025-07-07 11:12:44,983 - INFO - Сервер запущен 🚀
+2025-07-07 11:12:51,884 - INFO - Update id=811313057 is handled. Duration 2456 ms by bot id=7689522161
+2025-07-07 11:14:30,621 - INFO - Сервер запущен 🚀
+2025-07-07 11:14:35,502 - INFO - Update id=811313058 is handled. Duration 1172 ms by bot id=7689522161
+2025-07-08 09:38:38,333 - INFO - Сервер запущен 🚀
+2025-07-08 09:38:47,610 - INFO - Update id=811313060 is handled. Duration 1646 ms by bot id=7689522161
+2025-07-08 09:38:49,467 - INFO - Update id=811313061 is handled. Duration 101 ms by bot id=7689522161
+2025-07-08 09:38:52,813 - INFO - Update id=811313062 is handled. Duration 216 ms by bot id=7689522161
+2025-07-08 09:38:54,439 - INFO - Update id=811313063 is handled. Duration 135 ms by bot id=7689522161
+2025-07-08 09:38:55,653 - INFO - Update id=811313064 is handled. Duration 125 ms by bot id=7689522161
+2025-07-08 09:39:20,836 - INFO - Update id=811313065 is handled. Duration 455 ms by bot id=7689522161
+2025-07-08 09:39:27,180 - INFO - Update id=811313066 is handled. Duration 114 ms by bot id=7689522161
+2025-07-08 09:39:31,606 - INFO - Update id=811313067 is handled. Duration 380 ms by bot id=7689522161
+2025-07-08 09:39:35,958 - INFO - Update id=811313068 is handled. Duration 208 ms by bot id=7689522161
+2025-07-08 09:40:24,341 - INFO - Update id=811313069 is handled. Duration 206 ms by bot id=7689522161
+2025-07-08 09:40:25,985 - INFO - Added job "kick_user_from_group" to job store "default"
+2025-07-08 09:40:26,327 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-08 09:40:26,328 - INFO - Update id=811313070 is handled. Duration 631 ms by bot id=7689522161
+2025-07-08 11:11:34,177 - INFO - Update id=811313071 is handled. Duration 1231 ms by bot id=7689522161
+2025-07-12 11:11:33,126 - INFO - Сервер запущен 🚀
+2025-07-12 11:11:38,553 - INFO - Update id=811313078 is handled. Duration 1312 ms by bot id=7689522161
+2025-07-12 11:13:49,095 - INFO - Сервер запущен 🚀
+2025-07-12 11:13:54,983 - INFO - Update id=811313079 is handled. Duration 1414 ms by bot id=7689522161
+2025-07-12 11:14:07,558 - INFO - Сервер запущен 🚀
+2025-07-12 11:14:11,127 - INFO - Update id=811313080 is handled. Duration 1163 ms by bot id=7689522161
+2025-07-12 11:16:58,139 - INFO - Сервер запущен 🚀
+2025-07-12 11:17:03,482 - INFO - Update id=811313081 is handled. Duration 1241 ms by bot id=7689522161
+2025-07-12 11:17:09,667 - INFO - Update id=811313082 is handled. Duration 332 ms by bot id=7689522161
+2025-07-12 11:20:02,504 - INFO - Сервер запущен 🚀
+2025-07-12 11:20:18,141 - INFO - Update id=811313083 is handled. Duration 1240 ms by bot id=7689522161
+2025-07-12 11:21:17,892 - INFO - Сервер запущен 🚀
+2025-07-12 11:21:24,199 - INFO - Update id=811313084 is not handled. Duration 1125 ms by bot id=7689522161
+2025-07-12 11:21:24,615 - INFO - Update id=811313084 is handled. Duration 341 ms by bot id=7689522161
+2025-07-12 11:30:24,198 - INFO - Сервер запущен 🚀
+2025-07-12 11:30:42,495 - INFO - Update id=811313085 is handled. Duration 1448 ms by bot id=7689522161
+2025-07-12 11:30:48,218 - INFO - Update id=811313086 is handled. Duration 138 ms by bot id=7689522161
+2025-07-12 11:30:51,241 - INFO - Update id=811313087 is handled. Duration 407 ms by bot id=7689522161
+2025-07-12 11:30:56,874 - INFO - Update id=811313088 is handled. Duration 169 ms by bot id=7689522161
+2025-07-12 11:31:14,866 - INFO - Update id=811313089 is handled. Duration 169 ms by bot id=7689522161
+2025-07-12 11:31:16,513 - INFO - Added job "kick_user_from_group" to job store "default"
+2025-07-12 11:31:16,827 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 11:31:16,827 - INFO - Update id=811313090 is handled. Duration 589 ms by bot id=7689522161
+2025-07-12 11:33:57,657 - INFO - Сервер запущен 🚀
+2025-07-12 11:35:19,011 - INFO - Update id=811313091 is handled. Duration 263 ms by bot id=7689522161
+2025-07-12 11:35:21,552 - INFO - Update id=811313092 is handled. Duration 1188 ms by bot id=7689522161
+2025-07-12 11:35:26,168 - INFO - Update id=811313093 is handled. Duration 375 ms by bot id=7689522161
+2025-07-12 11:35:27,972 - INFO - Update id=811313094 is handled. Duration 190 ms by bot id=7689522161
+2025-07-12 11:35:48,725 - INFO - Update id=811313095 is handled. Duration 169 ms by bot id=7689522161
+2025-07-12 11:35:50,952 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 11:35:50,952 - INFO - Update id=811313096 is handled. Duration 583 ms by bot id=7689522161
+2025-07-12 11:37:44,758 - INFO - Сервер запущен 🚀
+2025-07-12 11:37:50,963 - INFO - Сервер запущен 🚀
+2025-07-12 11:37:54,422 - INFO - Сервер запущен 🚀
+2025-07-12 11:38:01,920 - INFO - Сервер запущен 🚀
+2025-07-12 11:38:05,585 - INFO - Сервер запущен 🚀
+2025-07-12 11:38:09,059 - INFO - Сервер запущен 🚀
+2025-07-12 11:38:11,151 - INFO - Update id=811313097 is handled. Duration 133 ms by bot id=7689522161
+2025-07-12 11:38:14,672 - INFO - Update id=811313098 is handled. Duration 1349 ms by bot id=7689522161
+2025-07-12 11:38:15,564 - INFO - Update id=811313099 is handled. Duration 330 ms by bot id=7689522161
+2025-07-12 11:38:17,837 - INFO - Update id=811313100 is handled. Duration 144 ms by bot id=7689522161
+2025-07-12 11:38:39,181 - INFO - Update id=811313101 is handled. Duration 195 ms by bot id=7689522161
+2025-07-12 11:38:40,930 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 11:38:40,930 - INFO - Update id=811313102 is handled. Duration 705 ms by bot id=7689522161
+2025-07-12 11:38:46,689 - INFO - Update id=811313103 is handled. Duration 334 ms by bot id=7689522161
+2025-07-12 11:45:18,382 - INFO - Сервер запущен 🚀
+2025-07-12 11:45:27,369 - INFO - Update id=811313104 is handled. Duration 103 ms by bot id=7689522161
+2025-07-12 11:45:31,024 - INFO - Update id=811313105 is handled. Duration 1267 ms by bot id=7689522161
+2025-07-12 11:45:32,821 - INFO - Update id=811313106 is handled. Duration 315 ms by bot id=7689522161
+2025-07-12 11:45:36,594 - INFO - Update id=811313107 is handled. Duration 302 ms by bot id=7689522161
+2025-07-12 11:45:51,293 - INFO - Update id=811313108 is handled. Duration 497 ms by bot id=7689522161
+2025-07-12 11:45:53,139 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 11:45:53,139 - INFO - Update id=811313109 is handled. Duration 687 ms by bot id=7689522161
+2025-07-12 15:06:42,007 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:06:42,008 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:06:42,009 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:06:42,010 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:06:42,010 - INFO - Scheduler started
+2025-07-12 15:06:42,010 - INFO - Сервер запущен 🚀
+2025-07-12 15:07:50,395 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:07:50,395 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:07:50,396 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:07:50,396 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:07:50,396 - INFO - Scheduler started
+2025-07-12 15:07:50,397 - INFO - Сервер запущен 🚀
+2025-07-12 15:08:00,000 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='8'], next run at: 2025-07-13 21:08:00 +06)" (scheduled at 2025-07-12 21:08:00+06:00)
+2025-07-12 15:08:01,288 - ERROR - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='8'], next run at: 2025-07-13 21:08:00 +06)" raised an exception
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/dbmedia/start.py", line 85, in CronFuncDelete
+    username = res.username if res.username else "unknown"
+                               ^^^^^^^^^^^^
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/pydantic/main.py", line 891, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ChatMemberMember' object has no attribute 'username'
+2025-07-12 15:09:02,388 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:02,389 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:02,389 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:02,390 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:02,390 - INFO - Scheduler started
+2025-07-12 15:09:02,390 - INFO - Сервер запущен 🚀
+2025-07-12 15:09:11,322 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:11,322 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:11,323 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:11,323 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:11,324 - INFO - Scheduler started
+2025-07-12 15:09:11,324 - INFO - Сервер запущен 🚀
+2025-07-12 15:09:14,752 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:14,753 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:09:14,754 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:14,754 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:09:14,754 - INFO - Scheduler started
+2025-07-12 15:09:14,754 - INFO - Сервер запущен 🚀
+2025-07-12 15:10:00,000 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='10'], next run at: 2025-07-13 21:10:00 +06)" (scheduled at 2025-07-12 21:10:00+06:00)
+2025-07-12 15:10:01,180 - INFO - Пользователь 7095194058
+2025-07-12 15:10:01,280 - INFO - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='10'], next run at: 2025-07-13 21:10:00 +06)" executed successfully
+2025-07-12 15:10:14,622 - INFO - Update id=811313110 is handled. Duration 352 ms by bot id=7689522161
+2025-07-12 15:13:54,523 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:13:54,523 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:13:54,524 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:13:54,524 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:13:54,524 - INFO - Scheduler started
+2025-07-12 15:13:54,525 - INFO - Сервер запущен 🚀
+2025-07-12 15:14:12,011 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:14:12,011 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:14:12,012 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:14:12,012 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:14:12,013 - INFO - Scheduler started
+2025-07-12 15:14:12,013 - INFO - Сервер запущен 🚀
+2025-07-12 15:15:00,001 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='15'], next run at: 2025-07-13 21:15:00 +06)" (scheduled at 2025-07-12 21:15:00+06:00)
+2025-07-12 15:15:01,404 - INFO - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='15'], next run at: 2025-07-13 21:15:00 +06)" executed successfully
+2025-07-12 15:21:17,738 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:21:17,739 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:21:17,740 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:21:17,740 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:21:17,740 - INFO - Scheduler started
+2025-07-12 15:21:17,740 - INFO - Сервер запущен 🚀
+2025-07-12 15:21:22,893 - INFO - Update id=811313114 is handled. Duration 99 ms by bot id=7689522161
+2025-07-12 15:21:26,237 - INFO - Update id=811313115 is handled. Duration 1300 ms by bot id=7689522161
+2025-07-12 15:21:27,971 - INFO - Update id=811313116 is handled. Duration 140 ms by bot id=7689522161
+2025-07-12 15:21:46,536 - INFO - Update id=811313117 is handled. Duration 169 ms by bot id=7689522161
+2025-07-12 15:21:48,468 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 15:21:48,469 - INFO - Update id=811313118 is handled. Duration 722 ms by bot id=7689522161
+2025-07-12 15:22:37,115 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:22:37,115 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:22:37,116 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:22:37,116 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:22:37,117 - INFO - Scheduler started
+2025-07-12 15:22:37,117 - INFO - Сервер запущен 🚀
+2025-07-12 15:23:00,000 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='23'], next run at: 2025-07-13 21:23:00 +06)" (scheduled at 2025-07-12 21:23:00+06:00)
+2025-07-12 15:23:01,336 - ERROR - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='23'], next run at: 2025-07-13 21:23:00 +06)" raised an exception
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/dbmedia/start.py", line 90, in CronFuncDelete
+    user.save()
+    ^^^^^^^^^
+AttributeError: 'User' object has no attribute 'save'
+2025-07-12 15:23:29,473 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:23:29,474 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:23:29,474 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:23:29,475 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:23:29,475 - INFO - Scheduler started
+2025-07-12 15:23:29,475 - INFO - Сервер запущен 🚀
+2025-07-12 15:23:58,779 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:23:58,779 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:23:58,780 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:23:58,781 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:23:58,781 - INFO - Scheduler started
+2025-07-12 15:23:58,781 - INFO - Сервер запущен 🚀
+2025-07-12 15:24:01,039 - INFO - Update id=811313119 is handled. Duration 1009 ms by bot id=7689522161
+2025-07-12 15:24:13,955 - INFO - Update id=811313120 is handled. Duration 82 ms by bot id=7689522161
+2025-07-12 15:24:15,968 - INFO - Update id=811313121 is handled. Duration 323 ms by bot id=7689522161
+2025-07-12 15:24:18,063 - INFO - Update id=811313122 is handled. Duration 168 ms by bot id=7689522161
+2025-07-12 15:24:34,607 - INFO - Update id=811313123 is handled. Duration 351 ms by bot id=7689522161
+2025-07-12 15:24:36,772 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 15:24:36,772 - INFO - Update id=811313124 is handled. Duration 694 ms by bot id=7689522161
+2025-07-12 15:25:00,000 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='25'], next run at: 2025-07-13 21:25:00 +06)" (scheduled at 2025-07-12 21:25:00+06:00)
+2025-07-12 15:25:00,536 - ERROR - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='25'], next run at: 2025-07-13 21:25:00 +06)" raised an exception
+Traceback (most recent call last):
+  File "/ONSTUDY BOT/venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ONSTUDY BOT/dbmedia/start.py", line 90, in CronFuncDelete
+    await db.save()
+          ^^^^^^^
+AttributeError: 'AsyncSession' object has no attribute 'save'
+2025-07-12 15:26:06,643 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:26:06,644 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:26:06,644 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:26:06,645 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:26:06,645 - INFO - Scheduler started
+2025-07-12 15:26:06,645 - INFO - Сервер запущен 🚀
+2025-07-12 15:26:20,302 - INFO - Update id=811313125 is handled. Duration 111 ms by bot id=7689522161
+2025-07-12 15:26:22,974 - INFO - Update id=811313126 is handled. Duration 1040 ms by bot id=7689522161
+2025-07-12 15:26:24,607 - INFO - Update id=811313127 is handled. Duration 158 ms by bot id=7689522161
+2025-07-12 15:26:44,614 - INFO - Update id=811313128 is handled. Duration 176 ms by bot id=7689522161
+2025-07-12 15:26:46,685 - INFO - Оплата прошла успешно от 7095194058. Тариф: basic
+2025-07-12 15:26:46,686 - INFO - Update id=811313129 is handled. Duration 711 ms by bot id=7689522161
+2025-07-12 15:27:49,518 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:27:49,518 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:27:49,519 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:27:49,520 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:27:49,520 - INFO - Scheduler started
+2025-07-12 15:27:49,520 - INFO - Сервер запущен 🚀
+2025-07-12 15:29:00,001 - INFO - Running job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='29'], next run at: 2025-07-13 21:29:00 +06)" (scheduled at 2025-07-12 21:29:00+06:00)
+2025-07-12 15:29:02,089 - INFO - Пользователь 7095194058|l4mo1
+2025-07-12 15:29:02,371 - INFO - Job "CronFuncDelete (trigger: cron[day_of_week='0-6', hour='21', minute='29'], next run at: 2025-07-13 21:29:00 +06)" executed successfully
+2025-07-12 15:29:22,369 - INFO - Update id=811313130 is handled. Duration 400 ms by bot id=7689522161
+2025-07-12 15:29:53,784 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:29:53,785 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:29:53,786 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:29:53,786 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:29:53,786 - INFO - Scheduler started
+2025-07-12 15:29:53,786 - INFO - Сервер запущен 🚀
+2025-07-12 15:29:57,312 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:29:57,312 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 15:29:57,313 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:29:57,314 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 15:29:57,314 - INFO - Scheduler started
+2025-07-12 15:29:57,314 - INFO - Сервер запущен 🚀
+2025-07-12 18:48:05,742 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:48:05,743 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:48:05,744 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:48:05,744 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:48:05,744 - INFO - Scheduler started
+2025-07-12 18:48:05,745 - INFO - Сервер запущен 🚀
+2025-07-12 18:51:27,748 - INFO - Update id=811313132 is handled. Duration 1638 ms by bot id=7689522161
+2025-07-12 18:51:57,058 - INFO - Update id=811313133 is handled. Duration 208 ms by bot id=7689522161
+2025-07-12 18:52:02,698 - INFO - Update id=811313134 is handled. Duration 345 ms by bot id=7689522161
+2025-07-12 18:53:25,436 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:53:25,436 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:53:25,437 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:53:25,438 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:53:25,438 - INFO - Scheduler started
+2025-07-12 18:53:25,438 - INFO - Сервер запущен 🚀
+2025-07-12 18:53:32,864 - INFO - Update id=811313135 is handled. Duration 95 ms by bot id=7689522161
+2025-07-12 18:53:40,080 - INFO - Update id=811313136 is handled. Duration 1134 ms by bot id=7689522161
+2025-07-12 18:54:54,935 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:54:54,936 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:54:54,937 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:54:54,937 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:54:54,937 - INFO - Scheduler started
+2025-07-12 18:54:54,937 - INFO - Сервер запущен 🚀
+2025-07-12 18:54:58,559 - INFO - Update id=811313137 is handled. Duration 99 ms by bot id=7689522161
+2025-07-12 18:55:00,996 - INFO - Update id=811313138 is handled. Duration 1082 ms by bot id=7689522161
+2025-07-12 18:57:02,559 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:57:02,559 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:57:02,560 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:57:02,560 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:57:02,561 - INFO - Scheduler started
+2025-07-12 18:57:02,561 - INFO - Сервер запущен 🚀
+2025-07-12 18:57:14,733 - INFO - Update id=811313139 is handled. Duration 114 ms by bot id=7689522161
+2025-07-12 18:57:18,498 - INFO - Update id=811313140 is handled. Duration 1395 ms by bot id=7689522161
+2025-07-12 18:59:09,509 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:59:09,510 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:59:09,510 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:59:09,511 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:59:09,511 - INFO - Scheduler started
+2025-07-12 18:59:09,511 - INFO - Сервер запущен 🚀
+2025-07-12 18:59:16,959 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:59:16,959 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 18:59:16,960 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:59:16,960 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 18:59:16,960 - INFO - Scheduler started
+2025-07-12 18:59:16,960 - INFO - Сервер запущен 🚀
+2025-07-12 18:59:24,587 - INFO - Update id=811313141 is handled. Duration 93 ms by bot id=7689522161
+2025-07-12 18:59:27,300 - INFO - Update id=811313142 is handled. Duration 1148 ms by bot id=7689522161
+2025-07-12 18:59:49,860 - INFO - Update id=811313143 is handled. Duration 615 ms by bot id=7689522161
+2025-07-12 18:59:53,557 - INFO - Update id=811313144 is handled. Duration 281 ms by bot id=7689522161
+2025-07-12 19:00:08,490 - INFO - Update id=811313145 is handled. Duration 85 ms by bot id=7689522161
+2025-07-12 19:00:10,032 - INFO - Update id=811313146 is handled. Duration 326 ms by bot id=7689522161
+2025-07-12 19:02:07,555 - INFO - Update id=811313147 is handled. Duration 192 ms by bot id=7689522161
+2025-07-12 19:02:19,528 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 19:02:19,528 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 19:02:19,529 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 19:02:19,529 - INFO - Added job "CronFuncDelete" to job store "default"
+2025-07-12 19:02:19,530 - INFO - Scheduler started
+2025-07-12 19:02:19,530 - INFO - Сервер запущен 🚀
+2025-07-12 19:02:19,649 - INFO - Update id=811313148 is handled. Duration 118 ms by bot id=7689522161
+2025-07-12 19:02:24,777 - INFO - Update id=811313149 is handled. Duration 87 ms by bot id=7689522161
+2025-07-12 19:02:26,999 - INFO - Update id=811313150 is handled. Duration 1165 ms by bot id=7689522161
+2025-07-12 19:02:33,449 - INFO - Update id=811313151 is handled. Duration 251 ms by bot id=7689522161
+2025-07-12 19:23:26,558 - INFO - Update id=811313152 is handled. Duration 179 ms by bot id=7689522161
+2025-07-12 19:23:29,694 - INFO - Оплата прошла успешно от 909957858. Тариф: basic
+2025-07-12 19:23:29,694 - INFO - Update id=811313153 is handled. Duration 1345 ms by bot id=7689522161
+2025-07-12 19:25:49,024 - INFO - Update id=811313154 is handled. Duration 240 ms by bot id=7689522161
+2025-07-12 19:25:50,812 - INFO - Update id=811313155 is handled. Duration 293 ms by bot id=7689522161
+2025-07-12 19:25:54,735 - INFO - Update id=811313156 is handled. Duration 271 ms by bot id=7689522161
+2025-07-12 19:26:21,905 - INFO - Update id=811313157 is handled. Duration 380 ms by bot id=7689522161
+2025-07-12 19:27:06,831 - INFO - Update id=811313158 is handled. Duration 186 ms by bot id=7689522161
+2025-07-12 19:27:13,304 - INFO - Update id=811313159 is handled. Duration 153 ms by bot id=7689522161
+2025-07-12 19:33:12,251 - INFO - Update id=811313160 is handled. Duration 211 ms by bot id=7689522161
