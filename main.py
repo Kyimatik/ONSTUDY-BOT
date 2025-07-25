@@ -158,7 +158,18 @@ async def is_user_in_channel( request : UserCheck) -> bool:
 
 
 
+# @dp.message(Command("webLink"))
+# async def link(message: Message,state: FSMContext):
+#     from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+#     inline_kb = InlineKeyboardMarkup(inline_keyboard=[
+#         [
+#             InlineKeyboardButton(text="Наш сайт 🌐", url="t.me/OnStudyCommunity_bot/OnStudyWeb")
+#         ]
+#     ])
+#     await bot.send_message(GROUP,"Наш Web Service",reply_markup=inline_kb)
+
+    
 
 
 
@@ -416,36 +427,6 @@ def setup_logging():
 
 
 
-# Записаться на консультацию   
-@router.callback_query(lambda callback_query: callback_query.data == "consult")
-async def consultfunc(callback: CallbackQuery, state: FSMContext):
-    await callback.message.answer(f"""Привет <b>{callback.from_user.username}</b>
-
-Отправь пожалуйста нам некоторые данные чтобы мы связались с тобой.
-
-<b>Номер телефона</b>   : <i><u>Пример</u> - 0770290211</i>
-<b>Твое настоящее имя</b>   : <i><u>Пример</u> - Акылай</i>
-<b>Насчет чего хотел(а) бы проконсультироваться ? </b>
-
-<i><u>Пример 1</u> - Я бы хотел(а) узнать про процесс поступления</i>
-                                  
-<i><u>Пример 1</u> - Я хочу узнать про курсы SAT/IELTS</i>
-
-<i><u>Пример 1</u> - Какие достижения|статы нужны для поступления на грант ? </i>
-                                  
-<i><b>Пожалуйста подождите немного , наш менеджер ответит вам как только освободится 🙏</b></i>
-""",parse_mode="HTML")
-    await state.set_state(consult.main)
-
-
-# Вся ИНФА
-@router.message(consult.main)
-async def get_info(message: Message, state: FSMContext):
-    main=message.text
-    await bot.send_message(bdgroupid,f"""@{message.from_user.username} хочет на консультацию\n\n
-<code>{main}</code>
-""",message_thread_id=6,parse_mode="HTML")
-    await state.clear() # очищаем стейт
 
 
 async def setup():
