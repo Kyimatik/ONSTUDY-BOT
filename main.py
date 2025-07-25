@@ -50,9 +50,12 @@ from dbmedia.start import CronFuncDelete
 from dbmedia.start import router as startrouter
 from dbmedia.callbacks import router as callbackrouter
 from dbmedia.adminPanel import router as adminrouter
+from dbmedia.Payments.IELTS import router as IELTS_ROUTER
+from dbmedia.Payments.SAT import router as SAT_ROUTER
+from dbmedia.Payments.ESSAY import router as ESSAY_ROUTER
 
 
-from dbmedia.payments import router as pay_router
+from dbmedia.Payments.payments import router as pay_router
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
@@ -437,8 +440,11 @@ async def setup():
     dp.include_router(callbackrouter)
     dp.include_router(router)
     dp.include_router(startrouter)
-    dp.include_router(pay_router)
     dp.include_router(adminrouter)
+    dp.include_router(pay_router)
+    dp.include_router(IELTS_ROUTER)
+    dp.include_router(SAT_ROUTER)
+    dp.include_router(ESSAY_ROUTER)
 
     
     # Настройка планировщика

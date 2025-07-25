@@ -229,6 +229,7 @@ tggroup = InlineKeyboardMarkup(
 
 )
 
+# Тариф Basic 
 basic = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -241,6 +242,7 @@ basic = InlineKeyboardMarkup(
 
 )
 
+# Тариф Standart 
 standart = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -253,7 +255,7 @@ standart = InlineKeyboardMarkup(
 
 )
 
-
+# Тариф Premium 
 premium = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -270,7 +272,7 @@ premium = InlineKeyboardMarkup(
 
 
 
-
+# Кнопка отмены 
 Cancel = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="X нажми ❌")]
@@ -278,3 +280,18 @@ Cancel = ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
+# Самая начальная кнопка покупки 
+StartButtonOfPayments = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="IELTS",callback_data="ielts")
+        ],
+        [
+            InlineKeyboardButton(text="SAT",callback_data="sat")
+        ],
+        [
+            InlineKeyboardButton(text="Essay Express Course",callback_data="essay")
+        ]
+    ]
+
+)
