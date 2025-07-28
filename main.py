@@ -405,10 +405,10 @@ def setup_logging():
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 
-    # (необязательно) дублируем в консоль
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
-    logger.addHandler(console_handler)
+    # # (необязательно) дублируем в консоль
+    # console_handler = logging.StreamHandler()
+    # console_handler.setFormatter(formatter)
+    # logger.addHandler(console_handler)
 
 
 
@@ -465,14 +465,6 @@ async def setup():
 # События FastAPI
 @app.on_event("startup")
 async def on_startup():
-    # Устанавливаем вебхук
-    webhook_info = await bot.set_webhook(
-        url=f"{BASE_WEBHOOK_URL}{WEBHOOK_PATH}",
-        drop_pending_updates=True
-    )
-    logging.info(f"Webhook установлен: {webhook_info}")
-    
-    # Ваш текущий код
     await setup()
     logging.info("Сервер запущен 🚀")
     

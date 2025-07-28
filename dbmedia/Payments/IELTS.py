@@ -13,18 +13,27 @@ from datetime import datetime, timedelta
 
 from buttons import basic, standart, premium
 from dbmedia.session import get_db
-from dbmedia.models import User, Subscription  # импорт Subscription
+from dbmedia.models import User, Subscription, Course # импорт Subscription
 
 load_dotenv("onstudy.env")
 LIVE_TOKEN = os.getenv("LIVE_TOKEN")
 GROUP_CHAT_ID = int(os.getenv("GROUP_ID"))
-course_id = int(os.getenv("IELTS_ID"))
+
 
 router = Router()  # IELTS Router 
 
 
 @router.callback_query(lambda c: c.data == "ielts")
 async def choose_range(callback: CallbackQuery):
+    async with get_db() as db:
+        result = await db.execute(
+                select(Course)
+                .where(Course.id == 1)
+            )
+        course = result.scalars().first()
+        # if course.isFinished == False:
+        #     await callback.message.answer("Курс в разработке.")
+        #     return 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="Basic", callback_data="buy_basic")],
         [InlineKeyboardButton(text="Standart", callback_data="buy_standart")],
@@ -54,9 +63,12 @@ async def choose_tariff(callback: CallbackQuery):
         active_sub = None
         if user:
             for sub in user.subscriptions:
-                if sub.is_active and sub.expired_date and sub.expired_date > datetime.utcnow():
+                if sub.is_active and sub.course_id == 1 and  sub.expired_date and sub.expired_date > datetime.utcnow():
                     active_sub = sub
                     break
+        
+        print(active_sub)
+        
 
         if active_sub and active_sub.sub_type != tariff:
             await callback.message.answer(
@@ -101,7 +113,7 @@ async def choose_tariff_length(callback: CallbackQuery):
         currency="KGS",
         prices=[price],
         start_parameter=f"buy_{tariff}",
-        payload=f"{clean_tar}_{tariff}_{user_id}_IELTS",
+        payload=f"{clean_tar}_{tariff}_{user_id}_IELTS_1",
         need_phone_number=True,
         need_email=True,
         send_phone_number_to_provider=True,
@@ -118,83 +130,3 @@ async def process_pre_checkout_query(pre_checkout_query: PreCheckoutQuery):
         logging.warning(f"Ошибка при подтверждении оплаты: {e}")
 
 
-@router.message(F.successful_payment)
-async def process_successful_payment(message: Message):
-    user_id = message.from_user.id
-    payment = message.successful_payment
-    today = datetime.utcnow()
-
-    try:
-        clean_tar, tariff, _ = payment.invoice_payload.split("_")
-    except Exception:
-        await message.answer("Ошибка в структуре платежа.")
-        return
-
-    TARIFF_DURATION = {
-        ("basic", "month"): 30,
-        ("basic", "month3"): 90,
-        ("standart", "month"): 30,
-        ("standart", "month3"): 90,
-        ("premium", "month"): 30,
-        ("premium", "month3"): 90,
-    }
-
-    days = TARIFF_DURATION.get((tariff, clean_tar))
-    if not days:
-        await message.answer("Ошибка: не удалось распознать тариф.")
-        return
-
-    
-
-    async with get_db() as db:
-        result = await db.execute(select(User).where(User.tg_id == user_id))
-        user = result.scalars().first()
-
-        if not user:
-            user = User(tg_id=user_id)
-            db.add(user)
-            await db.flush()
-
-        stmt_sub = select(Subscription).where(
-            Subscription.user_id == user.id,
-            Subscription.course_id == course_id,
-            Subscription.sub_type == tariff,
-            Subscription.is_active == True,
-            Subscription.expired_date > today
-        )
-        result_sub = await db.execute(stmt_sub)
-        subscription = result_sub.scalars().first()
-
-        if subscription:
-            subscription.expired_date += timedelta(days=days)
-            subscription.purchase_date = today
-        else:
-            subscription = Subscription(
-                user_id=user.id,
-                course_id=course_id,
-                sub_type=tariff,
-                purchase_date=today,
-                expired_date=today + timedelta(days=days),
-                is_active=True
-            )
-            db.add(subscription)
-
-        await db.commit()
-
-    try:
-        await bot.unban_chat_member(chat_id=GROUP_CHAT_ID, user_id=user_id)
-    except aiogram.exceptions.TelegramBadRequest as e:
-        if "can't remove chat owner" in str(e):
-            # Игнорируем ошибку, пользователь — владелец, не нужно разблокировать
-            logging.info(f"Пользователь {user_id} — владелец чата, пропускаем unban")
-    else:
-        raise
-
-    await message.answer("✅ Спасибо за покупку!")
-    await message.answer(
-        "Уникальная ссылка для вхождения в группу.\n"
-        "По ней можно зайти только один раз, и не вздумайте передавать ее другим."
-    )
-    invite = await bot.create_chat_invite_link(chat_id=GROUP_CHAT_ID, member_limit=1)
-    await message.answer(invite.invite_link)
-    logging.info(f"Оплата прошла успешно от {user_id}. Тариф: {tariff}")

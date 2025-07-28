@@ -54,19 +54,19 @@ async def getcountofpeople(message: Message):
         
 
 
-@router.message(Command("account"))
-async def getDataAbtUser(message: Message):
-    user_id = message.from_user.id
-    async with get_db() as db:
-        stmt = select(User).where(User.tg_id == user_id)
-        result = await db.execute(stmt)
-        user = result.scalars().first()
-        if user:
-            await message.answer(f"""Подписка - {user.sub_type} 
-Срок подписки - {user.expired_date}
-""")
-        else:
-            await message.answer("Вы не покупали подписку")
+# @router.message(Command("account"))
+# async def getDataAbtUser(message: Message):
+#     user_id = message.from_user.id
+#     async with get_db() as db:
+#         stmt = select(User).where(User.tg_id == user_id)
+#         result = await db.execute(stmt)
+#         user = result.scalars().first()
+#         if user:
+#             await message.answer(f"""Подписка - {user.sub_type} 
+# Срок подписки - {user.expired_date}
+# """)
+#         else:
+#             await message.answer("Вы не покупали подписку")
 
 
 async def CronFuncDelete():
