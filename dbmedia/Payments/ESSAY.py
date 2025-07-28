@@ -11,16 +11,16 @@ from sqlalchemy.future import select
 from sqlalchemy.orm import selectinload
 from datetime import datetime, timedelta
 
-from buttons import basic, standart, premium
+from buttons import basic, standart, premium, premiumEssay ,standartEssay, basicEssay
 from dbmedia.session import get_db
-from dbmedia.models import User, Subscription, Course 
+from dbmedia.models import User, Subscription, Course # импорт Subscription
 
 load_dotenv("onstudy.env")
 LIVE_TOKEN = os.getenv("LIVE_TOKEN")
 GROUP_CHAT_ID = int(os.getenv("GROUP_ID"))
 
 
-router = Router()  # ESSAY Router 
+router = Router()  # IELTS Router 
 
 
 @router.callback_query(lambda c: c.data == "essay")
@@ -31,24 +31,24 @@ async def choose_range(callback: CallbackQuery):
                 .where(Course.id == 3)
             )
         course = result.scalars().first()
-        if course.isFinished == False:
-            await callback.message.answer("Курс в разработке.")
-            return 
+        # if course.isFinished == False:
+        #     await callback.message.answer("Курс в разработке.")
+        #     return 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Basic", callback_data="basic_essay")],
-        [InlineKeyboardButton(text="Standart", callback_data="standart_essay")],
-        [InlineKeyboardButton(text="Premium", callback_data="premium_essay")]
+        [InlineKeyboardButton(text="Basic", callback_data="buy_basic_essayChoose")],
+        [InlineKeyboardButton(text="Standart", callback_data="buy_standart_essayChoose")],
+        [InlineKeyboardButton(text="Premium", callback_data="buy_premium_essayChoose")]
     ])
     await callback.message.answer("Выберите тариф:", reply_markup=keyboard)
 
 
-@router.callback_query(lambda c: c.data and c.data.endswith("_essay"))
+@router.callback_query(lambda c: c.data and c.data.endswith("_essayChoose"))
 async def choose_tariff(callback: CallbackQuery):
-    tariff = callback.data.split("_")[0]
+    tariff = callback.data.split("_")[1]
     reply_markup = {
-        "basic": basic,
-        "standart": standart,
-        "premium": premium
+        "basic": basicEssay,
+        "standart": standartEssay,
+        "premium": premiumEssay
     }.get(tariff)
 
     # Жадно подгружаем подписки вместе с пользователем
@@ -63,13 +63,13 @@ async def choose_tariff(callback: CallbackQuery):
         active_sub = None
         if user:
             for sub in user.subscriptions:
-                if sub.is_active and sub.course_id == 3 and sub.expired_date and sub.expired_date > datetime.utcnow():# находим ту самую подписку 
+                if sub.is_active and sub.course_id == 3 and  sub.expired_date and sub.expired_date > datetime.utcnow():
                     active_sub = sub
                     break
         
         
         
-        
+
         if active_sub and active_sub.sub_type != tariff:
             await callback.message.answer(
                 "❌ Вы не можете сменить тариф до окончания текущей подписки.\n"
@@ -83,11 +83,10 @@ async def choose_tariff(callback: CallbackQuery):
         await callback.message.answer("Неверный тариф")
 
 
-@router.callback_query(lambda c: c.data and c.data.startswith("mon"))
+@router.callback_query(lambda c: c.data and c.data.endswith("_essay"))
 async def choose_tariff_length(callback: CallbackQuery):
     user_id = callback.from_user.id
     term = callback.data  # например "month_basic"
-    await callback.message.answer(term)
     tariff = term.split("_")[1]
 
     price_map = {
@@ -104,7 +103,7 @@ async def choose_tariff_length(callback: CallbackQuery):
         await callback.message.answer("Неизвестный тариф")
         return
 
-    clean_tar, _ = term.split("_")  # "month" или "month3"
+    clean_tar, _ , new = term.split("_")  # "month" или "month3"
 
     await bot.send_invoice(
         chat_id=user_id,
@@ -129,6 +128,5 @@ async def process_pre_checkout_query(pre_checkout_query: PreCheckoutQuery):
         await bot.answer_pre_checkout_query(pre_checkout_query.id, ok=True)
     except Exception as e:
         logging.warning(f"Ошибка при подтверждении оплаты: {e}")
-
 
 

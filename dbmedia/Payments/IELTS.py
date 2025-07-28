@@ -35,14 +35,14 @@ async def choose_range(callback: CallbackQuery):
         #     await callback.message.answer("Курс в разработке.")
         #     return 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Basic", callback_data="buy_basic")],
-        [InlineKeyboardButton(text="Standart", callback_data="buy_standart")],
-        [InlineKeyboardButton(text="Premium", callback_data="buy_premium")]
+        [InlineKeyboardButton(text="Basic", callback_data="buy_basic_ieltsChoose")],
+        [InlineKeyboardButton(text="Standart", callback_data="buy_standart_ieltsChoose")],
+        [InlineKeyboardButton(text="Premium", callback_data="buy_premium_ieltsChoose")]
     ])
     await callback.message.answer("Выберите тариф:", reply_markup=keyboard)
 
 
-@router.callback_query(lambda c: c.data and c.data.startswith("buy_"))
+@router.callback_query(lambda c: c.data and c.data.endswith("_ieltsChoose"))
 async def choose_tariff(callback: CallbackQuery):
     tariff = callback.data.split("_")[1]
     reply_markup = {
@@ -67,7 +67,7 @@ async def choose_tariff(callback: CallbackQuery):
                     active_sub = sub
                     break
         
-        print(active_sub)
+        
         
 
         if active_sub and active_sub.sub_type != tariff:
@@ -83,19 +83,19 @@ async def choose_tariff(callback: CallbackQuery):
         await callback.message.answer("Неверный тариф")
 
 
-@router.callback_query(lambda c: c.data and c.data.startswith("mon"))
+@router.callback_query(lambda c: c.data and c.data.endswith("_ielts"))
 async def choose_tariff_length(callback: CallbackQuery):
     user_id = callback.from_user.id
     term = callback.data  # например "month_basic"
     tariff = term.split("_")[1]
 
     price_map = {
-        "month_basic": LabeledPrice(label="Basic", amount=300_000),
-        "month3_basic": LabeledPrice(label="Basic", amount=765_000),
-        "month_standart": LabeledPrice(label="Standart", amount=350_000),
-        "month3_standart": LabeledPrice(label="Standart", amount=895_000),
-        "month_premium": LabeledPrice(label="Premium", amount=500_000),
-        "month3_premium": LabeledPrice(label="Premium", amount=1_250_000),
+        "month_basic_ielts": LabeledPrice(label="Basic", amount=300_000),
+        "month3_basic_ielts": LabeledPrice(label="Basic", amount=765_000),
+        "month_standart_ielts": LabeledPrice(label="Standart", amount=350_000),
+        "month3_standart_ielts": LabeledPrice(label="Standart", amount=895_000),
+        "month_premium_ielts": LabeledPrice(label="Premium", amount=500_000),
+        "month3_premium_ielts": LabeledPrice(label="Premium", amount=1_250_000),
     }
 
     price = price_map.get(term)
@@ -103,7 +103,7 @@ async def choose_tariff_length(callback: CallbackQuery):
         await callback.message.answer("Неизвестный тариф")
         return
 
-    clean_tar, _ = term.split("_")  # "month" или "month3"
+    clean_tar, _ , gen= term.split("_")  # "month" или "month3"
 
     await bot.send_invoice(
         chat_id=user_id,

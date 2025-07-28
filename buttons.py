@@ -233,10 +233,10 @@ tggroup = InlineKeyboardMarkup(
 basic = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_basic")
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_basic_ielts")
         ],
         [
-            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_basic")
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_basic_ielts")
         ]
     ]
 
@@ -246,10 +246,10 @@ basic = InlineKeyboardMarkup(
 standart = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_standart")
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_standart_ielts")
         ],
         [
-            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_standart")
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_standart_ielts")
         ]
     ]
 
@@ -259,10 +259,10 @@ standart = InlineKeyboardMarkup(
 premium = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_premium")
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_premium_ielts")
         ],
         [
-            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_premium")
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_premium_ielts")
         ]
     ]
 
@@ -291,6 +291,48 @@ StartButtonOfPayments = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(text="Essay Express Course",callback_data="essay")
+        ]
+    ]
+
+)
+
+
+
+
+# Тариф Basic 
+basicEssay = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_basic_essay")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_basic_essay")
+        ]
+    ]
+
+)
+
+# Тариф Standart 
+standartEssay = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_standart_essay")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_standart_essay")
+        ]
+    ]
+
+)
+
+# Тариф Premium 
+premiumEssay = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Подписка на месяц",callback_data="month_premium_essay")
+        ],
+        [
+            InlineKeyboardButton(text="Подписка на 3 месяца",callback_data="month3_premium_essay")
         ]
     ]
 
