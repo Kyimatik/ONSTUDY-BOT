@@ -8,10 +8,11 @@ from buttons import useridkb,mainkb
 from dbmedia.config import Admins
 from dbmedia.session import get_db
 from .bot_instance import bot
-from .models import User, Subscription
+from .models import User, Subscription, Course
 from sqlalchemy import select, insert, update, delete
 from datetime import datetime, timedelta
 import os 
+from sqlalchemy.orm import selectinload
 from dotenv import load_dotenv
 import logging 
 
@@ -53,49 +54,64 @@ async def getcountofpeople(message: Message):
             await message.answer(f"{len(user_ids)} - Количество пользователей.")
         
 
+# 🔹 Helper для получения пользователя с подгруженными подписками и курсами
+async def get_user_with_subs(db, tg_id: int):
+    result = await db.execute(
+        select(User)
+        .where(User.tg_id == tg_id)
+        .options(
+            selectinload(User.subscriptions).selectinload(Subscription.course)
+        )
+    )
+    return result.scalars().first()
 
-# @router.message(Command("account"))
-# async def getDataAbtUser(message: Message):
-#     user_id = message.from_user.id
-#     async with get_db() as db:
-#         stmt = select(User).where(User.tg_id == user_id)
-#         result = await db.execute(stmt)
-#         user = result.scalars().first()
-#         if user:
-#             await message.answer(f"""Подписка - {user.sub_type} 
-# Срок подписки - {user.expired_date}
-# """)
-#         else:
-#             await message.answer("Вы не покупали подписку")
 
-# Крон для группы Эссе
+# 🔹 Хендлер /account
+@router.message(Command("account"))
+async def getDataAbtUser(message: Message):
+    user_id = message.from_user.id
+    async with get_db() as db:
+        user = await get_user_with_subs(db, user_id)
+
+        if not user or not user.subscriptions:
+            return await message.answer("У вас пока нет активных подписок.")
+
+        sendingStr = ""
+        for sub in user.subscriptions:
+            sendingStr += f"<b>{sub.course.title}</b>\n{sub.expired_date}\n{sub.sub_type}\n\n"
+
+        await message.answer(sendingStr,parse_mode="HTML")
+
+
+# 🔹 Крон для группы Эссе
 async def CronFuncDeleteEssay():
     async with get_db() as db:
-        stmt = select(Subscription).where(Subscription.course_id == 3)
+        stmt = (
+            select(Subscription)
+            .options(selectinload(Subscription.user))
+            .where(Subscription.course_id == 3)
+        )
         res = await db.execute(stmt)
-        subs = res.scalars().all() # Все подписки 
-        if subs is None:
-            return 
-        for i in subs:
+        subs = res.scalars().all()
+
+        if not subs:
+            return
+
+        for sub in subs:
             try:
-                stmtForUser = select(User).where(User.tg_id == i.user_id) # сам SQL Заппрос 
-                resForUesr = await db.execute(stmtForUser) # сам Execute
-                user = resForUesr.scalars().first() # Первый пользователь 
-                res = await bot.get_chat_member(chat_id, user.tg_id)
-                if res.status == "member":
-                    await bot.ban_chat_member(chat_id=chat_id, user_id=i)
-                    await db.delete(i)
-                    await db.commit()
-                    logging.info(f"Пользователь {i}|{res.user.username}")
-                else:   
+                user = sub.user
+                if not user:
                     continue
+
+                res = await bot.get_chat_member(chat_id, user.tg_id)
+
+                if res.status == "member":
+                    await bot.ban_chat_member(chat_id=chat_id, user_id=user.tg_id)
+                    await db.delete(sub)
+                    await db.commit()
+                    logging.info(f"Удалён пользователь {user.tg_id} | @{res.user.username}")
+                else:
+                    continue
+
             except Exception as e:
-                logging.warning(f"Произошла ошибка при удалении пользователя - {e}")
-            finally:
-                continue
-    
-
-    
-
-
-
+                logging.warning(f"Ошибка при удалении пользователя {sub.id} — {e}")
