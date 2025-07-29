@@ -138,3 +138,4 @@ async def on_successful_payment(message: Message):
 
     # Логируем успех
     logging.info(f"Платёж успешно обработан: user_id={user_id}, course={course_name}({course_id}), tariff={tariff}, term={clean_tar}")
+    

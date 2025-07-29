@@ -8,7 +8,7 @@ from buttons import useridkb,mainkb
 from dbmedia.config import Admins
 from dbmedia.session import get_db
 from .bot_instance import bot
-from .models import User
+from .models import User, Subscription
 from sqlalchemy import select, insert, update, delete
 from datetime import datetime, timedelta
 import os 
@@ -68,27 +68,34 @@ async def getcountofpeople(message: Message):
 #         else:
 #             await message.answer("Вы не покупали подписку")
 
-
-async def CronFuncDelete():
+# Крон для группы Эссе
+async def CronFuncDeleteEssay():
     async with get_db() as db:
-        stmt = select(User).where(User.expired_date.isnot(None))
-        result = await db.execute(stmt)
-        users = result.scalars().all()
-        print(users)
-        listOfId = [i.tg_id for i in users]
-        if listOfId == []:
-            logging.info("Нету людей , у которых прошла подписка!")
+        stmt = select(Subscription).where(Subscription.course_id == 3)
+        res = await db.execute(stmt)
+        subs = res.scalars().all() # Все подписки 
+        if subs is None:
             return 
-        for i in listOfId:
-            res = await bot.get_chat_member(chat_id, i)
-            selForUs = select(User).where(User.tg_id == res.user.id)
-            resultUs = await db.execute(selForUs)
-            user = resultUs.scalars().first()
-            if res.status == "member":
-                await bot.ban_chat_member(chat_id=chat_id, user_id=i)
-                user.expired_date = None
-                user.sub_type = None
-                await db.commit()
-                logging.info(f"Пользователь {i}|{res.user.username}")
-            else:   
+        for i in subs:
+            try:
+                stmtForUser = select(User).where(User.tg_id == i.user_id) # сам SQL Заппрос 
+                resForUesr = await db.execute(stmtForUser) # сам Execute
+                user = resForUesr.scalars().first() # Первый пользователь 
+                res = await bot.get_chat_member(chat_id, user.tg_id)
+                if res.status == "member":
+                    await bot.ban_chat_member(chat_id=chat_id, user_id=i)
+                    await db.delete(i)
+                    await db.commit()
+                    logging.info(f"Пользователь {i}|{res.user.username}")
+                else:   
+                    continue
+            except Exception as e:
+                logging.warning(f"Произошла ошибка при удалении пользователя - {e}")
+            finally:
                 continue
+    
+
+    
+
+
+

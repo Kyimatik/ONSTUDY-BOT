@@ -31,9 +31,9 @@ async def choose_range(callback: CallbackQuery):
                 .where(Course.id == 1)
             )
         course = result.scalars().first()
-        # if course.isFinished == False:
-        #     await callback.message.answer("Курс в разработке.")
-        #     return 
+        if course.isFinished == False:
+            await callback.message.answer("Курс в разработке.")
+            return 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="Basic", callback_data="buy_basic_ieltsChoose")],
         [InlineKeyboardButton(text="Standart", callback_data="buy_standart_ieltsChoose")],
