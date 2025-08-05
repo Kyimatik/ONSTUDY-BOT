@@ -27,3 +27,7 @@ class SlotApp(StatesGroup):
     ID = State()
     data = State()
 
+
+class Question(StatesGroup):
+    main = State()
+

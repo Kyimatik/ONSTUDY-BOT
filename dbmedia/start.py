@@ -11,9 +11,12 @@ from .bot_instance import bot
 from .models import User, Subscription, Course
 from sqlalchemy import select, insert, update, delete
 from datetime import datetime, timedelta
+from .states import Question 
 import os 
+from aiogram.types import ReplyKeyboardRemove
 from sqlalchemy.orm import selectinload
 from dotenv import load_dotenv
+from buttons import Cancel
 import logging 
 
 
@@ -25,6 +28,7 @@ load_dotenv("onstudy.env")
 logger = logging.getLogger(__name__)
 
 chat_id  = int(os.getenv("GROUP_ID"))
+questionChatId =int(os.getenv("chatid"))
 
 # Начало работы  
 @router.message(Command("start"))
@@ -115,3 +119,26 @@ async def CronFuncDeleteEssay():
 
             except Exception as e:
                 logging.warning(f"Ошибка при удалении пользователя {sub.id} — {e}")
+
+
+@router.message(F.text == "X нажми ❌")
+async def getCanceledProccess(message: Message, state: FSMContext):
+    await message.answer("Вы отменили действие",reply_markup=ReplyKeyboardRemove())
+    await state.clear()
+
+
+# Вопросы от пользователей
+@router.message(Command("question"))
+async def getQuestionOfUsers(message: Message, state : FSMContext):
+    await message.answer("Отправьте вашу просьбу / вопрос / пожелание",reply_markup=Cancel)
+    await state.set_state(Question.main)
+
+
+@router.message(Question.main)
+async def gotQestionRedirecting(message: Message, state: FSMContext):
+    username = message.from_user.username
+    msg = f"Запрос от пользователя @{username}.\n\n{message.text}"
+    await message.answer("С вами скоро свяжутся наша тех поддержка. Пожалуйста ожидайте!")
+    await bot.send_message(chat_id=questionChatId,message_thread_id=2,text=msg)
+    await state.clear()
+    

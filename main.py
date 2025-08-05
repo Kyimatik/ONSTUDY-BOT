@@ -450,7 +450,7 @@ async def setup():
     # Настройка планировщика
     scheduler = AsyncIOScheduler(timezone=pytz.timezone("Asia/Bishkek"))
     trigger_1 = CronTrigger(hour=22, minute=0, day_of_week="0-6", timezone="Asia/Bishkek")
-    trigger_2 = CronTrigger(hour=21, minute=29, day_of_week="0-6", timezone="Asia/Bishkek")
+    trigger_2 = CronTrigger(hour=21, minute=27, day_of_week="0-6", timezone="Asia/Bishkek")
     scheduler.add_job(CronFuncDeleteEssay, trigger_1)
     scheduler.add_job(CronFuncDeleteEssay, trigger_2)
     # Запускаем планировщик в фоновом режиме
