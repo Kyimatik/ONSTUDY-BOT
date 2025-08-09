@@ -1,0 +1,359 @@
+2025-08-05 16:25:26,814 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:25:26,815 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:25:26,818 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:25:26,818 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:25:26,818 - INFO - Scheduler started
+2025-08-05 16:25:26,818 - INFO - Сервер запущен 🚀
+2025-08-05 16:28:40,914 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:28:40,914 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:28:40,916 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:28:40,917 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:28:40,917 - INFO - Scheduler started
+2025-08-05 16:28:40,917 - INFO - Сервер запущен 🚀
+2025-08-05 16:28:57,334 - INFO - Update id=811313793 is handled. Duration 1782 ms by bot id=7689522161
+2025-08-05 16:28:58,273 - INFO - Update id=811313794 is handled. Duration 668 ms by bot id=7689522161
+2025-08-05 16:28:58,834 - INFO - Update id=811313795 is handled. Duration 445 ms by bot id=7689522161
+2025-08-05 16:29:05,342 - INFO - Update id=811313796 is handled. Duration 467 ms by bot id=7689522161
+2025-08-05 16:29:08,773 - INFO - Update id=811313797 is handled. Duration 168 ms by bot id=7689522161
+2025-08-05 16:29:12,848 - INFO - Update id=811313798 is handled. Duration 200 ms by bot id=7689522161
+2025-08-05 16:33:03,470 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:33:03,471 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:33:03,472 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:33:03,472 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:33:03,473 - INFO - Scheduler started
+2025-08-05 16:33:03,473 - INFO - Сервер запущен 🚀
+2025-08-05 16:33:09,004 - INFO - Update id=811313799 is handled. Duration 1608 ms by bot id=7689522161
+2025-08-05 16:33:11,405 - INFO - Update id=811313800 is handled. Duration 172 ms by bot id=7689522161
+2025-08-05 16:33:12,698 - INFO - Update id=811313801 is not handled. Duration 8 ms by bot id=7689522161
+2025-08-05 16:33:12,800 - INFO - Update id=811313801 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-05 16:33:14,868 - INFO - Update id=811313801 is not handled. Duration 4 ms by bot id=7689522161
+2025-08-05 16:37:58,905 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:37:58,906 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:37:58,907 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:37:58,907 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:37:58,908 - INFO - Scheduler started
+2025-08-05 16:37:58,908 - INFO - Сервер запущен 🚀
+2025-08-05 16:38:20,578 - INFO - Update id=811313801 is handled. Duration 310 ms by bot id=7689522161
+2025-08-05 16:38:22,730 - INFO - Update id=811313802 is handled. Duration 1629 ms by bot id=7689522161
+2025-08-05 16:38:25,777 - INFO - Update id=811313803 is handled. Duration 114 ms by bot id=7689522161
+2025-08-05 16:38:29,246 - INFO - Update id=811313804 is handled. Duration 370 ms by bot id=7689522161
+2025-08-05 16:38:32,228 - INFO - Update id=811313805 is handled. Duration 442 ms by bot id=7689522161
+2025-08-05 16:38:36,102 - INFO - Update id=811313806 is handled. Duration 110 ms by bot id=7689522161
+2025-08-05 16:38:37,529 - INFO - Update id=811313807 is handled. Duration 105 ms by bot id=7689522161
+2025-08-05 16:39:07,594 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:39:07,594 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:39:07,596 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:39:07,596 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:39:07,596 - INFO - Scheduler started
+2025-08-05 16:39:07,596 - INFO - Сервер запущен 🚀
+2025-08-05 16:41:47,048 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:41:47,049 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-05 16:41:47,049 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:41:47,050 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-05 16:41:47,050 - INFO - Scheduler started
+2025-08-05 16:41:47,050 - INFO - Сервер запущен 🚀
+2025-08-05 16:42:08,736 - INFO - Update id=811313808 is handled. Duration 1462 ms by bot id=7689522161
+2025-08-05 16:42:09,345 - INFO - Update id=811313809 is handled. Duration 477 ms by bot id=7689522161
+2025-08-05 16:52:16,649 - INFO - Update id=811313810 is handled. Duration 1276 ms by bot id=7689522161
+2025-08-05 16:52:17,606 - INFO - Update id=811313811 is handled. Duration 97 ms by bot id=7689522161
+2025-08-05 16:52:18,978 - INFO - Update id=811313812 is handled. Duration 102 ms by bot id=7689522161
+2025-08-05 16:52:20,420 - INFO - Update id=811313813 is handled. Duration 262 ms by bot id=7689522161
+2025-08-05 16:52:21,957 - INFO - Update id=811313814 is handled. Duration 115 ms by bot id=7689522161
+2025-08-06 03:15:30,633 - INFO - Update id=811313815 is handled. Duration 200 ms by bot id=7689522161
+2025-08-06 03:15:31,863 - INFO - Update id=811313816 is handled. Duration 75 ms by bot id=7689522161
+2025-08-06 03:15:36,576 - INFO - Update id=811313817 is handled. Duration 938 ms by bot id=7689522161
+2025-08-06 15:27:00,002 - INFO - Running job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='21', minute='27'], next run at: 2025-08-07 21:27:00 +06)" (scheduled at 2025-08-06 21:27:00+06:00)
+2025-08-06 15:27:01,346 - INFO - Job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='21', minute='27'], next run at: 2025-08-07 21:27:00 +06)" executed successfully
+2025-08-06 16:00:00,001 - INFO - Running job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='22', minute='0'], next run at: 2025-08-07 22:00:00 +06)" (scheduled at 2025-08-06 22:00:00+06:00)
+2025-08-06 16:00:01,218 - INFO - Job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='22', minute='0'], next run at: 2025-08-07 22:00:00 +06)" executed successfully
+2025-08-06 16:45:20,799 - INFO - Update id=811313818 is handled. Duration 1399 ms by bot id=7689522161
+2025-08-06 17:06:06,029 - INFO - Update id=811313819 is not handled. Duration 1 ms by bot id=7689522161
+2025-08-06 17:06:06,186 - INFO - Update id=811313820 is not handled. Duration 0 ms by bot id=7689522161
+2025-08-06 18:05:10,335 - INFO - Update id=811313821 is handled. Duration 290 ms by bot id=7689522161
+2025-08-06 18:05:12,891 - INFO - Update id=811313822 is handled. Duration 1125 ms by bot id=7689522161
+2025-08-06 18:05:17,270 - INFO - Update id=811313823 is handled. Duration 480 ms by bot id=7689522161
+2025-08-06 18:13:04,114 - INFO - Update id=811313824 is handled. Duration 1308 ms by bot id=7689522161
+2025-08-06 18:13:04,471 - INFO - Update id=811313825 is handled. Duration 176 ms by bot id=7689522161
+2025-08-06 18:13:06,215 - INFO - Update id=811313826 is handled. Duration 85 ms by bot id=7689522161
+2025-08-06 18:13:08,172 - INFO - Update id=811313827 is handled. Duration 73 ms by bot id=7689522161
+2025-08-06 18:13:09,271 - INFO - Update id=811313828 is handled. Duration 104 ms by bot id=7689522161
+2025-08-07 06:31:32,793 - INFO - Update id=811313829 is not handled. Duration 8 ms by bot id=7689522161
+2025-08-07 07:31:12,766 - INFO - Update id=811313830 is not handled. Duration 5 ms by bot id=7689522161
+2025-08-07 11:32:45,981 - INFO - Update id=811313831 is not handled. Duration 5 ms by bot id=7689522161
+2025-08-07 11:33:35,514 - INFO - Update id=811313832 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-07 15:27:00,002 - INFO - Running job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='21', minute='27'], next run at: 2025-08-08 21:27:00 +06)" (scheduled at 2025-08-07 21:27:00+06:00)
+2025-08-07 15:27:01,330 - INFO - Job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='21', minute='27'], next run at: 2025-08-08 21:27:00 +06)" executed successfully
+2025-08-07 16:00:00,002 - INFO - Running job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='22', minute='0'], next run at: 2025-08-08 22:00:00 +06)" (scheduled at 2025-08-07 22:00:00+06:00)
+2025-08-07 16:00:01,195 - INFO - Job "CronFuncDeleteEssay (trigger: cron[day_of_week='0-6', hour='22', minute='0'], next run at: 2025-08-08 22:00:00 +06)" executed successfully
+2025-08-07 17:50:00,487 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 17:50:00,487 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 17:50:00,488 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-07 17:50:00,488 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-07 17:50:00,488 - INFO - Scheduler started
+2025-08-07 17:50:00,488 - INFO - Сервер запущен 🚀
+2025-08-07 17:50:22,056 - INFO - Update id=811313833 is handled. Duration 288 ms by bot id=7689522161
+2025-08-07 17:51:59,483 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 17:51:59,483 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 17:51:59,484 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-07 17:51:59,484 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-07 17:51:59,484 - INFO - Scheduler started
+2025-08-07 17:51:59,484 - INFO - Сервер запущен 🚀
+2025-08-08 04:03:47,837 - INFO - Update id=811313834 is handled. Duration 474 ms by bot id=7689522161
+2025-08-08 04:03:48,988 - INFO - Update id=811313835 is handled. Duration 111 ms by bot id=7689522161
+2025-08-08 04:04:05,637 - INFO - Update id=811313836 is handled. Duration 1458 ms by bot id=7689522161
+2025-08-08 13:44:34,259 - INFO - Update id=811313837 is handled. Duration 239 ms by bot id=7689522161
+2025-08-08 13:52:39,603 - INFO - Update id=811313838 is handled. Duration 1279 ms by bot id=7689522161
+2025-08-08 13:52:44,360 - INFO - Update id=811313839 is handled. Duration 114 ms by bot id=7689522161
+2025-08-08 13:52:45,974 - INFO - Update id=811313840 is handled. Duration 195 ms by bot id=7689522161
+2025-08-08 13:52:47,360 - INFO - Update id=811313841 is handled. Duration 84 ms by bot id=7689522161
+2025-08-08 13:52:48,459 - INFO - Update id=811313842 is handled. Duration 152 ms by bot id=7689522161
+2025-08-08 13:52:50,012 - INFO - Update id=811313843 is handled. Duration 204 ms by bot id=7689522161
+2025-08-08 13:52:51,285 - INFO - Update id=811313844 is handled. Duration 86 ms by bot id=7689522161
+2025-08-08 13:52:53,643 - INFO - Update id=811313845 is handled. Duration 195 ms by bot id=7689522161
+2025-08-08 13:52:55,196 - INFO - Update id=811313846 is handled. Duration 84 ms by bot id=7689522161
+2025-08-08 13:52:56,181 - INFO - Update id=811313847 is handled. Duration 119 ms by bot id=7689522161
+2025-08-08 13:53:10,846 - INFO - Update id=811313848 is handled. Duration 497 ms by bot id=7689522161
+2025-08-08 13:53:28,148 - INFO - Update id=811313849 is handled. Duration 198 ms by bot id=7689522161
+2025-08-08 13:53:32,241 - INFO - Update id=811313850 is handled. Duration 372 ms by bot id=7689522161
+2025-08-08 13:53:35,431 - INFO - Update id=811313851 is handled. Duration 391 ms by bot id=7689522161
+2025-08-08 13:53:40,124 - INFO - Update id=811313852 is handled. Duration 318 ms by bot id=7689522161
+2025-08-08 13:54:04,953 - INFO - Update id=811313853 is handled. Duration 447 ms by bot id=7689522161
+2025-08-08 13:54:14,367 - INFO - Update id=811313854 is handled. Duration 421 ms by bot id=7689522161
+2025-08-08 13:54:23,973 - INFO - Update id=811313855 is handled. Duration 87 ms by bot id=7689522161
+2025-08-08 13:54:27,925 - INFO - Update id=811313856 is handled. Duration 515 ms by bot id=7689522161
+2025-08-08 13:55:57,436 - INFO - Update id=811313857 is handled. Duration 209 ms by bot id=7689522161
+2025-08-08 13:56:04,680 - INFO - Update id=811313858 is handled. Duration 200 ms by bot id=7689522161
+2025-08-08 14:03:38,656 - INFO - Update id=811313859 is handled. Duration 1343 ms by bot id=7689522161
+2025-08-08 14:03:45,577 - INFO - Update id=811313860 is handled. Duration 176 ms by bot id=7689522161
+2025-08-08 14:03:53,657 - INFO - Update id=811313861 is handled. Duration 461 ms by bot id=7689522161
+2025-08-08 14:04:00,020 - INFO - Update id=811313862 is handled. Duration 418 ms by bot id=7689522161
+2025-08-08 14:08:33,728 - INFO - Update id=811313863 is handled. Duration 578 ms by bot id=7689522161
+2025-08-08 14:09:00,862 - INFO - Update id=811313864 is handled. Duration 1007 ms by bot id=7689522161
+2025-08-08 14:10:55,615 - INFO - Update id=811313865 is handled. Duration 712 ms by bot id=7689522161
+2025-08-08 14:12:35,421 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:12:35,421 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:12:35,422 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:12:35,422 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:12:35,422 - INFO - Scheduler started
+2025-08-08 14:12:35,422 - INFO - Сервер запущен 🚀
+2025-08-08 14:12:50,849 - INFO - Update id=811313866 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-08 14:12:50,919 - INFO - Update id=811313866 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:12:52,977 - INFO - Update id=811313866 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:13:26,859 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:13:26,859 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:13:26,859 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:13:26,859 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:13:26,859 - INFO - Scheduler started
+2025-08-08 14:13:26,860 - INFO - Сервер запущен 🚀
+2025-08-08 14:13:53,192 - INFO - Update id=811313866 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:15:33,016 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:15:33,017 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:15:33,017 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:15:33,018 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:15:33,018 - INFO - Scheduler started
+2025-08-08 14:15:33,018 - INFO - Сервер запущен 🚀
+2025-08-08 14:16:01,583 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:16:01,584 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:16:01,584 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:16:01,584 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:16:01,585 - INFO - Scheduler started
+2025-08-08 14:16:01,585 - INFO - Сервер запущен 🚀
+2025-08-08 14:16:48,314 - INFO - Update id=811313866 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:18:19,826 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:18:19,826 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:18:19,827 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:18:19,827 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:18:19,827 - INFO - Scheduler started
+2025-08-08 14:18:19,827 - INFO - Сервер запущен 🚀
+2025-08-08 14:18:37,426 - INFO - Update id=811313873 is not handled. Duration 229 ms by bot id=7689522161
+2025-08-08 14:18:37,570 - INFO - Update id=811313873 is not handled. Duration 82 ms by bot id=7689522161
+2025-08-08 14:18:39,708 - INFO - Update id=811313873 is not handled. Duration 80 ms by bot id=7689522161
+2025-08-08 14:18:43,536 - INFO - Update id=811313866 is not handled. Duration 154 ms by bot id=7689522161
+2025-08-08 14:18:43,964 - INFO - Update id=811313873 is not handled. Duration 195 ms by bot id=7689522161
+2025-08-08 14:19:34,375 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:19:34,375 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:19:34,376 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:19:34,376 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:19:34,376 - INFO - Scheduler started
+2025-08-08 14:19:34,376 - INFO - Сервер запущен 🚀
+2025-08-08 14:19:41,825 - INFO - Update id=811313873 is handled. Duration 1692 ms by bot id=7689522161
+2025-08-08 14:19:42,144 - INFO - Update id=811313875 is handled. Duration 86 ms by bot id=7689522161
+2025-08-08 14:20:07,441 - INFO - Update id=811313877 is handled. Duration 659 ms by bot id=7689522161
+2025-08-08 14:20:09,404 - INFO - Update id=811313866 is handled. Duration 808 ms by bot id=7689522161
+2025-08-08 14:20:10,073 - INFO - Update id=811313867 is handled. Duration 566 ms by bot id=7689522161
+2025-08-08 14:20:10,713 - INFO - Update id=811313868 is handled. Duration 508 ms by bot id=7689522161
+2025-08-08 14:20:11,091 - INFO - Update id=811313869 is handled. Duration 259 ms by bot id=7689522161
+2025-08-08 14:20:11,201 - INFO - Update id=811313870 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:20:11,765 - INFO - Update id=811313871 is handled. Duration 463 ms by bot id=7689522161
+2025-08-08 14:20:11,875 - INFO - Update id=811313872 is not handled. Duration 4 ms by bot id=7689522161
+2025-08-08 14:20:12,745 - INFO - Update id=811313874 is handled. Duration 769 ms by bot id=7689522161
+2025-08-08 14:20:13,551 - INFO - Update id=811313876 is handled. Duration 701 ms by bot id=7689522161
+2025-08-08 14:21:13,829 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:21:13,829 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:21:13,830 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:21:13,830 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:21:13,830 - INFO - Scheduler started
+2025-08-08 14:21:13,830 - INFO - Сервер запущен 🚀
+2025-08-08 14:21:46,010 - INFO - Update id=811313878 is handled. Duration 252 ms by bot id=7689522161
+2025-08-08 14:21:55,846 - INFO - Update id=811313879 is handled. Duration 84 ms by bot id=7689522161
+2025-08-08 14:22:23,887 - INFO - Update id=811313880 is not handled. Duration 5 ms by bot id=7689522161
+2025-08-08 14:22:39,803 - INFO - Update id=811313881 is handled. Duration 195 ms by bot id=7689522161
+2025-08-08 14:23:44,677 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:23:44,677 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:23:44,678 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:23:44,678 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:23:44,678 - INFO - Scheduler started
+2025-08-08 14:23:44,678 - INFO - Сервер запущен 🚀
+2025-08-08 14:23:53,675 - INFO - Update id=811313882 is handled. Duration 248 ms by bot id=7689522161
+2025-08-08 14:23:55,905 - INFO - Update id=811313883 is handled. Duration 117 ms by bot id=7689522161
+2025-08-08 14:23:58,597 - INFO - Update id=811313884 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-08 14:23:58,859 - INFO - Update id=811313885 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:24:32,526 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:24:32,526 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:24:32,527 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:24:32,527 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:24:32,527 - INFO - Scheduler started
+2025-08-08 14:24:32,527 - INFO - Сервер запущен 🚀
+2025-08-08 14:24:42,788 - INFO - Update id=811313887 is handled. Duration 222 ms by bot id=7689522161
+2025-08-08 14:24:46,148 - INFO - Update id=811313886 is handled. Duration 111 ms by bot id=7689522161
+2025-08-08 14:24:50,357 - INFO - Update id=811313888 is handled. Duration 218 ms by bot id=7689522161
+2025-08-08 14:24:56,158 - INFO - Update id=811313889 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-08 14:24:57,053 - INFO - Update id=811313890 is handled. Duration 87 ms by bot id=7689522161
+2025-08-08 14:25:00,671 - INFO - Update id=811313891 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:25:08,189 - INFO - Update id=811313892 is handled. Duration 248 ms by bot id=7689522161
+2025-08-08 14:25:33,190 - INFO - Update id=811313893 is handled. Duration 190 ms by bot id=7689522161
+2025-08-08 14:25:52,866 - INFO - Update id=811313894 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-08 14:26:10,081 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:26:10,081 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:26:10,082 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:26:10,082 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:26:10,082 - INFO - Scheduler started
+2025-08-08 14:26:10,082 - INFO - Сервер запущен 🚀
+2025-08-08 14:26:24,347 - INFO - Update id=811313895 is not handled. Duration 5 ms by bot id=7689522161
+2025-08-08 14:26:27,308 - INFO - Update id=811313896 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 14:28:28,555 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:28:28,555 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 14:28:28,556 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:28:28,556 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 14:28:28,556 - INFO - Scheduler started
+2025-08-08 14:28:28,556 - INFO - Сервер запущен 🚀
+2025-08-08 14:28:38,407 - INFO - Update id=811313898 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-08 14:28:38,467 - INFO - Update id=811313898 is not handled. Duration 1 ms by bot id=7689522161
+2025-08-08 14:28:40,525 - INFO - Update id=811313898 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-08 17:54:36,344 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:54:36,344 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:54:36,345 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:54:36,345 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:54:36,345 - INFO - Scheduler started
+2025-08-08 17:54:36,345 - INFO - Сервер запущен 🚀
+2025-08-08 17:55:01,103 - INFO - Update id=811313899 is handled. Duration 271 ms by bot id=7689522161
+2025-08-08 17:55:10,273 - INFO - Update id=811313897 is not handled. Duration 244 ms by bot id=7689522161
+2025-08-08 17:55:16,635 - INFO - Update id=811313898 is handled. Duration 1530 ms by bot id=7689522161
+2025-08-08 17:55:16,814 - INFO - Update id=811313900 is handled. Duration 78 ms by bot id=7689522161
+2025-08-08 17:55:34,801 - INFO - Update id=811313901 is handled. Duration 195 ms by bot id=7689522161
+2025-08-08 17:55:38,255 - INFO - Update id=811313902 is handled. Duration 461 ms by bot id=7689522161
+2025-08-08 17:56:39,054 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:56:39,054 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:56:39,055 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:56:39,055 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:56:39,055 - INFO - Scheduler started
+2025-08-08 17:56:39,055 - INFO - Сервер запущен 🚀
+2025-08-08 17:57:02,855 - INFO - Update id=811313903 is handled. Duration 1578 ms by bot id=7689522161
+2025-08-08 17:57:07,870 - INFO - Update id=811313904 is handled. Duration 112 ms by bot id=7689522161
+2025-08-08 17:57:10,554 - INFO - Update id=811313905 is handled. Duration 630 ms by bot id=7689522161
+2025-08-08 17:57:50,095 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:57:50,096 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 17:57:50,096 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:57:50,096 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-08 17:57:50,096 - INFO - Scheduler started
+2025-08-08 17:57:50,096 - INFO - Сервер запущен 🚀
+2025-08-08 17:57:56,529 - INFO - Update id=811313906 is handled. Duration 1271 ms by bot id=7689522161
+2025-08-08 17:58:02,246 - INFO - Update id=811313907 is handled. Duration 78 ms by bot id=7689522161
+2025-08-08 17:58:04,016 - INFO - Update id=811313908 is handled. Duration 186 ms by bot id=7689522161
+2025-08-08 17:58:56,714 - INFO - Update id=811313897 is not handled. Duration 264 ms by bot id=7689522161
+2025-08-08 18:00:34,056 - INFO - Update id=811313897 is not handled. Duration 277 ms by bot id=7689522161
+2025-08-08 18:01:53,444 - INFO - Update id=811313897 is not handled. Duration 331 ms by bot id=7689522161
+2025-08-09 08:02:21,414 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:02:21,414 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:02:21,415 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:02:21,415 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:02:21,415 - INFO - Scheduler started
+2025-08-09 08:02:21,415 - INFO - Сервер запущен 🚀
+2025-08-09 08:02:55,006 - INFO - Update id=811313909 is handled. Duration 1566 ms by bot id=7689522161
+2025-08-09 08:02:55,294 - INFO - Update id=811313910 is handled. Duration 73 ms by bot id=7689522161
+2025-08-09 08:03:22,521 - INFO - Update id=811313897 is not handled. Duration 268 ms by bot id=7689522161
+2025-08-09 08:05:11,150 - INFO - Update id=811313897 is not handled. Duration 564 ms by bot id=7689522161
+2025-08-09 08:06:58,490 - INFO - Update id=811313897 is not handled. Duration 282 ms by bot id=7689522161
+2025-08-09 08:09:45,413 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:09:45,413 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:09:45,414 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:09:45,414 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:09:45,414 - INFO - Scheduler started
+2025-08-09 08:09:45,414 - INFO - Сервер запущен 🚀
+2025-08-09 08:09:51,766 - INFO - Update id=811313911 is handled. Duration 1514 ms by bot id=7689522161
+2025-08-09 08:10:21,923 - INFO - Update id=811313912 is handled. Duration 223 ms by bot id=7689522161
+2025-08-09 08:10:28,427 - INFO - Update id=811313913 is handled. Duration 190 ms by bot id=7689522161
+2025-08-09 08:11:55,059 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:11:55,060 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:11:55,060 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:11:55,060 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:11:55,060 - INFO - Scheduler started
+2025-08-09 08:11:55,061 - INFO - Сервер запущен 🚀
+2025-08-09 08:13:04,943 - INFO - Update id=811313897 is not handled. Duration 231 ms by bot id=7689522161
+2025-08-09 08:13:31,203 - INFO - Update id=811313914 is handled. Duration 1271 ms by bot id=7689522161
+2025-08-09 08:14:25,616 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:14:25,616 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:14:25,617 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:14:25,617 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:14:25,617 - INFO - Scheduler started
+2025-08-09 08:14:25,617 - INFO - Сервер запущен 🚀
+2025-08-09 08:14:29,781 - INFO - Update id=811313915 is handled. Duration 1198 ms by bot id=7689522161
+2025-08-09 08:14:33,434 - INFO - Update id=811313916 is handled. Duration 115 ms by bot id=7689522161
+2025-08-09 08:14:36,115 - INFO - Update id=811313917 is handled. Duration 154 ms by bot id=7689522161
+2025-08-09 08:14:49,738 - INFO - Update id=811313918 is handled. Duration 258 ms by bot id=7689522161
+2025-08-09 08:15:22,243 - INFO - Update id=811313897 is not handled. Duration 183 ms by bot id=7689522161
+2025-08-09 08:18:06,270 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:18:06,271 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:18:06,271 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:18:06,271 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:18:06,271 - INFO - Scheduler started
+2025-08-09 08:18:06,271 - INFO - Сервер запущен 🚀
+2025-08-09 08:18:45,291 - INFO - Update id=811313919 is handled. Duration 1471 ms by bot id=7689522161
+2025-08-09 08:18:47,239 - INFO - Update id=811313920 is handled. Duration 221 ms by bot id=7689522161
+2025-08-09 08:18:50,549 - INFO - Update id=811313921 is handled. Duration 87 ms by bot id=7689522161
+2025-08-09 08:18:54,950 - INFO - Update id=811313922 is handled. Duration 86 ms by bot id=7689522161
+2025-08-09 08:18:59,942 - INFO - Update id=811313923 is handled. Duration 137 ms by bot id=7689522161
+2025-08-09 08:19:01,200 - INFO - Update id=811313924 is handled. Duration 79 ms by bot id=7689522161
+2025-08-09 08:19:02,702 - INFO - Update id=811313925 is handled. Duration 82 ms by bot id=7689522161
+2025-08-09 08:19:03,939 - INFO - Update id=811313926 is handled. Duration 145 ms by bot id=7689522161
+2025-08-09 08:19:04,991 - INFO - Update id=811313927 is handled. Duration 215 ms by bot id=7689522161
+2025-08-09 08:19:33,587 - INFO - Update id=811313897 is not handled. Duration 179 ms by bot id=7689522161
+2025-08-09 08:22:36,521 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:22:36,521 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:22:36,522 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:22:36,522 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:22:36,522 - INFO - Scheduler started
+2025-08-09 08:22:36,522 - INFO - Сервер запущен 🚀
+2025-08-09 08:22:40,770 - INFO - Update id=811313928 is not handled. Duration 4 ms by bot id=7689522161
+2025-08-09 08:22:45,082 - INFO - Update id=811313929 is not handled. Duration 2 ms by bot id=7689522161
+2025-08-09 08:22:47,688 - INFO - Update id=811313930 is not handled. Duration 3 ms by bot id=7689522161
+2025-08-09 08:23:53,181 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:23:53,181 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:23:53,182 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:23:53,182 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:23:53,182 - INFO - Scheduler started
+2025-08-09 08:23:53,182 - INFO - Сервер запущен 🚀
+2025-08-09 08:23:58,620 - INFO - Update id=811313931 is handled. Duration 329 ms by bot id=7689522161
+2025-08-09 08:23:59,147 - INFO - Update id=811313932 is handled. Duration 254 ms by bot id=7689522161
+2025-08-09 08:24:01,962 - INFO - Update id=811313933 is handled. Duration 82 ms by bot id=7689522161
+2025-08-09 08:24:04,950 - INFO - Update id=811313934 is handled. Duration 1324 ms by bot id=7689522161
+2025-08-09 08:24:16,308 - INFO - Update id=811313935 is handled. Duration 165 ms by bot id=7689522161
+2025-08-09 08:24:19,238 - INFO - Update id=811313936 is handled. Duration 247 ms by bot id=7689522161
+2025-08-09 08:24:29,853 - INFO - Update id=811313937 is handled. Duration 353 ms by bot id=7689522161
+2025-08-09 08:24:52,415 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:24:52,415 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-09 08:24:52,416 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:24:52,416 - INFO - Added job "CronFuncDeleteEssay" to job store "default"
+2025-08-09 08:24:52,416 - INFO - Scheduler started
+2025-08-09 08:24:52,416 - INFO - Сервер запущен 🚀
+2025-08-09 08:25:19,822 - INFO - Update id=811313897 is not handled. Duration 5 ms by bot id=7689522161

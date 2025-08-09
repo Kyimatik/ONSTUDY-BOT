@@ -18,6 +18,7 @@ from sqlalchemy.orm import selectinload
 from dotenv import load_dotenv
 from buttons import Cancel
 import logging 
+from aiogram.filters import CommandStart
 
 
 router = Router()  # Создаем отдельный роутер
@@ -31,16 +32,30 @@ chat_id  = int(os.getenv("GROUP_ID"))
 questionChatId =int(os.getenv("chatid"))
 
 # Начало работы  
-@router.message(Command("start"))
-async def getstarted(message: Message):
+@router.message(CommandStart(deep_link=True))
+async def getstarted(message: Message, command: CommandStart, state : FSMContext):
+    if command.args == "question":
+        await message.answer("Отправьте вашу просьбу / вопрос / пожелание",reply_markup=Cancel)
+        await state.set_state(Question.main)
+    
+@router.message(Question.main)
+async def gotQestionRedirecting(message: Message, state: FSMContext):
+    username = message.from_user.username
+    msg = f"Запрос от пользователя @{username}.\n\n{message.text}"
+    await message.answer("С вами скоро свяжутся наша тех поддержка. Пожалуйста ожидайте!")
+    await bot.send_message(chat_id=questionChatId,message_thread_id=2,text=msg)
+    await state.clear()
+
+@router.message(CommandStart(deep_link=False))
+async def getstartedWithoutArgument(message: Message):
     user_name = message.from_user.username
     user_id = message.from_user.id
-    await message.answer_sticker(allstickersid["startstick"],reply_markup=useridkb)
     await message.answer(f"""Привет <b>{user_name}</b>!
 {start_text["getstarted"]}""",parse_mode="HTML",reply_markup=mainkb)
     async with get_db() as session:
         added = await add_user(session, message.from_user.id)
         
+    
 
 
 
@@ -127,18 +142,8 @@ async def getCanceledProccess(message: Message, state: FSMContext):
     await state.clear()
 
 
-# Вопросы от пользователей
-@router.message(Command("question"))
-async def getQuestionOfUsers(message: Message, state : FSMContext):
-    await message.answer("Отправьте вашу просьбу / вопрос / пожелание",reply_markup=Cancel)
-    await state.set_state(Question.main)
 
 
-@router.message(Question.main)
-async def gotQestionRedirecting(message: Message, state: FSMContext):
-    username = message.from_user.username
-    msg = f"Запрос от пользователя @{username}.\n\n{message.text}"
-    await message.answer("С вами скоро свяжутся наша тех поддержка. Пожалуйста ожидайте!")
-    await bot.send_message(chat_id=questionChatId,message_thread_id=2,text=msg)
-    await state.clear()
+
+
     

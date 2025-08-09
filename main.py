@@ -131,9 +131,8 @@ async def home():
 @app.post("/user_in_channel",response_model=ChannelCheckResponse)
 async def is_user_in_channel( request : UserCheck) -> bool:
     try:
-        channel_id = -1002553412697
         user_id = request.user_id
-        member = await bot.get_chat_member(chat_id=channel_id, user_id=user_id)
+        member = await bot.get_chat_member(chat_id=GROUP, user_id=user_id)
         # Проверяем статус пользователя
         if member.status in ['member', 'administrator', 'creator']:
             return ChannelCheckResponse(

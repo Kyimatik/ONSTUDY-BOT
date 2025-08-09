@@ -15,7 +15,6 @@ start_text = {
     "getstarted" : """Мы образовательная компания которая занимается помощью в поступлении заграницу.
 <i>Наши соцсети</i>:
 <a href="https://www.instagram.com/onstudy.prep/"><b>onstudy.prep</b></a>
-<a href="https://www.instagram.com/onstudy.consult/"><b>onstudy.consult</b></a>
 <a href="https://onstudy.best/"><b>onstudy.best</b></a>
 <b>Какие вопросы ? </b>""",
     "aboutus" : """<b>OnStudy</b> - это лидер в образовательной сфере Кыргызстана. Наши команда состоит из экспертов со всего мира, включая университеты Лиги Плюща.

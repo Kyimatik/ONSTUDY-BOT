@@ -115,9 +115,6 @@ onstudyinstas = InlineKeyboardMarkup(
             InlineKeyboardButton(text="onstudy.prep",url="https://www.instagram.com/onstudy.prep/")
         ],
         [
-            InlineKeyboardButton(text="onstudy.consult",url="https://www.instagram.com/onstudy.consult/")
-        ],
-        [
             InlineKeyboardButton(text="🔙",callback_data="backtomainkb")
         ]
     ]
